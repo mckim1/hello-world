@@ -1,0 +1,38 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* HOME  : ecourse.co.kr
+/* EMAIL : smkang @ codenuri.co.kr 
+/* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+// upcasting1.cpp
+#include <string>
+
+class Animal
+{
+public:
+	int age;
+	std::string name;
+};
+class Dog : public Animal
+{
+public:
+	int color;
+	int getColor() const { return color; }
+};
+int main()
+{
+	Dog dog;
+
+	Animal* p = &dog; // ok.
+
+	p->age = 20;
+	p->name = "AA";
+
+	p->color = 1; // error
+	p->getColor(); // error
+
+	static_cast<Dog*>(p)->color = 10;
+
+
+}
