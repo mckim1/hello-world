@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,9 +9,9 @@
 #include <iostream>
 using namespace std;
 
-// parameter pack ¿¡¼­ ¿ä¼Ò ²¨³»±â
+// parameter pack ì—ì„œ ìš”ì†Œ êº¼ë‚´ê¸°
 
-// 1. pack expansion »ç¿ë
+// 1. pack expansion ì‚¬ìš©
 template<typename ... Types> void foo(Types ... args)
 {
 	// args : 1,2,3 

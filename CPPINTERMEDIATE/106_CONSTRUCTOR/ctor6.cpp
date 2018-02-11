@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -24,7 +24,7 @@ struct stream
 	}
 };
 
-// ¹öÆÛ¸¦ °¡Áö°í ÀÖ´Â stream
+// ë²„í¼ë¥¼ ê°€ì§€ê³  ìˆëŠ” stream
 struct mystream : public stream
 {
 	stream_buf buf;

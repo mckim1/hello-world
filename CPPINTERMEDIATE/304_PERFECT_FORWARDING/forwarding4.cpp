@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -23,10 +23,10 @@ template<typename F> void chronometry(F f, int&& arg)
 	f(static_cast<int&&>(arg));
 }
 */
-// int&  : Á¤¼öÇü lvalue
-// int&& : Á¤¼öÇü rvalue
-// T&    : ¸ğµç Å¸ÀÔ lvalue
-// T&    : ¸ğµç Å¸ÀÔ lvalue¿Í rvalue¸¦ ¹ŞÀ»¼ö ÀÖ´Ù.
+// int&  : ì •ìˆ˜í˜• lvalue
+// int&& : ì •ìˆ˜í˜• rvalue
+// T&    : ëª¨ë“  íƒ€ì… lvalue
+// T&    : ëª¨ë“  íƒ€ì… lvalueì™€ rvalueë¥¼ ë°›ì„ìˆ˜ ìˆë‹¤.
 // forwarding reference
 template<typename F, typename T> 
 void chronometry(F f, T&& arg)

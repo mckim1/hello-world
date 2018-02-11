@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -18,13 +18,13 @@ void init() { printf("global init\n"); }
 
 int main()
 {
-	Audio::init(); // ¿ÏÀüÇÑ ÀÌ¸§À» »ç¿ëÇÑ Á¢±Ù.
+	Audio::init(); // ì™„ì „í•œ ì´ë¦„ì„ ì‚¬ìš©í•œ ì ‘ê·¼.
 
-	//using Audio::init; // using ¼±¾ğ
+	//using Audio::init; // using ì„ ì–¸
 	//init(); // ok
 	//reset();// error
 
-	//using namespace Audio; // using Áö½Ã¾î
+	//using namespace Audio; // using ì§€ì‹œì–´
 	::init();
 	//reset();
 }

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -22,23 +22,23 @@ public:
 
 	~Buffer() { delete[] buf; }
 
-	// ±íÀº º¹»ç
+	// ê¹Šì€ ë³µì‚¬
 	Buffer(const Buffer& b) : sz(b.sz), tag(b.tag), test(b.test)
 	{
 		buf = new int[sz];
 		memcpy(buf, b.buf, sizeof(int)*sz);
 	}
 
-	// move »ı¼ºÀÚ : ¸ğµç ¸â¹ö¸¦ move ·Î ¿Å±âµµ·Ï ÀÛ¼ºÇÑ´Ù.
+	// move ìƒì„±ì : ëª¨ë“  ë©¤ë²„ë¥¼ move ë¡œ ì˜®ê¸°ë„ë¡ ì‘ì„±í•œë‹¤.
 	Buffer(Buffer&& b) noexcept
 		: sz(move(b.sz)), tag(move(b.tag)), test(move(b.test))
 	{
 		buf = move(b.buf);
-		b.buf = 0; // ÀÚ¿ø Æ÷±â.
+		b.buf = 0; // ìì› í¬ê¸°.
 	}
 	
-	// ´ëÀÔ¿¬»êÀÚ.
-	// move ´ëÀÔ¿¬»êÀÚ.
+	// ëŒ€ì…ì—°ì‚°ì.
+	// move ëŒ€ì…ì—°ì‚°ì.
 };
 
 int main()

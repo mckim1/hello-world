@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -11,7 +11,7 @@ class Test
 public:
 	Test* foo() { return this; }
 
-	//Test  goo() { return *this; } // ¿”Ω√∞¥√º ∏Æ≈œ
+	//Test  goo() { return *this; } // ÏûÑÏãúÍ∞ùÏ≤¥ Î¶¨ÌÑ¥
 	Test&  goo() { return *this; }
 };
 

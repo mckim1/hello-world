@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 template<typename T, typename U> struct Typelist
@@ -14,9 +14,9 @@ struct NullType {};
 #define TYPELIST_4(T1, T2, T3, T4)	Typelist<T1, Typelist<T2, Typelist<T3, Typelist<T4, NullType>>>>
 
 //-------------------------------------------------------------------------------------------
-// Typelist È°¿ë 
+// Typelist í™œìš© 
 
-// Holder : ÀÓÀÇ Å¸ÀÔÀÇ data ÇÏ³ª º¸°ü..
+// Holder : ì„ì˜ íƒ€ì…ì˜ data í•˜ë‚˜ ë³´ê´€..
 template<typename T> struct Holder
 {
 	T value;
@@ -33,7 +33,7 @@ class MakeCode<NullType, Unit>
 {
 };
 
-// MakeCodeÀÇ 1¹øÂ° ÀÎÀÚ°¡ TypelistÀÏ¶§..
+// MakeCodeì˜ 1ë²ˆì§¸ ì¸ìê°€ Typelistì¼ë•Œ..
 template<typename Head,					 //						   Holder<double>,        empty
 	     typename Tail,					 //  Holder<int>           MakeCode<double,Unit>, MakeCode<NullType, Unit>
          template<typename> class Unit>  //  MakeCode<int, Unit>,  MakeCode<Typelist<double, Nullype>, Unit>
@@ -47,7 +47,7 @@ class MakeCode<Typelist<Head, Tail>, Unit> : public MakeCode<Head, Unit>, public
 int main()
 {
 	MakeCode<TYPELIST_3(int, double, short), Holder> m;
-	// MakeCodeÀÇ 1¹øÂ° ÀÎÀÚ°¡ TypelistÀÏ¶§..
+	// MakeCodeì˜ 1ë²ˆì§¸ ì¸ìê°€ Typelistì¼ë•Œ..
 	//	     Typelist<int, Typelist<double, NullType>>
 	MakeCode<TYPELIST_2(int, double), Holder> m; 
 

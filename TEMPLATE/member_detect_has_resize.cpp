@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -17,7 +17,7 @@ template<typename T> struct has_resize
 	using YES = char;
 	using NO = short;
 
-	// ¹®Á¦Á¡ : UÅ¸ÀÔÀÇ °´Ã¼¿¡ µğÆúÆ® »ı¼ºÀÚ°¡ ¾øÀ¸¸é ¾î¶»²² µÉ±î¿ä ?
+	// ë¬¸ì œì  : Uíƒ€ì…ì˜ ê°ì²´ì— ë””í´íŠ¸ ìƒì„±ìê°€ ì—†ìœ¼ë©´ ì–´ë–»ê»˜ ë ê¹Œìš” ?
 	template<typename U> static YES check(typename std::add_pointer<decltype(U().resize(0))>::type  a);
 	template<typename U> static NO  check(...);
 

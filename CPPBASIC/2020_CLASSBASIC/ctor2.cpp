@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -19,16 +19,16 @@ int main()
 	Point p2(1, 2);		// 2
 	Point p3{ 1,2 };	// 3
 
-	Point p4[3];	// 1¹ø »ı¼ºÀÚ°¡ 3È¸
-	Point p5[3] = { Point(1,1) }; // 2¹ø 1È¸, 1¹ø 2È¸
+	Point p4[3];	// 1ë²ˆ ìƒì„±ìê°€ 3íšŒ
+	Point p5[3] = { Point(1,1) }; // 2ë²ˆ 1íšŒ, 1ë²ˆ 2íšŒ
 
-	Point* p6; // »ı¼ºÀÚ È£Ãâ¾ÈµÊ.
+	Point* p6; // ìƒì„±ì í˜¸ì¶œì•ˆë¨.
 
-	// »ı¼ºÀÚÈ£Ãâ ¾ÈµÊ.
+	// ìƒì„±ìí˜¸ì¶œ ì•ˆë¨.
 	//p6 = static_cast<Point*>(malloc(sizeof(Point)));
 
-	//p6 = new Point; // »ı¼ºÀÚ È£Ãâ.
-	p6 = new Point(1,2); // »ı¼ºÀÚ È£Ãâ.
+	//p6 = new Point; // ìƒì„±ì í˜¸ì¶œ.
+	p6 = new Point(1,2); // ìƒì„±ì í˜¸ì¶œ.
 
 	delete p6;
 

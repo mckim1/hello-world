@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -13,7 +13,7 @@ int main()
 
 	++n1;
 
-	int n2; // ¾²·¹±â °ª.
+	int n2; // ì“°ë ˆê¸° ê°’.
 
 	Integer n3;
 }

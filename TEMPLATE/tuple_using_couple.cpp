@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -12,11 +12,11 @@ template<typename T, typename U> struct couple
 	enum { N = 2 };
 };
 
-// coupleÀÇ ¼±ÇüÈ­ ±â¼ú
+// coupleì˜ ì„ í˜•í™” ê¸°ìˆ 
 struct Null {}; // empty class(struct), sizeof(Null) : 1  
-				// ¾Æ¹« ¸â¹öµµ ¾øÁö¸¸ ºĞ¸íÇÑ Å¸ÀÔÀÌ´Ù.
-				// 1. ÇÔ¼ö ¿À¹ö·ÎµùÀÌ³ª
-				// 2. ÅÛÇÃ¸´ ÀÎÀÚ·Î ÁÖ·Î È°¿ë
+				// ì•„ë¬´ ë©¤ë²„ë„ ì—†ì§€ë§Œ ë¶„ëª…í•œ íƒ€ì…ì´ë‹¤.
+				// 1. í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©ì´ë‚˜
+				// 2. í…œí”Œë¦¿ ì¸ìë¡œ ì£¼ë¡œ í™œìš©
 
 template<typename P1 = Null,
 	typename P2 = Null,
@@ -26,7 +26,7 @@ template<typename P1 = Null,
 {
 };
 
-// 2°³¸¦ ÀúÀåÇÏ´Â xtupleÀ» À§ÇÑ ºÎºĞ Àü¹®È­
+// 2ê°œë¥¼ ì €ì¥í•˜ëŠ” xtupleì„ ìœ„í•œ ë¶€ë¶„ ì „ë¬¸í™”
 template<typename P1, typename P2>
 class xtuple<P1, P2, Null, Null, Null> : public couple<P1, P2>
 {
@@ -40,9 +40,9 @@ int main()
 	//						couple<char, xxtuple<s, l, Null, Null, Null>>
 	//			couple<double, xtuple<c, s, l, Null, Null>>
 	// couple<int, xtuple<d, c, s, l, Null>>
-	xtuple<int, double, char, short, long> t5; // »ó¼Ó ¹ŞÀºÈÄ Ãß°¡ÇÑ°ÍÀÌ ¾øÀ¸¹Ç·Î
-											  // ºÎ¸ğ¿Í ¸ğ¾çÀÌ °°´Ù. ºÎ¸ğ¸¸ ¾Ë¸é ÀÌ °´Ã¼ÀÇ ¸ğ¾çÀ»
-											  // ¾Ë¼ö ÀÖ´Ù.
+	xtuple<int, double, char, short, long> t5; // ìƒì† ë°›ì€í›„ ì¶”ê°€í•œê²ƒì´ ì—†ìœ¼ë¯€ë¡œ
+											  // ë¶€ëª¨ì™€ ëª¨ì–‘ì´ ê°™ë‹¤. ë¶€ëª¨ë§Œ ì•Œë©´ ì´ ê°ì²´ì˜ ëª¨ì–‘ì„
+											  // ì•Œìˆ˜ ìˆë‹¤.
 
 	xtuple<int, int, int> t3;
 }

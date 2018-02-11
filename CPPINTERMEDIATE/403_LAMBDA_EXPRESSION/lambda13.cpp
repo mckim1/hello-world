@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 class Test
@@ -12,7 +12,7 @@ public:
 		//auto f = [this]() { this->data = 10; };
 		//auto f = [this]() { data = 10; };
 
-		// ¸â¹ö µ¥ÀÌÅ¸¸¦ º¹»çº»À¸·Î Ä¸ÃÄ - C++17
+		// ë©¤ë²„ ë°ì´íƒ€ë¥¼ ë³µì‚¬ë³¸ìœ¼ë¡œ ìº¡ì³ - C++17
 		auto f = [*this]() mutable { data = 10; };
 		f();
 		cout << data << endl; // 10

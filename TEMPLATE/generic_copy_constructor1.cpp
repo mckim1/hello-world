@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -21,6 +21,6 @@ public:
 int main()
 {
 	complex<int> c1(1, 2); // ok
-	complex<int> c2 = c1;  // ok. º¹»ç »ı¼ºÀÚ
-	complex<double> c3 = c1; // error. c1, c3 ´Â ´Ù¸¥ Å¸ÀÔÀÌ´Ù.!
+	complex<int> c2 = c1;  // ok. ë³µì‚¬ ìƒì„±ì
+	complex<double> c3 = c1; // error. c1, c3 ëŠ” ë‹¤ë¥¸ íƒ€ì…ì´ë‹¤.!
 }

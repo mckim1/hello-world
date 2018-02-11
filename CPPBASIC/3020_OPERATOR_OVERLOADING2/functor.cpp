@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -24,7 +24,7 @@ struct Plus
 int main()
 {
 	Plus p;
-	int n = p(1, 2); // ÇÔ¼ö Ã³·³ »ç¿ë 
+	int n = p(1, 2); // í•¨ìˆ˜ ì²˜ëŸ¼ ì‚¬ìš© 
 			// p.operator()(1,2)
 
 	std::cout << n << std::endl;

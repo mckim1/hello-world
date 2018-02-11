@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -30,13 +30,13 @@ template<typename T> void print_first_element(vector<T>& c)
 template<typename T> void print_first_element(T& c)
 {
 	// T : list<double>
-	// ¿ì¸®°¡ ÇÊ¿äÇÑ°ÍÀº double ÀÌ ÇÊ¿äÇÏ´Ù.
+	// ìš°ë¦¬ê°€ í•„ìš”í•œê²ƒì€ double ì´ í•„ìš”í•˜ë‹¤.
 	// ? n = c.front();
 
-	// ¸ğµç ÄÁÅ×ÀÌ³Ê´Â ÀÚ½ÅÀÌ ÀúÀåÇÏ´Â Å¸ÀÔÀ» value_typeÀ¸·Î ¾Ë·ÁÁØ´Ù.
+	// ëª¨ë“  ì»¨í…Œì´ë„ˆëŠ” ìì‹ ì´ ì €ì¥í•˜ëŠ” íƒ€ì…ì„ value_typeìœ¼ë¡œ ì•Œë ¤ì¤€ë‹¤.
 	typename T::value_type n = c.front();
 
-	// C++11 auto»ç¿ë°¡´É.
+	// C++11 autoì‚¬ìš©ê°€ëŠ¥.
 	//auto n = c.front();
 
 	cout << n << endl;

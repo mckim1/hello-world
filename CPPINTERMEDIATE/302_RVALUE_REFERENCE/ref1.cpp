@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -23,10 +23,10 @@ int main()
 	f2() = 20; // ok.
 
 	const int c = 10;
-	c = 20; // c´Â rvalue ? lvalue ?
-			// c ´Â ¼öÁ¤ ºÒ°¡´ÉÇÑ lvalue
+	c = 20; // cëŠ” rvalue ? lvalue ?
+			// c ëŠ” ìˆ˜ì • ë¶ˆê°€ëŠ¥í•œ lvalue
 
-	// rvalue°¡ ¸ğµÎ »ó¼öÀÎ °ÍÀº ¾Æ´Ï´Ù.
+	// rvalueê°€ ëª¨ë‘ ìƒìˆ˜ì¸ ê²ƒì€ ì•„ë‹ˆë‹¤.
 	//Point().x = 10; // error
 	//Point().set(10, 20); // ok
 

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,7 +16,7 @@ int main()
 {
 	auto ret1 = foo(1, 2); // int 
 
-	// Æò°¡µÇÁö Ç¥Çö½Ä(unevaluated expression)
+	// í‰ê°€ë˜ì§€ í‘œí˜„ì‹(unevaluated expression)
 	decltype( foo(1, 2) ) ret2 = foo(1,2);  // int&
 
 	// C++14

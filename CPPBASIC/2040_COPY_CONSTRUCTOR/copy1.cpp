@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -16,7 +16,7 @@ public:
 	Point(int a, int b) : x(a), y(b) {} // 2
 
 	
-	// ∫πªÁ ª˝º∫¿⁄.
+	// Î≥µÏÇ¨ ÏÉùÏÑ±Ïûê.
 	Point(const Point& p) : x(p.y), y(p.x)
 	{
 		//x = p.x;

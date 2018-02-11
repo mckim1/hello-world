@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 struct Point
@@ -9,8 +9,8 @@ struct Point
 
 	Point() : Point(0,0)
 	{
-		// ´Ù¸¥ »ı¼ºÀÚ¸¦ È£ÃâÇÒ¼ö ¾øÀ»±î ?
-		//Point(0, 0);	// ÀÓ½Ã°´Ã¼¸¦ »ı¼ºÇÏ´Â Ç¥Çö.
+		// ë‹¤ë¥¸ ìƒì„±ìë¥¼ í˜¸ì¶œí• ìˆ˜ ì—†ì„ê¹Œ ?
+		//Point(0, 0);	// ì„ì‹œê°ì²´ë¥¼ ìƒì„±í•˜ëŠ” í‘œí˜„.
 
 		//new(this) Point(0, 0);
 

@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -30,9 +30,9 @@ void Test::goo() const
 int main()
 {
 	Test t1;
-	t1.foo();	// 1, ¾øÀ¸¸é 2¹ø
+	t1.foo();	// 1, ì—†ìœ¼ë©´ 2ë²ˆ
 
 	const Test t2;
-	t2.foo();	// 2. ¾øÀ¸¸é error
+	t2.foo();	// 2. ì—†ìœ¼ë©´ error
 
 }

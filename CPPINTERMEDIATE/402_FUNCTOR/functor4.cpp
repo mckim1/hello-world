@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,8 +9,8 @@
 #include <algorithm>
 using namespace std;
 
-// ÇÔ¼ö °´Ã¼´Â ÀÚ½Å¸¸ÀÇ Å¸ÀÔÀÌ ÀÖ´Ù.
-// signature°¡ µ¿ÀÏ ÇØµµ ¸ğµç ÇÔ¼ö°´Ã¼´Â ´Ù¸¥ Å¸ÀÔÀÌ´Ù.
+// í•¨ìˆ˜ ê°ì²´ëŠ” ìì‹ ë§Œì˜ íƒ€ì…ì´ ìˆë‹¤.
+// signatureê°€ ë™ì¼ í•´ë„ ëª¨ë“  í•¨ìˆ˜ê°ì²´ëŠ” ë‹¤ë¥¸ íƒ€ì…ì´ë‹¤.
 
 struct Less
 {
@@ -26,7 +26,7 @@ struct Greater
 
 //void Sort(int* x, int n, Less cmp )
 
-// Á¤Ã¥ º¯°æ°¡´ÉÇÏ°í Á¤Ã¥ÀÌ ÀÎ¶óÀÎ Ä¡È¯µÇ´Â ÇÔ¼ö. ( ÅÛÇÃ¸´ + ÇÔ¼ö °´Ã¼)
+// ì •ì±… ë³€ê²½ê°€ëŠ¥í•˜ê³  ì •ì±…ì´ ì¸ë¼ì¸ ì¹˜í™˜ë˜ëŠ” í•¨ìˆ˜. ( í…œí”Œë¦¿ + í•¨ìˆ˜ ê°ì²´)
 template<typename T> void Sort(int* x, int n, T cmp)
 {
 	for (int i = 0; i < n - 1; i++)
@@ -41,8 +41,8 @@ template<typename T> void Sort(int* x, int n, T cmp)
 int main()
 {
 	int x[10] = { 1,3,5,7,9,2,4,6,8,10 };
-	Less	f1; // Å¸ÀÔ Less
-	Greater f2; // Å¸ÀÔ Greater
+	Less	f1; // íƒ€ì… Less
+	Greater f2; // íƒ€ì… Greater
 	Sort(x, 10, f1); // 
 	Sort(x, 10, f2); // 
 }

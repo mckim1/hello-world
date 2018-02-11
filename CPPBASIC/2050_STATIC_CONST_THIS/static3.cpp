@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -12,16 +12,16 @@ class Car
 	int speed;
 
 public:
-	static int cnt;  // ¼±¾ğ(declaration)
+	static int cnt;  // ì„ ì–¸(declaration)
 
 	Car() { ++cnt; }
 	~Car() { --cnt; }
 };
-int Car::cnt = 0; // Á¤ÀÇ (definition )
+int Car::cnt = 0; // ì •ì˜ (definition )
 
 int main()
 {
-	// 1. °´Ã¼¾ø¾îµµ ¸Ş¸ğ¸®¿¡ Á¸Àç.
+	// 1. ê°ì²´ì—†ì–´ë„ ë©”ëª¨ë¦¬ì— ì¡´ì¬.
 	std::cout << Car::cnt << std::endl;
 	
 	Car c1, c2;

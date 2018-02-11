@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -13,8 +13,8 @@ public:
 public:
 	Point() //: Point(0,0)
 	{
-		Point(0, 0); // »ı¼ºÀÚÈ£ÃâÀÌ ¾Æ´Ï¶ó
-					 // ÀÓ½Ã°´Ã¼ »ı¼º.
+		Point(0, 0); // ìƒì„±ìí˜¸ì¶œì´ ì•„ë‹ˆë¼
+					 // ì„ì‹œê°ì²´ ìƒì„±.
 	}
 
 	Point(int a, int b) : x(a), y(b) {}

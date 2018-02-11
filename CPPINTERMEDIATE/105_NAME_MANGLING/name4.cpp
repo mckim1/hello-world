@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -11,8 +11,8 @@ using namespace std;
 
 struct FLOAT 
 {
-	FLOAT(float) {} // º¯È¯ »ý¼ºÀÚ. 
-					// float => FLOAT·Î º¯È¯Çã¿ë
+	FLOAT(float) {} // ë³€í™˜ ìƒì„±ìž. 
+					// float => FLOATë¡œ ë³€í™˜í—ˆìš©
 };
 
 //template<typename T> 

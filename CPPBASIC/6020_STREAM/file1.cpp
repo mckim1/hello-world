@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -16,6 +16,6 @@ int main()
 
 	std::ofstream f("a.txt");
 
-	f << "hello"; // a.txt ¿¡ Ãâ·Â.
+	f << "hello"; // a.txt ì— ì¶œë ¥.
 }
 

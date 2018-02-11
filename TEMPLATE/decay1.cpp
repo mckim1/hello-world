@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -32,7 +32,7 @@ int main()
 
 
 //	int y[3] = x; // error
-//	int* p = x;  // ¹è¿­ÀÇ ¿ä¼ÒÀÇ ÁÖ¼Ò..
+//	int* p = x;  // ë°°ì—´ì˜ ìš”ì†Œì˜ ì£¼ì†Œ..
 //	int(&r)[3] = x; // ok..
 
 

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -23,6 +23,6 @@ int main()
 	Point p1;   // default initialization
 	Point p2{}; // value   initialization
 
-	cout << p1.x << endl; // ¾²·¹±â°ª
+	cout << p1.x << endl; // ì“°ë ˆê¸°ê°’
 	cout << p2.x << endl; // 0
 }

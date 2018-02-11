@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -12,10 +12,10 @@ int main()
 {
 	int cnt = 0;
 
-	std::cout << "ÇĞ»ı¼ö ? >>";
+	std::cout << "í•™ìƒìˆ˜ ? >>";
 	std::cin >> cnt;
 
-	// ÇĞ»ı¼ö ¸¸Å­ÀÇ ¸Ş¸ğ¸® ÇÒ´çÀÌ ÇÊ¿äÇÏ´Ù.
+	// í•™ìƒìˆ˜ ë§Œí¼ì˜ ë©”ëª¨ë¦¬ í• ë‹¹ì´ í•„ìš”í•˜ë‹¤.
 	int jumsu[cnt];  // g++  ok
 					 // vc++ error
 

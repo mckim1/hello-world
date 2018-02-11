@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-// »ı¼ºÀÚ¿¡¼­´Â °¡»óÇÔ¼ö°¡ µ¿ÀÛÇÏÁö ¾Ê´Â´Ù.
+// ìƒì„±ìì—ì„œëŠ” ê°€ìƒí•¨ìˆ˜ê°€ ë™ì‘í•˜ì§€ ì•ŠëŠ”ë‹¤.
 struct Base
 {
 	Base() { goo(); }

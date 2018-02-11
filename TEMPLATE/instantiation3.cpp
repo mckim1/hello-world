@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -18,7 +18,7 @@ int main()
 	int& r = n;
 
 	foo(n); // T: int
-	foo(r); // T : int ? int&    => int ·Î °áÁ¤µÊ
+	foo(r); // T : int ? int&    => int ë¡œ ê²°ì •ë¨
 
 	foo<int&>; // T : int&
 }

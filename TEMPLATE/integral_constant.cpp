@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -10,7 +10,7 @@
 using namespace std;
 
 /*
-// C++11¿¡´Â int2typeÀ» ¹ßÀü½ÃÅ² ¾Æ·¡ ÅÛÇÃ¸´À» Á¦°øÇÕ´Ï´Ù
+// C++11ì—ëŠ” int2typeì„ ë°œì „ì‹œí‚¨ ì•„ë˜ í…œí”Œë¦¿ì„ ì œê³µí•©ë‹ˆë‹¤
 
 template<typename T, T N> struct integral_constant
 {
@@ -19,18 +19,18 @@ template<typename T, T N> struct integral_constant
 //integral_constant<int,   0> n0;
 //integral_constant<short, 0> s0;
 
-// true/false           : Âü°ÅÁşÀ» ³ªÅ¸³»´Â °ª, °°Àº Å¸ÀÔ
-// true_type/false_type : Âü°ÅÁşÀ» ³ªÅ¸³»´Â Å¸ÀÔ, ´Ù¸¥ Å¸ÀÔ.
+// true/false           : ì°¸ê±°ì§“ì„ ë‚˜íƒ€ë‚´ëŠ” ê°’, ê°™ì€ íƒ€ì…
+// true_type/false_type : ì°¸ê±°ì§“ì„ ë‚˜íƒ€ë‚´ëŠ” íƒ€ì…, ë‹¤ë¥¸ íƒ€ì….
 typedef integral_constant<bool, true>  true_type;
 typedef integral_constant<bool, false> false_type;
 
 
-// ±×¸®°í is_pointer´Â ¾Æ·¡ Ã³·³ ¸¸µé°Ô µË´Ï´Ù.
+// ê·¸ë¦¬ê³  is_pointerëŠ” ì•„ë˜ ì²˜ëŸ¼ ë§Œë“¤ê²Œ ë©ë‹ˆë‹¤.
 template<typename T> struct is_pointer     : false_type { };
 template<typename T> struct is_pointer<T*> : true_type {};
 */
 
-#include <type_traits>  // ÀÌ ¾È¿¡ À§ÄÚµå°¡ ÀÖ½À´Ï´Ù.
+#include <type_traits>  // ì´ ì•ˆì— ìœ„ì½”ë“œê°€ ìˆìŠµë‹ˆë‹¤.
 //------------------------------
 
 template<typename T> void printv_imp(T a, false_type)
@@ -45,7 +45,7 @@ template<typename T> void printv_imp(T a, true_type)
 
 template<typename T> void printv(T a)
 {
-	printv_imp(a, is_pointer<T>()); // is_pointer ÀÓ½Ã°´Ã¼ »ı¼º.
+	printv_imp(a, is_pointer<T>()); // is_pointer ì„ì‹œê°ì²´ ìƒì„±.
 }
 
 int main()

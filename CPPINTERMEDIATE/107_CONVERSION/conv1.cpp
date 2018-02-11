@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,8 +16,8 @@ public:
 	Point()             : x(0), y(0) {}
 	Point(int a, int b) : x(a), y(b) {}
 
-	// º¯È¯ ¿¬»êÀÚ : °´Ã¼¸¦ ´Ù¸¥ Å¸ÀÔÀ¸·Î º¯È¯ÇÒ¶§ È£ÃâµÈ´Ù.
-	// Æ¯Â¡ : ¸®ÅÏ Å¸ÀÔÀ» Ç¥±âÇÏÁö ¾Ê´Â´Ù.
+	// ë³€í™˜ ì—°ì‚°ì : ê°ì²´ë¥¼ ë‹¤ë¥¸ íƒ€ì…ìœ¼ë¡œ ë³€í™˜í• ë•Œ í˜¸ì¶œëœë‹¤.
+	// íŠ¹ì§• : ë¦¬í„´ íƒ€ì…ì„ í‘œê¸°í•˜ì§€ ì•ŠëŠ”ë‹¤.
 	operator int()
 	{
 		return x;
@@ -27,7 +27,7 @@ public:
 int main()
 {
 	int    n = 3;
-	double d = n; // ¾Ï½ÃÀû Çüº¯È¯ ¹ß»ı.
+	double d = n; // ì•”ì‹œì  í˜•ë³€í™˜ ë°œìƒ.
 
 	Point p1(1, 2);
 	n = p1;		// p1.operator int()

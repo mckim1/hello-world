@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -21,8 +21,8 @@ int main()
 	foo(Less());
 	foo(Greater());
 }
-// ¹®Á¦ 1. ÄÄÆÄÀÏ ÇßÀ»¶§ foo ÇÔ¼ö´Â ¸î°³ »ý¼ºµÉ±î¿ä ?
-// ¹®Á¦ 2. °¢°¢ÀÇ foo ÇÔ¼ö¿¡¼­ f(1,2) ÀÇ ÀÎ¶óÀÎ Ä¡È¯ ¿©ºÎ´Â ?
-// ¹®Á¦ 3. ÄÄÆÄÀÏÇßÀ»¶§ foo¸¦ Á¦¿ÜÇÑ ÇÔ¼öÀÇ °¹¼ö´Â ?
+// ë¬¸ì œ 1. ì»´íŒŒì¼ í–ˆì„ë•Œ foo í•¨ìˆ˜ëŠ” ëª‡ê°œ ìƒì„±ë ê¹Œìš” ?
+// ë¬¸ì œ 2. ê°ê°ì˜ foo í•¨ìˆ˜ì—ì„œ f(1,2) ì˜ ì¸ë¼ì¸ ì¹˜í™˜ ì—¬ë¶€ëŠ” ?
+// ë¬¸ì œ 3. ì»´íŒŒì¼í–ˆì„ë•Œ fooë¥¼ ì œì™¸í•œ í•¨ìˆ˜ì˜ ê°¯ìˆ˜ëŠ” ?
 
 

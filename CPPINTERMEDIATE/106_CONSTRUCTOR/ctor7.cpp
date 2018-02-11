@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -24,7 +24,7 @@ struct stream
 	}
 };
 
-// ¹öÆÛ¸¸ °ü¸®ÇÏ´Â Å¬·¡½º
+// ë²„í¼ë§Œ ê´€ë¦¬í•˜ëŠ” í´ë˜ìŠ¤
 struct buf_manager
 {
 protected:

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -12,7 +12,7 @@ using namespace std;
 int f(int a, double b) { return 0; }
 
 
-// °¡º¯ ÀÎÀÚ ÅÛÇÃ¸´ ±â¼úÀ» »ç¿ëÇØ¼­ ÇÔ¼öÀÇ ¸®ÅÏ Å¸ÀÔÀ» ±¸ÇÏ´Â ÄÚµå ÀÔ´Ï´Ù.
+// ê°€ë³€ ì¸ì í…œí”Œë¦¿ ê¸°ìˆ ì„ ì‚¬ìš©í•´ì„œ í•¨ìˆ˜ì˜ ë¦¬í„´ íƒ€ì…ì„ êµ¬í•˜ëŠ” ì½”ë“œ ì…ë‹ˆë‹¤.
 template<typename T> struct result
 {
 	typedef T type;
@@ -23,11 +23,11 @@ template<typename R, typename ... Types> struct result<R(Types...)>
 	typedef R type;
 };
 
-template<typename T> void foo(T& a) // ¿©±â¼­ T´Â int(int, double) Å¸ÀÔÀÔ´Ï´Ù.
+template<typename T> void foo(T& a) // ì—¬ê¸°ì„œ TëŠ” int(int, double) íƒ€ì…ì…ë‹ˆë‹¤.
 {
 	typename result<T>::type n;  
 
-	cout << typeid(n).name() << endl;  // int °¡ ³ª¿Í¾ß ÇÕ´Ï´Ù.
+	cout << typeid(n).name() << endl;  // int ê°€ ë‚˜ì™€ì•¼ í•©ë‹ˆë‹¤.
 }
 
 int main()

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-// Parameter Pack ¿¡ ÀÖ´Â ¸ğµç ¿ä¼Ò Ãâ·ÂÇÏ±â.
+// Parameter Pack ì— ìˆëŠ” ëª¨ë“  ìš”ì†Œ ì¶œë ¥í•˜ê¸°.
 
 //int print(int a) { cout << a << ", "; return 0; }
 void print(int a) { cout << a << ", "; }
@@ -19,7 +19,7 @@ template<typename ... Types> void foo(Types ... args)
 	// args : 1,2,3
 	//print(args...); // print ( 1,2,3) error
 	//print(args)...; // print(1), print(2), print(3)
-	// pack expansion À§Ä¡ : ÇÔ¼ö( args..), { args.. }
+	// pack expansion ìœ„ì¹˜ : í•¨ìˆ˜( args..), { args.. }
 
 	//int dummy[] = { 0,  print(args)... }; // ok. { 0, print(1), print(2), print(3) }
 	// {0}

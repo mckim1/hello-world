@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -12,7 +12,7 @@ int operator++(int& a, int)
 	a = a + 1;
 	return temp;
 }
-// ÀüÀ§Çü Áõ°¡ ¿¬»êÀÚ - ÂüÁ¶¸®ÅÏ
+// ì „ìœ„í˜• ì¦ê°€ ì—°ì‚°ì - ì°¸ì¡°ë¦¬í„´
 int& operator++(int& a)
 {
 	a = a + 1;

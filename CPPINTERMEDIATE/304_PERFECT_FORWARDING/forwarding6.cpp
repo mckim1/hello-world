@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -28,7 +28,7 @@ auto chronometry(F f, T&& arg) -> decltype(f(std::forward<T>(arg)))
 }
 */
 /*
-// ÄÄÆÄÀÏ ok.. ¿øº» ÇÔ¼ö°¡ ÂüÁ¶¸¦ ¸®ÅÏÇÏ¸é ¹ö±×..
+// ì»´íŒŒì¼ ok.. ì›ë³¸ í•¨ìˆ˜ê°€ ì°¸ì¡°ë¥¼ ë¦¬í„´í•˜ë©´ ë²„ê·¸..
 template<typename F, typename T>
 auto chronometry(F f, T&& arg) 
 {
@@ -36,7 +36,7 @@ auto chronometry(F f, T&& arg)
 }
 */
 
-// ÄÄÆÄÀÏ ok.. ¿øº» ÇÔ¼ö°¡ ÂüÁ¶¸¦ ¸®ÅÏÇØµµ ok..
+// ì»´íŒŒì¼ ok.. ì›ë³¸ í•¨ìˆ˜ê°€ ì°¸ì¡°ë¥¼ ë¦¬í„´í•´ë„ ok..
 template<typename F, typename T>
 decltype(auto) chronometry(F f, T&& arg)
 {

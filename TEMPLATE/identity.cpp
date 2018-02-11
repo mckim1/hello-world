@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -11,10 +11,10 @@ template<typename T> struct identity
 	typedef T type;
 };
 
-// implicit, explicit ÀÎ½ºÅÏ½ºÈ­ ¸ğµÎ °¡´É
+// implicit, explicit ì¸ìŠ¤í„´ìŠ¤í™” ëª¨ë‘ ê°€ëŠ¥
 // template<typename T> void foo(T a) 
 
-// explicit instantiation ¸¸ °¡´É.
+// explicit instantiation ë§Œ ê°€ëŠ¥.
 template<typename T> void foo(typename identity<T>::type a)
 {
 }

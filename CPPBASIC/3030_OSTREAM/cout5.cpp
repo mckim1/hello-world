@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -52,8 +52,8 @@ ostream& tab(ostream& os)
 
 ostream& menu(ostream& os)
 {
-	os << "1. Â¥Àå¸é";
-	os << "2. ºñºö¹ä";
+	os << "1. ì§œìž¥ë©´";
+	os << "2. ë¹„ë¹”ë°¥";
 	return os;
 }
 
@@ -63,7 +63,7 @@ int main()
 
 	//cout << '\n';   // const char* endl = '\n';
 	cout << endl; // cout.operator<<(endl)
-				  // cout.operator<<( ÇÔ¼öÆ÷ÀÎÅÍ)
+				  // cout.operator<<( í•¨ìˆ˜í¬ì¸í„°)
 
 	cout << tab;
 	cout << "A" << tab << "B" << endl;

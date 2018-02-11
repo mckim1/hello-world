@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -17,7 +17,7 @@ int main()
 
 	}
 	
-	// constexpr : ÄÄÆÄÀÏ ½Ã°£
+	// constexpr : ì»´íŒŒì¼ ì‹œê°„
 	//if constexpr ( n == 0)  // error
 
 	constexpr int c = 10;

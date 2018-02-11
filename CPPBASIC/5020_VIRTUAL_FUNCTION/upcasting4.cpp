@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -17,8 +17,8 @@ class Dog : public Animal {};
 
 int main()
 {
-	std::vector<Dog*> v1; // Dog ∏∏ ∫∏∞¸
-	std::vector<Cat*> v2; // Cat ∏∏ ∫∏∞¸
+	std::vector<Dog*> v1; // Dog Îßå Î≥¥Í¥Ä
+	std::vector<Cat*> v2; // Cat Îßå Î≥¥Í¥Ä
 
-	std::vector<Animal*> v3; // ∏µÁ µøπ∞∫∏∞¸
+	std::vector<Animal*> v3; // Î™®Îì† ÎèôÎ¨ºÎ≥¥Í¥Ä
 }

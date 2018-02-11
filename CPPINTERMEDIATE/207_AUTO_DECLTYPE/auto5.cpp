@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-	// ¹è¿­.
+	// ë°°ì—´.
 	int x[3] = { 1,2,3 }; // x : int[3]
 
 	auto  a1 = x;	// int a1[3] = x; error
@@ -45,6 +45,6 @@ int main()
 	auto a7 = v2[0];	// bool xx
 
 	cout << typeid(a6).name() << endl; // int
-	cout << typeid(a7).name() << endl; // temporary proxy Âü°í
+	cout << typeid(a7).name() << endl; // temporary proxy ì°¸ê³ 
 
 }

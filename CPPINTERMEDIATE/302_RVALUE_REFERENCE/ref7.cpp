@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -11,14 +11,14 @@ void f2(int&& a) {}
 template<typename T> void f3(T&  a) {} 
 template<typename T> void f4(T&& a) {}
 
-// int&  : int ÇüÀÇ lvalue Àü´Þ °¡´É.
-// int&& : int ÇüÀÇ rvalue Àü´Þ °¡´É.
-// T&    : ¸ðµç Å¸ÀÔÀÇ lvalue Àü´Þ °¡´É.(ÇÔ¼ö »ý¼º)
+// int&  : int í˜•ì˜ lvalue ì „ë‹¬ ê°€ëŠ¥.
+// int&& : int í˜•ì˜ rvalue ì „ë‹¬ ê°€ëŠ¥.
+// T&    : ëª¨ë“  íƒ€ìž…ì˜ lvalue ì „ë‹¬ ê°€ëŠ¥.(í•¨ìˆ˜ ìƒì„±)
 
-// T&&   : ¸ðµç Å¸ÀÔÀÇ lvalue ¿Í rvalue ¸ðµÎ Àü´Þ °¡´É.(ÇÔ¼ö »ý¼º)
+// T&&   : ëª¨ë“  íƒ€ìž…ì˜ lvalue ì™€ rvalue ëª¨ë‘ ì „ë‹¬ ê°€ëŠ¥.(í•¨ìˆ˜ ìƒì„±)
 //		   "universal reference"  => "forwarding reference"
-//			lvalue ¸¦ Àü´ÞÇÏ¸é foo(n)  => T : int&    T&& : int& && => int&
-//          rvalue ¸¦ Àü´ÞÇÏ¸é foo(10) => T : int     T&& : int&&    
+//			lvalue ë¥¼ ì „ë‹¬í•˜ë©´ foo(n)  => T : int&    T&& : int& && => int&
+//          rvalue ë¥¼ ì „ë‹¬í•˜ë©´ foo(10) => T : int     T&& : int&&    
 
 
 

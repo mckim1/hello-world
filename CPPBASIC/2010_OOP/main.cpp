@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -7,7 +7,7 @@
 
 // main.cpp
 #include <iostream>
-#include "stack.h"	// Å¬·¡½º ¼±¾ğ Æ÷ÇÔ
+#include "stack.h"	// í´ë˜ìŠ¤ ì„ ì–¸ í¬í•¨
 
 int main()
 {

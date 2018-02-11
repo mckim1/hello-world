@@ -1,4 +1,4 @@
-/*
+Ôªø/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -11,9 +11,9 @@ template<typename T> void foo(T&& a) {}
 template<typename T> class Test
 {
 public:
-	void goo(T&& a) {} // forwarding reference æ∆¥‘..
+	void goo(T&& a) {} // forwarding reference ÏïÑÎãò..
 
-	template<typename U> void hoo(U&& a) {} // forwarding reference ∏¬¿Ω.
+	template<typename U> void hoo(U&& a) {} // forwarding reference ÎßûÏùå.
 };
 
 int main()
@@ -23,7 +23,7 @@ int main()
 	foo(n);	// ok
 	foo(10);// ok
 
-	Test<int> t1; // T∞° int∑Œ ∞·¡§.  void goo(int&& a)
+	Test<int> t1; // TÍ∞Ä intÎ°ú Í≤∞Ï†ï.  void goo(int&& a)
 	t1.goo(n);	// error
 	t1.goo(10); // ok
 

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -11,15 +11,15 @@ class Point
 public:
 	Point(int a = 0, int b = 0) : x(a), y(b) {}
 
-	//Point(Point p) // Point p = p1. °á±¹ º¹»ç »ı¼ºÀÚ°¡ ¹«ÇÑÈ÷ È£Ãâ.
+	//Point(Point p) // Point p = p1. ê²°êµ­ ë³µì‚¬ ìƒì„±ìê°€ ë¬´í•œíˆ í˜¸ì¶œ.
 
-	// Point(Point& p)	// lvalue °´Ã¼¸¸ ÀÎÀÚ·Î ¹ŞÀ»¼ö ÀÖ´Ù.
-						// ÇÔ¼ö ¸®ÅÏ°ªÀ¸·Î ¹İÈ¯µÇ´Â ÀÓ½Ã°´Ã¼¸¦ 
-						// ¹ŞÀ»¼ö ¾ø´Ù.
-	Point(const Point& p) // lvalue°´Ã¼¿Í rvalue °´Ã¼¸¦ ¸ğµÎ ¹ŞÀ»¼ö
-						  // ÀÖ´Ù.
+	// Point(Point& p)	// lvalue ê°ì²´ë§Œ ì¸ìë¡œ ë°›ì„ìˆ˜ ìˆë‹¤.
+						// í•¨ìˆ˜ ë¦¬í„´ê°’ìœ¼ë¡œ ë°˜í™˜ë˜ëŠ” ì„ì‹œê°ì²´ë¥¼ 
+						// ë°›ì„ìˆ˜ ì—†ë‹¤.
+	Point(const Point& p) // lvalueê°ì²´ì™€ rvalue ê°ì²´ë¥¼ ëª¨ë‘ ë°›ì„ìˆ˜
+						  // ìˆë‹¤.
 	{
-		// ¸ğµç ¸â¹ö º¹»ç.
+		// ëª¨ë“  ë©¤ë²„ ë³µì‚¬.
 	}
 };
 
@@ -31,8 +31,8 @@ Point foo()
 
 int main()
 {
-	Point p1(1, 1);	// »ı¼ºÀÚ È£Ãâ
-	Point p2(p1);	// Point( Point )  º¹»ç »ı¼ºÀÚ.
+	Point p1(1, 1);	// ìƒì„±ì í˜¸ì¶œ
+	Point p2(p1);	// Point( Point )  ë³µì‚¬ ìƒì„±ì.
 
 	Point p3( foo() );
 }

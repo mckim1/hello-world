@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -37,8 +37,8 @@ int main()
 	Test* p2 = new Test[4];
 
 	for (int i = 0; i < 2; i++)
-		//	p2[i] = p1[i];   // copy ´ëÀÔ
-		p2[i] = move(p1[i]); // move ´ëÀÔ
+		//	p2[i] = p1[i];   // copy ëŒ€ìž…
+		p2[i] = move(p1[i]); // move ëŒ€ìž…
 	*/
 	vector<Test> v(2);
 	v.resize(4);

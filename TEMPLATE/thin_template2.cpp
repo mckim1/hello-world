@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -6,8 +6,8 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-// ¹æ¹ý 1. template parameter T¸¦ »ç¿ëÇÏÁö ¾ÊÀº ¸â¹ö ÇÔ¼ö´Â ±â¹Ý Å¬·¡½º·Î ¿Å±âÀÚ
-// ¸â¹ö ÇÔ¼ö 2°³ * 3°³ Å¸ÀÔ + ±â¹Ý Å¬·¡½º ¸â¹ö ÇÔ¼ö 2°³ => 8°³
+// ë°©ë²• 1. template parameter Të¥¼ ì‚¬ìš©í•˜ì§€ ì•Šì€ ë©¤ë²„ í•¨ìˆ˜ëŠ” ê¸°ë°˜ í´ëž˜ìŠ¤ë¡œ ì˜®ê¸°ìž
+// ë©¤ë²„ í•¨ìˆ˜ 2ê°œ * 3ê°œ íƒ€ìž… + ê¸°ë°˜ í´ëž˜ìŠ¤ ë©¤ë²„ í•¨ìˆ˜ 2ê°œ => 8ê°œ
 
 class VectorBase
 {

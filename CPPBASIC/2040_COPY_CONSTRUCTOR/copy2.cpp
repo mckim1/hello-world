@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -24,10 +24,10 @@ public:
 
 int main()
 {
-	Point p1(1, 2);	// »ı¼ºÀÚ
-	Point p2(p1);	// º¹»ç »ı¼ºÀÚ.
-	Point p3{ p1 }; // º¹»ç »ı¼ºÀÚ
-	Point p4 = p1;  // Point p4(p1),   º¹»ç »ı¼ºÀÚ.
+	Point p1(1, 2);	// ìƒì„±ì
+	Point p2(p1);	// ë³µì‚¬ ìƒì„±ì.
+	Point p3{ p1 }; // ë³µì‚¬ ìƒì„±ì
+	Point p4 = p1;  // Point p4(p1),   ë³µì‚¬ ìƒì„±ì.
 
 	//int n = 0;
 	//int n(0);

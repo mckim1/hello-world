@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -6,9 +6,9 @@
 */
 
 
-// T&& : lvalue ¿Í rvalue¸¦ ¸ğµÎ Àü´Ş °¡´É.
-//	    lvalue Àü´ŞÇÏ¸é T´Â lvalue reference ·Î °áÁ¤
-//      rvalue Àü´ŞÇÏ¸é T´Â °ª Å¸ÀÔÀ¸·Î °áÁ¤..
+// T&& : lvalue ì™€ rvalueë¥¼ ëª¨ë‘ ì „ë‹¬ ê°€ëŠ¥.
+//	    lvalue ì „ë‹¬í•˜ë©´ TëŠ” lvalue reference ë¡œ ê²°ì •
+//      rvalue ì „ë‹¬í•˜ë©´ TëŠ” ê°’ íƒ€ì…ìœ¼ë¡œ ê²°ì •..
 
 template<typename T> void f4(T&& a) {}
 
@@ -16,13 +16,13 @@ int main()
 {
 	int n = 10;
 
-	// »ç¿ëÀÚ°¡ TÀÇ Å¸ÀÔÀ» ¸í½ÃÀûÀ¸·Î Àü´ŞÇÒ¶§
-	f4<int>(10 );	// f4(int&& a)   => rvalue ¸¦ Àü´Ş
-	f4<int&>(n );	// f4(int& && a) => f4(int& a) => lvalue ¸¦ Àü´Ş
-	f4<int&&>(10 ); // f4(int&& && a)=> f4(int&& a) => rvalue Àü´Ş 
+	// ì‚¬ìš©ìê°€ Tì˜ íƒ€ì…ì„ ëª…ì‹œì ìœ¼ë¡œ ì „ë‹¬í• ë•Œ
+	f4<int>(10 );	// f4(int&& a)   => rvalue ë¥¼ ì „ë‹¬
+	f4<int&>(n );	// f4(int& && a) => f4(int& a) => lvalue ë¥¼ ì „ë‹¬
+	f4<int&&>(10 ); // f4(int&& && a)=> f4(int&& a) => rvalue ì „ë‹¬ 
 
-	// TÀÇ Å¸ÀÔÀ» ¸í½ÃÀûÀ¸·Î Àü´ŞÇÏÁö ¾ÊÀ»¶§
-	f4(n);	// ok. ÄÄÆÄÀÏ·¯°¡ T¸¦ int& ·Î °áÁ¤.
-	f4(10);	// ok. ÄÄÆÄÀÏ·¯°¡ T¸¦ int  ·Î °áÁ¤. f4(T&& ) => f4(int && ) 
+	// Tì˜ íƒ€ì…ì„ ëª…ì‹œì ìœ¼ë¡œ ì „ë‹¬í•˜ì§€ ì•Šì„ë•Œ
+	f4(n);	// ok. ì»´íŒŒì¼ëŸ¬ê°€ Të¥¼ int& ë¡œ ê²°ì •.
+	f4(10);	// ok. ì»´íŒŒì¼ëŸ¬ê°€ Të¥¼ int  ë¡œ ê²°ì •. f4(T&& ) => f4(int && ) 
 }
 

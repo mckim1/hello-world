@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -22,7 +22,7 @@ public:
 	typedef std::size_t    size_type;
 	typedef std::ptrdiff_t difference_type;
 
-	// policy clone À» À§ÇÑ µµ±¸. "rebind" µ¿¿µ»ó Âü°í.
+	// policy clone ì„ ìœ„í•œ ë„êµ¬. "rebind" ë™ì˜ìƒ ì°¸ê³ .
 	template <class U> struct rebind 
 	{
 		typedef ecAlloc<U> other;
@@ -40,7 +40,7 @@ public:
 		return numeric_limits<std::size_t>::max() / sizeof(T);
 	}
 
-	// ¸Ş¸ğ¸®¸¸ ÇÒ´çÇÏ´Â ÇÔ¼ö. ÃÊ±âÈ­(»ı¼ºÀÚ È£Ãâ) ÇÏÁö ¾Ê½À´Ï´Ù.
+	// ë©”ëª¨ë¦¬ë§Œ í• ë‹¹í•˜ëŠ” í•¨ìˆ˜. ì´ˆê¸°í™”(ìƒì„±ì í˜¸ì¶œ) í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 	pointer allocate(size_type num, const void* = 0) 
 	{
 		cerr << "allocate " << num << " element(s)"
@@ -50,17 +50,17 @@ public:
 		return ret;
 	}
 
-	// ÃÊ±âÈ­(»ı¼ºÀÚ È£Ãâ) ÇÔ¼ö. Placement new¸¦ »ç¿ëÇÕ´Ï´Ù.
+	// ì´ˆê¸°í™”(ìƒì„±ì í˜¸ì¶œ) í•¨ìˆ˜. Placement newë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.
 	void construct(pointer p, const T& value) {		
 		new((void*)p)T(value);
 	}
 
-	// °´Ã¼ ÆÄ±«(¼Ò¸êÀÚ È£Ãâ) ÇÔ¼ö
+	// ê°ì²´ íŒŒê´´(ì†Œë©¸ì í˜¸ì¶œ) í•¨ìˆ˜
 	void destroy(pointer p) {
 		p->~T();
 	}
 
-	// ¸Ş¸ğ¸® ÇØÁö
+	// ë©”ëª¨ë¦¬ í•´ì§€
 	void deallocate(pointer p, size_type num) {
 		cerr << "deallocate " << num << " element(s)"
 			<< " of size " << sizeof(T)

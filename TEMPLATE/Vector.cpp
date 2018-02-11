@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -27,10 +27,10 @@ template<typename C> Vector(const C& c)->Vector< ? >;
 int main()
 {
 	Vector<int> v1(10, 3);
-	Vector      v2(10, 3); // C++14±îÁö error. C++17 ºÎÅÍ °¡´É.
+	Vector      v2(10, 3); // C++14ê¹Œì§€ error. C++17 ë¶€í„° ê°€ëŠ¥.
 						   // g++ -std=c++1z
 	Vector      v3;
 
 	list<int> s = { 1,2,3 };
-//	Vetor      v4(s);	// deductioni guide ÇÊ¿ä
+//	Vetor      v4(s);	// deductioni guide í•„ìš”
 }

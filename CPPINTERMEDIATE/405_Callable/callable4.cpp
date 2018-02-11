@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <functional>
 using namespace std;
 
@@ -19,7 +19,7 @@ int main()
 	invoke(&Dialog::setColor, &dlg, 2); 
 						// dlg.setColor(2);
 
-	// ¸â¹ö º¯¼ö Æ÷ÀÎÅÍ
+	// ë©¤ë²„ ë³€ìˆ˜ í¬ì¸í„°
 	invoke(&Dialog::color, &dlg) = 20;
 			// dlg.color = 20
 

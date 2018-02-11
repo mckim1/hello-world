@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -10,7 +10,7 @@
 #include <iostream>
 using namespace std;
 
-// ¸â¹ö ÇÔ¼öÀÇ ¿ÜºÎ ±¸Çö
+// ë©¤ë²„ í•¨ìˆ˜ì˜ ì™¸ë¶€ êµ¬í˜„
 template<typename T> class stack
 {
 	T* buff;
@@ -22,16 +22,16 @@ public:
 	template<typename U> T foo(U a);
 };
 
-// Å¬·¡½º ÅÛÇÃ¸´ÀÇ ¸â¹ö ÇÔ¼ö ÅÛÇÃ¸´ÀÇ ¿ÜºÎ ±¸ÇöÇÏ´Â ¸ğ¾ç - º¹ÀâÇØ º¸ÀÌÁö¸¸ Áß¿äÇÕ´Ï´Ù.
+// í´ë˜ìŠ¤ í…œí”Œë¦¿ì˜ ë©¤ë²„ í•¨ìˆ˜ í…œí”Œë¦¿ì˜ ì™¸ë¶€ êµ¬í˜„í•˜ëŠ” ëª¨ì–‘ - ë³µì¡í•´ ë³´ì´ì§€ë§Œ ì¤‘ìš”í•©ë‹ˆë‹¤.
 template<typename T> template<typename U> 
 T stack<T>::foo(U a)
 {
 }
 
-// static ¸â¹ö º¯¼öÀÇ ¿ÜºÎ ¼±¾ğ
+// static ë©¤ë²„ ë³€ìˆ˜ì˜ ì™¸ë¶€ ì„ ì–¸
 template<typename T> int stack<T>::count = 0;
 
-// ¸â¹ö ÇÔ¼öÀÇ ¿ÜºÎ ±¸Çö
+// ë©¤ë²„ í•¨ìˆ˜ì˜ ì™¸ë¶€ êµ¬í˜„
 template<typename T> 
 void stack<T>::push(const T& a)
 {

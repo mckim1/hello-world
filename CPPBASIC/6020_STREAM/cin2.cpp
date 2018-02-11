@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -12,9 +12,9 @@ int main()
 {
 	std::string s;
 
-	// std::cin >> s; // "aaa bbb"  ´Ü¾î ÀÔ·Â
+	// std::cin >> s; // "aaa bbb"  ë‹¨ì–´ ì…ë ¥
 
-	std::getline( std::cin, s ); // ¹®Àå ÀÔ·Â
+	std::getline( std::cin, s ); // ë¬¸ì¥ ì…ë ¥
 
 	std::cout << s << std::endl;
 }

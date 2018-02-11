@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -6,12 +6,12 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-// °¡º¯ÀÎÀÚ Å¬·¡½º ÅÛÇÃ¸´.
+// ê°€ë³€ì¸ì í´ë˜ìŠ¤ í…œí”Œë¦¿.
 template<typename ... Types> class tuple
 {
 };
 
-// °¡º¯ÀÎÀÚ ÇÔ¼ö ÅÛÇÃ¸´
+// ê°€ë³€ì¸ì í•¨ìˆ˜ í…œí”Œë¦¿
 template<typename ... Types> void foo(Types ... args)
 {
 }

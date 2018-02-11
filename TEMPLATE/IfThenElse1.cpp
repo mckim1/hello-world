@@ -1,4 +1,4 @@
-/*
+Ôªø/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -6,7 +6,7 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-// bool ±‚π›¿« type selection ±‚º˙.
+// bool Í∏∞Î∞òÏùò type selection Í∏∞Ïà†.
 template<bool, typename T, typename U> struct IfThenElse
 {
 	typedef T type;

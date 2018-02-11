@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <set>
 using namespace std;
 
@@ -7,27 +7,27 @@ int main()
 	set<int> s;
 
 	s.insert(10);
-	//pair<set<int>::iterator, bool> ret = s.insert(10); // ½ÇÆĞ
+	//pair<set<int>::iterator, bool> ret = s.insert(10); // ì‹¤íŒ¨
 	/*
-	auto ret = s.insert(10); // ½ÇÆĞ
+	auto ret = s.insert(10); // ì‹¤íŒ¨
 
 	if (ret.second == false)
 	{
-		cout << "½ÇÆĞ" << endl;
+		cout << "ì‹¤íŒ¨" << endl;
 	}
 	*/
 	/*
-	auto [it, success] = s.insert(10); // ½ÇÆĞ
+	auto [it, success] = s.insert(10); // ì‹¤íŒ¨
 
 	if ( success == false)
 	{
-		cout << "½ÇÆĞ" << endl;
+		cout << "ì‹¤íŒ¨" << endl;
 	}
 	*/
 
 	if ( auto[it, success] = s.insert(10); success == false)
 	{
-		cout << "½ÇÆĞ" << endl;
+		cout << "ì‹¤íŒ¨" << endl;
 	}
 
 }

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -6,9 +6,9 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-// if ¹®Àº ½ÇÇà½Ã°£ Á¶°Ç ºÐ±â ¹®ÀÌ´Ù.
-// ÇÔ¼ö ¿À¹ö·ÎµùÀº ÄÄÆÄÀÏ ½Ã°£ ºÐ±â¹®ÀÌ´Ù
-// if constexpr ¹®Àº ÄÄÆÄÀÏ½Ã°£ Á¶°Ç ºÐ±â ¹®ÀÌ´Ù.
+// if ë¬¸ì€ ì‹¤í–‰ì‹œê°„ ì¡°ê±´ ë¶„ê¸° ë¬¸ì´ë‹¤.
+// í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©ì€ ì»´íŒŒì¼ ì‹œê°„ ë¶„ê¸°ë¬¸ì´ë‹¤
+// if constexpr ë¬¸ì€ ì»´íŒŒì¼ì‹œê°„ ì¡°ê±´ ë¶„ê¸° ë¬¸ì´ë‹¤.
 
 template<typename T> void foo(T a, int n)
 {
@@ -21,15 +21,15 @@ template<typename T> void foo(T a, double d)
 
 int main()
 {
-	foo(0, 3.4); // ÇÔ¼ö ¿À¹ö·ÎµùÀÇ ÀÇÇÑ ÇÔ¼ö ¼±ÅÃÀº ÄÄÆÄÀÏ ½Ã°£¿¡ °áÁ¤. foo(T, int)´Â »ç¿ëµÈÀûÀÌ ¾øÀ¸¹Ç·Î C++ ÄÚµå·Î »ý¼º¾ÈµÊ.
+	foo(0, 3.4); // í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©ì˜ ì˜í•œ í•¨ìˆ˜ ì„ íƒì€ ì»´íŒŒì¼ ì‹œê°„ì— ê²°ì •. foo(T, int)ëŠ” ì‚¬ìš©ëœì ì´ ì—†ìœ¼ë¯€ë¡œ C++ ì½”ë“œë¡œ ìƒì„±ì•ˆë¨.
 
-	// ¾Æ·¡ Ã³·³ »ç¿ëÇÑ °æ¿ì. foo( T, int) ´Â »ç¿ëµÈ´Ù°í ÆÇ´ÜÇÏ¹Ç·Î error.
+	// ì•„ëž˜ ì²˜ëŸ¼ ì‚¬ìš©í•œ ê²½ìš°. foo( T, int) ëŠ” ì‚¬ìš©ëœë‹¤ê³  íŒë‹¨í•˜ë¯€ë¡œ error.
 	if (false)
 		foo(0, 1);
 	else
 		foo(0, 3.4);
 
-	// ÇÏÁö¸¸ ¾Æ·¡ Ã³·³ ÇÏ¸é error. ¾øÀ½.
+	// í•˜ì§€ë§Œ ì•„ëž˜ ì²˜ëŸ¼ í•˜ë©´ error. ì—†ìŒ.
 	if constexpr(false)
 		foo(0, 1);
 	else

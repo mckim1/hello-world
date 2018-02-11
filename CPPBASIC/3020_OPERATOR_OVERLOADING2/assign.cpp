@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -32,7 +32,7 @@ int main()
 {
 	Point p1(1, 1);
 	Point p2(2, 2);
-	Point p3 = p2; // ∫πªÁ ª˝º∫¿⁄
+	Point p3 = p2; // Î≥µÏÇ¨ ÏÉùÏÑ±Ïûê
 
 	//p1 + p2; // p1.operator+(p2)
 	p1 = p2; // p1.operator=(p2)

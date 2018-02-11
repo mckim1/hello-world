@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -29,7 +29,7 @@ public:
 
 int main()
 {
-	// SPtrÀÇ °´Ã¼ p°¡ CarÀÇ Æ÷ÀÎÅÍ Ã³·³ »ç¿ë
+	// SPtrì˜ ê°ì²´ pê°€ Carì˜ í¬ì¸í„° ì²˜ëŸ¼ ì‚¬ìš©
 	// Car* p = new Car;
 	SPtr p = new Car; // SPtr p( new Car )
 

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -10,10 +10,10 @@
 #include <typeinfo>
 using namespace std;
 
-// parameter pack ¿¡¼­ ¿ä¼Ò ²¨³»±â 
-// ¹æ¹ı 2. recursive
+// parameter pack ì—ì„œ ìš”ì†Œ êº¼ë‚´ê¸° 
+// ë°©ë²• 2. recursive
 
-void foo() {} // Àç±ÍÀÇ Á¾·á¸¦ À§ÇØ¼­..
+void foo() {} // ì¬ê·€ì˜ ì¢…ë£Œë¥¼ ìœ„í•´ì„œ..
 
 template<typename T, typename ... Types> 
 void foo(T value, Types ... args)

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -18,8 +18,8 @@ template<typename T, template<typename> class C> class stack
 
 int main()
 {
-	list      s1; // error. list ´Â Å¸ÀÔÀº ¾Æ´Ï°í ÅÛÇÃ¸´
-	list<int> s2; // ok.    list<int>´Â Å¸ÀÔ.
+	list      s1; // error. list ëŠ” íƒ€ì…ì€ ì•„ë‹ˆê³  í…œí”Œë¦¿
+	list<int> s2; // ok.    list<int>ëŠ” íƒ€ì….
 
 	stack<int, list > s3; // ok
 

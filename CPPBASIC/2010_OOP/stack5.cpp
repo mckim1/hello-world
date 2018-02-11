@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -14,7 +14,7 @@ private:
 	int idx;
 
 public:
-	// Å¬·¡½º ÀÌ¸§°ú µ¿ÀÏÇÑ ÇÔ¼ö : »ı¼ºÀÚ
+	// í´ë˜ìŠ¤ ì´ë¦„ê³¼ ë™ì¼í•œ í•¨ìˆ˜ : ìƒì„±ì
 	Stack()          { idx = 0; }
 	void push(int n) { buf[idx++] = n; }
 	int  pop()       { return buf[--idx]; }

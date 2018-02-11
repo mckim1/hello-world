@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -6,14 +6,14 @@
 
 
 
-// Ãß»óÅ¬·¡½º
+// ì¶”ìƒí´ë˜ìŠ¤
 class Shape
 {
 public:
-	virtual void Draw() = 0; // ¼ø¼ö °¡»óÇÔ¼ö
+	virtual void Draw() = 0; // ìˆœìˆ˜ ê°€ìƒí•¨ìˆ˜
 };
 
-// conceret class (±¸Ã¼ Å¬·¡½º)
+// conceret class (êµ¬ì²´ í´ë˜ìŠ¤)
 class Rect : public Shape
 {
 public:

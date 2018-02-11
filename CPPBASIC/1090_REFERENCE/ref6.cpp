@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -15,8 +15,8 @@ struct Point
 //	Point() {}
 };
 
-void f1(Point  p) {}	// º¹»çº» »ı¼º
-void f2(Point& r) {}	// º¹»çº» ¾Æ´Ô.
+void f1(Point  p) {}	// ë³µì‚¬ë³¸ ìƒì„±
+void f2(Point& r) {}	// ë³µì‚¬ë³¸ ì•„ë‹˜.
 
 
 Point pt; 
@@ -34,7 +34,7 @@ Point& goo()
 int main()
 {
 	goo().x  = 20; // error.
-				   // ÂüÁ¶¸®ÅÏÀÎ°æ¿ì ¿¡·¯ ¾Æ´Ô.
+				   // ì°¸ì¡°ë¦¬í„´ì¸ê²½ìš° ì—ëŸ¬ ì•„ë‹˜.
 
 	std::cout << pt.x << std::endl; // 20
 }

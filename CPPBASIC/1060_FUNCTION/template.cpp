@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -7,7 +7,7 @@
 
 // template.cpp
 
-// ÇÔ¼ö¸¦ ¸¸µé¾î ³»´Â Æ²
+// í•¨ìˆ˜ë¥¼ ë§Œë“¤ì–´ ë‚´ëŠ” í‹€
 template<typename T> 
 //template<class T>
 T square(T a)
@@ -17,7 +17,7 @@ T square(T a)
 // min
 int main()
 {
-//	square<int>(3);		// int square(int) ÇÔ¼ö »ı¼º
+//	square<int>(3);		// int square(int) í•¨ìˆ˜ ìƒì„±
 //	square<double>(3.3);// double square(double)
 
 	square(3);

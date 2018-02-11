@@ -1,4 +1,4 @@
-/*
+﻿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -30,8 +30,8 @@ public:
 
 int main()
 {
-	double* p1 = memAlloc(40); // Ŭ�����̸�() : �ӽð�ü..
-							   // �ӽð�ü.operator double*()
+	double* p1 = memAlloc(40); // 클래스이름() : 임시객체..
+							   // 임시객체.operator double*()
 	int*    p2 = memAlloc(40);
 
 }

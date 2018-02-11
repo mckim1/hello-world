@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -23,7 +23,7 @@ public:
 
 int main()
 {	
-	// ¸Ş¸ğ¸® ÇÒ´çÀº ¸î¹ø µÉ±î ?
+	// ë©”ëª¨ë¦¬ í• ë‹¹ì€ ëª‡ë²ˆ ë ê¹Œ ?
 	//shared_ptr<Point> sp( new Point(1,2) );
 
 

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -15,13 +15,13 @@ public:
 };
 int p = 0;
 
-template<typename T> void foo(T a)  // T ´Â A
+template<typename T> void foo(T a)  // T ëŠ” A
 {
-	// ¾Æ·¡ ÇÑÁÙÀ» ÇØ¼®ÇØ º¸¼¼¿ä
-	T::DWORD * p; // 1. DWORD´Â T¾È¿¡ ÀÖ´Â static ¸â¹ö º¯¼öÀÌ´Ù. ±×·±µ¥, °öÇÏ±â p¸¦ ÇÏ°í ÀÖ´Ù
-				  // 2. DWORD´Â T¾È¿¡ ÀÖ´Â ³»Æ÷ Å¸ÀÔÀÌ´Ù. Æ÷ÀÎÅÍ º¯¼ö p¸¦ ¼±¾ðÇÏ°í ÀÖ´Ù.
+	// ì•„ëž˜ í•œì¤„ì„ í•´ì„í•´ ë³´ì„¸ìš”
+	T::DWORD * p; // 1. DWORDëŠ” Tì•ˆì— ìžˆëŠ” static ë©¤ë²„ ë³€ìˆ˜ì´ë‹¤. ê·¸ëŸ°ë°, ê³±í•˜ê¸° pë¥¼ í•˜ê³  ìžˆë‹¤
+				  // 2. DWORDëŠ” Tì•ˆì— ìžˆëŠ” ë‚´í¬ íƒ€ìž…ì´ë‹¤. í¬ì¸í„° ë³€ìˆ˜ pë¥¼ ì„ ì–¸í•˜ê³  ìžˆë‹¤.
 
-	// T¾È¿¡ ³»Æ÷µÈ Å¸ÀÔÀ» »ç¿ëÇÏ·Á¸é typenameÀÌ ÇÊ¿äÇÏ´Ù.
+	// Tì•ˆì— ë‚´í¬ëœ íƒ€ìž…ì„ ì‚¬ìš©í•˜ë ¤ë©´ typenameì´ í•„ìš”í•˜ë‹¤.
 	typename T::DWORD * p1;
 }
 

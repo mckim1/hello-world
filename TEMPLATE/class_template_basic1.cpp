@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -16,13 +16,13 @@ template<typename T> class stack
 	T* buff;
 public:
 
-	void goo(stack s) {} // ok..   ¸â¹ö ÇÔ¼ö¾È¿¡¼­ stack Àº stack<T> ¿Í µ¿ÀÏ.
+	void goo(stack s) {} // ok..   ë©¤ë²„ í•¨ìˆ˜ì•ˆì—ì„œ stack ì€ stack<T> ì™€ ë™ì¼.
 };
 
 void foo(stack s) {} // error
 
 int main()
 {
-	stack      s1; // error. stack Àº type ÀÌ ¾Æ´Ï°í, template ÀÌ´Ù.
-	stack<int> s2; // ok.    stack<int> ´Â Å¸ÀÔ..
+	stack      s1; // error. stack ì€ type ì´ ì•„ë‹ˆê³ , template ì´ë‹¤.
+	stack<int> s2; // ok.    stack<int> ëŠ” íƒ€ì…..
 }

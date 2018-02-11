@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <chrono>
 using namespace std;
@@ -18,7 +18,7 @@ int main()
 	seconds s1 = 10s;
 	minutes m1 = 10min;
 
-	//minutes m2 = 120s; // Ä³½ºÆÃ ÇÊ¿ä..
+	//minutes m2 = 120s; // ìºìŠ¤íŒ… í•„ìš”..
 	seconds s2 = 10min;
 	cout << s2.count() << endl; // 600
 }

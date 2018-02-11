@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -12,8 +12,8 @@
 using namespace std;
 using namespace boost::typeindex;
 
-// ±ÔÄ¢ 2. ÅÛÇÃ¸´ ÀÎÀÚ¸¦ ÂüÁ¶ Å¸ÀÔÀ¸·Î ¹ŞÀ»¶§
-//		   ÀÎÀÚÀÇ reference ¼Ó¼ºÀ» Á¦°ÅÇÏ°í T¸¦ °áÁ¤, const, volatile ¼Ó¼ºÀº À¯Áö µÈ´Ù.
+// ê·œì¹™ 2. í…œí”Œë¦¿ ì¸ìë¥¼ ì°¸ì¡° íƒ€ì…ìœ¼ë¡œ ë°›ì„ë•Œ
+//		   ì¸ìì˜ reference ì†ì„±ì„ ì œê±°í•˜ê³  Të¥¼ ê²°ì •, const, volatile ì†ì„±ì€ ìœ ì§€ ëœë‹¤.
 template<typename T> void foo(const T& a)
 {
 	--a;

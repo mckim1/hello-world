@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void foo(int n)
@@ -6,7 +6,7 @@ void foo(int n)
 	cout << "foo(int)" << endl;
 }
 
-//void foo(double); // ¼±¾ð¸¸.
+//void foo(double); // ì„ ì–¸ë§Œ.
 
 //void foo(double) = delete;
 

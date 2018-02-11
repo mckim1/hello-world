@@ -1,4 +1,4 @@
-
+﻿
 template<typename T> void foo(T a, T b)
 {
 }

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -10,9 +10,9 @@ class istream
 public:
 	bool fail() { return false; }
 
-	// C++11 º¯È¯ ¿¬»êÀÚ ¾Õ¿¡µµ explicit¸¦ ºÙÀÏ¼ö ÀÖ´Ù.
-	// ¾Ï½ÃÀû º¯È¯Àº error. ¸í½ÃÀû Çã¿ë
-	// ´Ü, if ¹®¾È¿¡¼­´Â ¾Ï½ÃÀûÀ¸·Î bool·Î º¯È¯ Çã¿ë.
+	// C++11 ë³€í™˜ ì—°ì‚°ì ì•ì—ë„ explicitë¥¼ ë¶™ì¼ìˆ˜ ìˆë‹¤.
+	// ì•”ì‹œì  ë³€í™˜ì€ error. ëª…ì‹œì  í—ˆìš©
+	// ë‹¨, if ë¬¸ì•ˆì—ì„œëŠ” ì•”ì‹œì ìœ¼ë¡œ boolë¡œ ë³€í™˜ í—ˆìš©.
 	explicit operator bool() { return fail() ? false : true; }
 };
 istream cin;

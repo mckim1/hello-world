@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-// Step 3. N°³¸¦ º¸°üÇÏ´Â tuple
+// Step 3. Nê°œë¥¼ ë³´ê´€í•˜ëŠ” tuple
 template<typename ... Types> struct xtuple
 {
 	static constexpr int N = 0;

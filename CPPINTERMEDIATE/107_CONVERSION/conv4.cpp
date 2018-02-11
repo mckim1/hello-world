@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -13,8 +13,8 @@ class OFile
 {
 	FILE* file;
 public:
-	// explicit »ý¼ºÀÚ : ÀÎÀÚ°¡ ÇÑ°³ÀÎ »ý¼ºÀÚ°¡ ¾Ï½ÃÀû º¯È¯À»
-	//					Çã¿ëÇÏ´Â °ÍÀ» ¸·´Â´Ù.
+	// explicit ìƒì„±ìž : ì¸ìžê°€ í•œê°œì¸ ìƒì„±ìžê°€ ì•”ì‹œì  ë³€í™˜ì„
+	//					í—ˆìš©í•˜ëŠ” ê²ƒì„ ë§‰ëŠ”ë‹¤.
 
 	explicit OFile(const char* filename, const char* mode = "wt")
 	{
@@ -32,8 +32,8 @@ int main()
 	OFile f("a.txt");
 	foo(f); // ok..
 
-	//foo("hello"); // const char* => OFile ·Î ¾Ï½ÃÀû º¯È¯ ¹ß»ý.
-				  // º¯È¯ »ý¼ºÀÚ
+	//foo("hello"); // const char* => OFile ë¡œ ì•”ì‹œì  ë³€í™˜ ë°œìƒ.
+				  // ë³€í™˜ ìƒì„±ìž
 	//foo(static_cast<OFile>("hello"));
 
 }

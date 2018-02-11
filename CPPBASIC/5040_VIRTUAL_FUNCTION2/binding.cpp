@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+๏ปฟ/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -27,7 +27,7 @@ int main()
 
 	//-------------------
 	int n;
-	std::cin >> n; // ป็ฟ๋ภฺ ภิทย
+	std::cin >> n; // ์ฌ์ฉ์ ์…๋ ฅ
 
 	if (n == 0)
 		p = &a;

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -21,10 +21,10 @@ public:
 
 int main()
 {
-	vector<int> v = { 1,2,3,4,5 }; // ok. Æí¸®ÇØ Á³´Ù
+	vector<int> v = { 1,2,3,4,5 }; // ok. í¸ë¦¬í•´ ì¡Œë‹¤
 
-	vector<int> v1(10, 3);  // 1¹ø. 10°³¸¦ 3À¸·Î ÃÊ±âÈ­
-	vector<int> v2{ 10,3 }; // 2¹ø, 2°³ÀÇ ¿ä¼Ò¸¦ 10, 3À¸·Î ÃÊ±âÈ­
+	vector<int> v1(10, 3);  // 1ë²ˆ. 10ê°œë¥¼ 3ìœ¼ë¡œ ì´ˆê¸°í™”
+	vector<int> v2{ 10,3 }; // 2ë²ˆ, 2ê°œì˜ ìš”ì†Œë¥¼ 10, 3ìœ¼ë¡œ ì´ˆê¸°í™”
 
 	cout << v1.size() << endl; // 10
 	cout << v2.size() << endl; // 2

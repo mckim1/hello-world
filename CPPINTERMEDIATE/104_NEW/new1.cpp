@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -25,11 +25,11 @@ int main()
 	operator delete(p1);
 
 	/*
-	// malloc : ¸Ş¸ğ¸®¸¸ ÇÒ´ç
+	// malloc : ë©”ëª¨ë¦¬ë§Œ í• ë‹¹
 	Point* p1 = (Point*)malloc(sizeof(Point));
 	free(p1);
 
-	// new : ¸Ş¸ğ¸® ÇÒ´ç + »ı¼ºÀÚ È£Ãâ
+	// new : ë©”ëª¨ë¦¬ í• ë‹¹ + ìƒì„±ì í˜¸ì¶œ
 	Point* p2 = new Point;	
 	delete p2;									
 	*/

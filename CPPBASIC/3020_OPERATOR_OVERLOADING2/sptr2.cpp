@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -23,7 +23,7 @@ int main()
 {
 	SPtr<int> p1 = new int;
 	SPtr<int> p2 = p1; // runtime error
-						// ∫πªÁ ª˝º∫¿⁄
+						// Î≥µÏÇ¨ ÏÉùÏÑ±Ïûê
 
 	*p1 = 10;
 	std::cout << *p1 << std::endl;

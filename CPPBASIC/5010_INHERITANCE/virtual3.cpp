@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -22,15 +22,15 @@ class Derived : public Base
 public:
 	Derived() 
 	{
-		std::cout << "ÀÚ¿øÇÒ´ç" << std::endl;
+		std::cout << "ìžì›í• ë‹¹" << std::endl;
 	}
 	virtual ~Derived()
 	{
-		std::cout << "ÀÚ¿øÇØÁö" << std::endl;
+		std::cout << "ìžì›í•´ì§€" << std::endl;
 	}
 };
 int main()
 {
-	Base* p = new Derived; // Derived »ý¼ºÀÚÈ£Ãâ
+	Base* p = new Derived; // Derived ìƒì„±ìží˜¸ì¶œ
 	delete p;			   // 
 }

@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -16,11 +16,11 @@ int main()
 {
 	/*
 	int n1 = 0;
-	int n2(0); // () ÃÊ±âÈ­. C++ ¿¡¼­ Áö¿ø.
+	int n2(0); // () ì´ˆê¸°í™”. C++ ì—ì„œ ì§€ì›.
 	int x[2] = { 1,2 };
 	Point p = { 1,2 };
 	*/
-	// ÀÏ°üµÈ ÃÊ±âÈ­.
+	// ì¼ê´€ëœ ì´ˆê¸°í™”.
 	// direct initializaion
 	int n1{ 0 };
 	int n2{ 0 };

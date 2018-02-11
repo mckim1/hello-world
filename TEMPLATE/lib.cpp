@@ -1,4 +1,4 @@
-// lib.cpp
+﻿// lib.cpp
 
 void foo(int a)
 {

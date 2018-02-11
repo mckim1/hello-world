@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -22,9 +22,9 @@ int main()
 		[](int a, int b) { return a + b; };
 
 
-	f1(1, 2); // inline Ä¡È¯ °¡´É.
-	f2(1, 2); // inline Ä¡È¯ÀÌ ¾î·Æ´Ù
-	f3(1, 2); // inline Ä¡È¯ÀÌ ¾î·Æ´Ù
+	f1(1, 2); // inline ì¹˜í™˜ ê°€ëŠ¥.
+	f2(1, 2); // inline ì¹˜í™˜ì´ ì–´ë µë‹¤
+	f3(1, 2); // inline ì¹˜í™˜ì´ ì–´ë µë‹¤
 
 }
 

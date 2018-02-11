@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -23,12 +23,12 @@ int main()
 	}
 	catch (int n)
 	{
-		std::cout << "¿¹¿Ü ¹ß»ý" << std::endl;
+		std::cout << "ì˜ˆì™¸ ë°œìƒ" << std::endl;
 	}
 	catch (...)
 	{
-		std::cout << "... ¿¹¿Ü ¹ß»ý" << std::endl;
+		std::cout << "... ì˜ˆì™¸ ë°œìƒ" << std::endl;
 	}
 
-	std::cout << "°è¼Ó½ÇÇà" << std::endl;
+	std::cout << "ê³„ì†ì‹¤í–‰" << std::endl;
 }

@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -10,18 +10,18 @@ class Test
 	int data1;
 	static int data2;
 public:
-	void f1()	// È£ÃâÇÏ·Á¸é ¹İµå½Ã °´Ã¼°¡ ÇÊ¿ä
+	void f1()	// í˜¸ì¶œí•˜ë ¤ë©´ ë°˜ë“œì‹œ ê°ì²´ê°€ í•„ìš”
 	{
 		data1 = 0;	// 1
 		data2 = 0;	// 2
 	}
-	static void f2()	// °´Ã¼¾øÀÌ È£Ãâ.
+	static void f2()	// ê°ì²´ì—†ì´ í˜¸ì¶œ.
 	{
 		//data1 = 0;	// 3. error
 		data2 = 0;	// 4. ok.
 	}
 
-	static void f3(); // ¼±¾ğ..
+	static void f3(); // ì„ ì–¸..
 };
 int Test::data2 = 0;
 

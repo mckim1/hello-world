@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -17,7 +17,7 @@ int main()
 	int n = 3;
 	short s = 3;
 
-	// code bloat : "ÄÚµå¸Ş¸ğ¸®°¡ Áõ°¡ÇÏ´Â Çö»ó"
+	// code bloat : "ì½”ë“œë©”ëª¨ë¦¬ê°€ ì¦ê°€í•˜ëŠ” í˜„ìƒ"
 	square(n);
 	square(s);
 

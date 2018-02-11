@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -13,10 +13,10 @@ using namespace std;
 template<typename T> struct IsPointer { static constexpr bool value = false; };
 template<typename T> struct IsPointer<T*> { static constexpr bool value = true; };
 
-// if ¹®À» »ç¿ëÇÑ ÇÔ¼ö ºĞ±â : ½ÇÇà½Ã°£ °áÁ¤..
-// ÇÔ¼ö ¿À¹ö·ÎµùÀ» »ç¿ëÇÑ ºĞ±â : ÄÄÆÄÀÏ ½Ã°£¿¡ °áÁ¤..
+// if ë¬¸ì„ ì‚¬ìš©í•œ í•¨ìˆ˜ ë¶„ê¸° : ì‹¤í–‰ì‹œê°„ ê²°ì •..
+// í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©ì„ ì‚¬ìš©í•œ ë¶„ê¸° : ì»´íŒŒì¼ ì‹œê°„ì— ê²°ì •..
 
-// ¼ıÀÚ·Î ÇÔ¼ö ¿À¹ö·ÎµùÇÏ´Â µµ±¸
+// ìˆ«ìë¡œ í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©í•˜ëŠ” ë„êµ¬
 template<int N> struct int2type
 {
 	static const int value = N;
@@ -34,7 +34,7 @@ template<typename T> void printv_imp(T a, int2type<1>)
 
 template<typename T> void printv(T a)
 {
-	// ÇÔ¼ö ¿À¹ö·ÎµùÀº ÄÄÆÄÀÏ ½Ã°£¿¡ ÀÎÀÚ¿¡ Å¸ÀÔÀ¸·Î ÇÔ¼ö È£ÃâÀÌ °áÁ¤µÈ´Ù
+	// í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©ì€ ì»´íŒŒì¼ ì‹œê°„ì— ì¸ìì— íƒ€ì…ìœ¼ë¡œ í•¨ìˆ˜ í˜¸ì¶œì´ ê²°ì •ëœë‹¤
 
 	printv_imp(a, int2type< IsPointer<T>::value >());
 }

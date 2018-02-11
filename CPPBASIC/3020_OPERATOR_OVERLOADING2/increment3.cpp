@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -18,7 +18,7 @@ public:
 		std::cout << value << std::endl;
 	}
 
-	// ÀüÀ§Çü
+	// ì „ìœ„í˜•
 	//Integer operator++()
 	Integer& operator++()
 	{

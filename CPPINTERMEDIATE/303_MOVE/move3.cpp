@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -12,15 +12,15 @@ class Test
 {
 	int* resource;
 public:
-	Test()  {}	// ÀÚ¿øÇÒ´ç
-	~Test() {}	// ÀÚ¿øÇØÁö
+	Test()  {}	// ìì›í• ë‹¹
+	~Test() {}	// ìì›í•´ì§€
 	
-	// º¹»ç »ı¼ºÀÚ : ±íÀºº¹»ç ¶Ç´Â ÂüÁ¶°è¼ö
-	// ÀÎÀÚ·Î lvalue ¿Í rvalue ¸¦ ¸ğµÎ ¹ŞÀ»¼ö ÀÖ´Ù
+	// ë³µì‚¬ ìƒì„±ì : ê¹Šì€ë³µì‚¬ ë˜ëŠ” ì°¸ì¡°ê³„ìˆ˜
+	// ì¸ìë¡œ lvalue ì™€ rvalue ë¥¼ ëª¨ë‘ ë°›ì„ìˆ˜ ìˆë‹¤
 	Test(const Test& t) { cout << "Copy" << endl; }
 
-	// Move »ı¼ºÀÚ : ¼ÒÀ¯±Ç ÀÌÀü(ÀÚ¿ø Àü´Ş)
-	// rvalue¸¸ Àü´Ş ¹ŞÀ»¼ö ÀÖ´Ù.
+	// Move ìƒì„±ì : ì†Œìœ ê¶Œ ì´ì „(ìì› ì „ë‹¬)
+	// rvalueë§Œ ì „ë‹¬ ë°›ì„ìˆ˜ ìˆë‹¤.
 	Test(Test&& t)      { cout << "Move" << endl; }
 };
 Test foo()
@@ -31,7 +31,7 @@ Test foo()
 int main()
 {
 	Test t1;
-	Test t2 = t1;		// º¹»ç »ı¼ºÀÚ
-	//Test t3 = Test();	// º¹»ç »ı¼ºÀÚ.  //move »ı¼ºÀÚ
+	Test t2 = t1;		// ë³µì‚¬ ìƒì„±ì
+	//Test t3 = Test();	// ë³µì‚¬ ìƒì„±ì.  //move ìƒì„±ì
 	Test t4 = foo();
 }

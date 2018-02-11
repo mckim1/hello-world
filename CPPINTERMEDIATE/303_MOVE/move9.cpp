@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -17,23 +17,23 @@ int main()
 
 	//Test* p2 = new Test[4];
 
-	// 1. ½Å±Ô ¹öÆÛ´Â ¸Ş¸ğ¸®¸¸ ÇÒ´ç ÇÑ´Ù.
+	// 1. ì‹ ê·œ ë²„í¼ëŠ” ë©”ëª¨ë¦¬ë§Œ í• ë‹¹ í•œë‹¤.
 	Test* p2 = static_cast<Test*>(
 			operator new(sizeof(Test) * 4));
 
 	for (int i = 0; i < 2; i++)
 	{
-		//p2[i] = move(p1[i]); // move ´ëÀÔ..
-		//new(&p2[i]) Test;		// µğÆúÆ® »ı¼ºÀÚ È£Ãâ
-		//new(&p2[i]) Test(p1[i]); // º¹»ç »ı¼ºÀÚ
-		//new(&p2[i]) Test(move(p1[i])); // move »ı¼ºÀÚ
+		//p2[i] = move(p1[i]); // move ëŒ€ì…..
+		//new(&p2[i]) Test;		// ë””í´íŠ¸ ìƒì„±ì í˜¸ì¶œ
+		//new(&p2[i]) Test(p1[i]); // ë³µì‚¬ ìƒì„±ì
+		//new(&p2[i]) Test(move(p1[i])); // move ìƒì„±ì
 
 		new(&p2[i]) Test(move_if_noexcept(p1[i])); 
 	}
 
-	// 2. »õ·Î¿î °´Ã¼´Â µğÆúÆ® »ı¼ºÀÚ È£Ãâ
+	// 2. ìƒˆë¡œìš´ ê°ì²´ëŠ” ë””í´íŠ¸ ìƒì„±ì í˜¸ì¶œ
 	for (int i = 2; i < 4; i++)
-		new(&p2[i]) Test; // µğÆúÆ® »ı¼ºÀÚ È£Ãâ.
+		new(&p2[i]) Test; // ë””í´íŠ¸ ìƒì„±ì í˜¸ì¶œ.
 
 }
 

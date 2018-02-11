@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -13,7 +13,7 @@ using namespace std;
 //void foo( int (*f)(int, int) )
 //void foo(function<int(int, int)> f)
 
-//void foo(auto f) // auto´Â ÇÔ¼ö ÀÎÀÚ°¡ µÉ¼ö ¾ø´Ù.
+//void foo(auto f) // autoëŠ” í•¨ìˆ˜ ì¸ìê°€ ë ìˆ˜ ì—†ë‹¤.
 				 // error
 
 //template<typename T> void foo( T f )

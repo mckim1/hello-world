@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -6,22 +6,22 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-// non-type(°ª) parameter
+// non-type(ê°’) parameter
 
-// 1. Á¤¼öÇü »ó¼ö(½Ç¼ö ¾ÈµÊ.)
+// 1. ì •ìˆ˜í˜• ìƒìˆ˜(ì‹¤ìˆ˜ ì•ˆë¨.)
 template<int N> class Test1 {};
 
-// 2. enum »ó¼ö
+// 2. enum ìƒìˆ˜
 enum Color { red = 1, green = 2};
 template<Color> class Test2 {};
 
-// 3. Æ÷ÀÎÅÍ : Áö¿ªº¯¼ö ÁÖ¼Ò¾ÈµÊ.. Àü¿ªº¯¼öÁÖ¼Ò´Â °¡´É.. 
-//			   no linkage ¸¦ °¡Áö´Â º¯¼ö ÁÖ¼Ò´Â ¾ÈµÊ..
+// 3. í¬ì¸í„° : ì§€ì—­ë³€ìˆ˜ ì£¼ì†Œì•ˆë¨.. ì „ì—­ë³€ìˆ˜ì£¼ì†ŒëŠ” ê°€ëŠ¥.. 
+//			   no linkage ë¥¼ ê°€ì§€ëŠ” ë³€ìˆ˜ ì£¼ì†ŒëŠ” ì•ˆë¨..
 template<int*> class Test3 {};
 
 int x = 0;
 
-// 4. ÇÔ¼ö Æ÷ÀÎÅÍ..
+// 4. í•¨ìˆ˜ í¬ì¸í„°..
 template<int(*)(void)> class Test4 {};
 
 int main()
@@ -29,7 +29,7 @@ int main()
 	int n = 10;
 
 	Test1<10> t1; // ok
-	//Test1<n>  t2; // error. º¯¼ö ¾ÈµÊ.
+	//Test1<n>  t2; // error. ë³€ìˆ˜ ì•ˆë¨.
 	Test2<red> t3; // ok
 
 	//Test3<&n> t4; // error;

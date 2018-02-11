@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,7 +9,7 @@
 using namespace std;
 
 // aggregate initialization
-// aggregate type : {} ·Î ÃÊ±âÈ­ °¡´ÉÇÑ°Í. ±¸Á¶Ã¼, ¹è¿­.
+// aggregate type : {} ë¡œ ì´ˆê¸°í™” ê°€ëŠ¥í•œê²ƒ. êµ¬ì¡°ì²´, ë°°ì—´.
 struct Point
 {
 	int x, y;

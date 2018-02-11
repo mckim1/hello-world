@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -10,11 +10,11 @@
 using namespace std;
 
 /*
-// 1998³â Ç¥ÁØÈ­ ÀÌÀü
+// 1998ë…„ í‘œì¤€í™” ì´ì „
 class ostream {};	
 
 
-// 1998³â Ç¥ÁØÈ­ ÀÌÈÄ
+// 1998ë…„ í‘œì¤€í™” ì´í›„
 template<typename T, typename Traits = char_traits<T>>
 class basic_ostream
 {
@@ -31,7 +31,7 @@ wostream wcout;
 int main()
 {
 	cout << "hello";
-	wcout << L"hello"; // À¯´Ï ÄÚµå.
+	wcout << L"hello"; // ìœ ë‹ˆ ì½”ë“œ.
 
 	string s1 = "hello";
 	wstring s2 = L"hello";

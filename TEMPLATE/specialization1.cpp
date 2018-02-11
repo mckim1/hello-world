@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -17,7 +17,7 @@ public:
 	void push(T v) { cout << "T" << endl; }
 };
 
-// partial specialization( ºÎºÐ Æ¯¼öÈ­, ºÎºÐ Àü¹®È­)
+// partial specialization( ë¶€ë¶„ íŠ¹ìˆ˜í™”, ë¶€ë¶„ ì „ë¬¸í™”)
 template<typename T> class Stack<T*>
 {
 public:

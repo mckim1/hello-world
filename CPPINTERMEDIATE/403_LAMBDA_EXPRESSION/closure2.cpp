@@ -1,4 +1,4 @@
-
+﻿
 class ClosureType
 {
 	int v;

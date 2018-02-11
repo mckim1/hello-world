@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -21,21 +21,21 @@ public:
 	}
 	~Cat() { delete[] name; }
 
-	// ±íÀº º¹»ç·Î ±¸ÇöÇÑ º¹»ç »ı¼ºÀÚ
+	// ê¹Šì€ ë³µì‚¬ë¡œ êµ¬í˜„í•œ ë³µì‚¬ ìƒì„±ì
 	Cat(const Cat& c) : age(c.age)
 	{
 		name = new char[strlen(c.name) + 1];
 		strcpy(name, c.name);
 	}
-	// ¼ÒÀ¯±Ç ÀÌÀü(ÀÚ¿øÀü´Ş)ÀÇ  ÀÌµ¿(move) »ı¼ºÀÚ
+	// ì†Œìœ ê¶Œ ì´ì „(ìì›ì „ë‹¬)ì˜  ì´ë™(move) ìƒì„±ì
 	// 
 	Cat(Cat&& c) : age(c.age), name(c.name)
 	{
-		c.name = 0; // ÀÚ¿ø Æ÷±â
+		c.name = 0; // ìì› í¬ê¸°
 	}
 };
 
-Cat foo()	// °ª¸®ÅÏ : ÀÓ½Ã°´Ã¼(rvalue)
+Cat foo()	// ê°’ë¦¬í„´ : ì„ì‹œê°ì²´(rvalue)
 {
 	Cat cat("NABI", 2);
 	return cat;	
@@ -43,7 +43,7 @@ Cat foo()	// °ª¸®ÅÏ : ÀÓ½Ã°´Ã¼(rvalue)
 
 int main()
 {
-	Cat c = foo(); // ÀÓ½Ã°´Ã¼.
+	Cat c = foo(); // ì„ì‹œê°ì²´.
 
 }
 

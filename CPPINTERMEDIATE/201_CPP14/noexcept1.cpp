@@ -1,18 +1,18 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 /*
 // c++98
-int foo()  // ¿¹¿Ü°¡ ÀÖÀ»¼öµµ ÀÖ°í, ¾øÀ»¼öµµ ÀÖ´Ù.
-int foo() throw(int) // ¿¹¿Ü°¡ ÀÖ´Ù´Â ÀÇ¹Ì.
-int foo() throw()    // ¿¹¿Ü°¡ ¾ø´Ù´Â ÀÇ¹Ì.
+int foo()  // ì˜ˆì™¸ê°€ ìˆì„ìˆ˜ë„ ìˆê³ , ì—†ì„ìˆ˜ë„ ìˆë‹¤.
+int foo() throw(int) // ì˜ˆì™¸ê°€ ìˆë‹¤ëŠ” ì˜ë¯¸.
+int foo() throw()    // ì˜ˆì™¸ê°€ ì—†ë‹¤ëŠ” ì˜ë¯¸.
 {
 	throw 1;
 	return 0;
 }
 */
 // C++11
-//void goo() noexcept(true) // ¿¹¿Ü°¡ ¾ø´Ù.
-void goo() noexcept // À§¿Í µ¿ÀÏ.
+//void goo() noexcept(true) // ì˜ˆì™¸ê°€ ì—†ë‹¤.
+void goo() noexcept // ìœ„ì™€ ë™ì¼.
 {
 	throw 1;
 }

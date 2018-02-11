@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -10,7 +10,7 @@
 class Animal
 {
 public:
-	// ∞°ªÛ «‘ºˆ
+	// Í∞ÄÏÉÅ Ìï®Ïàò
 	virtual void Cry()
 	{
 		std::cout << "Animal Cry" << std::endl;
@@ -19,7 +19,7 @@ public:
 class Dog : public Animal
 {
 public:
-	// «‘ºˆ ø¿πˆ∂Û¿ÃµÂ(override )
+	// Ìï®Ïàò Ïò§Î≤ÑÎùºÏù¥Îìú(override )
 	virtual void Cry()
 	{
 		std::cout << "Dog Cry" << std::endl;

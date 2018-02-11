@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int foo()
@@ -8,21 +8,21 @@ int foo()
 
 int main()
 {
-	// ¿¹Àü ½ºÅ¸ÀÏ.
+	// ì˜ˆì „ ìŠ¤íƒ€ì¼.
 	int ret = foo();
 
 	if (ret == 0)
 	{
 	}
 
-	// C++17 ½ºÅ¸ÀÏ
-	// if ( init ±¸¹®; Á¶°Ç¹® )
+	// C++17 ìŠ¤íƒ€ì¼
+	// if ( init êµ¬ë¬¸; ì¡°ê±´ë¬¸ )
 	if (int ret = foo(); ret == 0)
 	{
 		cout << "ret is 0" << endl;
 	}
 
-	// switch ¹®¿¡µµ ÃÊ±âÈ­ ±¸¹®À» Ãß°¡ÇÒ¼ö ÀÖ½À´Ï´Ù.
+	// switch ë¬¸ì—ë„ ì´ˆê¸°í™” êµ¬ë¬¸ì„ ì¶”ê°€í• ìˆ˜ ìˆìŠµë‹ˆë‹¤.
 	switch (int n = foo(); n)
 	{
 	case 0: break;

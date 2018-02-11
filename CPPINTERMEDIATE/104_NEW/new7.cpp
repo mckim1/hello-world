@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -21,26 +21,26 @@ public:
 
 int main()
 {
-	// Point °´Ã¼¸¦ Èü¿¡ ÇÑ°³ ¸¸µé°í ½Í´Ù.
+	// Point ê°ì²´ë¥¼ í™ì— í•œê°œ ë§Œë“¤ê³  ì‹¶ë‹¤.
 	Point* p1 = new Point(0, 0); // ok.
 
 
-	// Point °´Ã¼¸¦ Èü¿¡ 10°³ ¸¸µé°í ½Í´Ù.
+	// Point ê°ì²´ë¥¼ í™ì— 10ê°œ ë§Œë“¤ê³  ì‹¶ë‹¤.
 	//Point* p2 = new Point[10]; // error.
 
-	// 1. ¸Ş¸ğ¸®¸¸ ¸ÕÀú Èü¿¡ ÇÒ´ç
+	// 1. ë©”ëª¨ë¦¬ë§Œ ë¨¼ì € í™ì— í• ë‹¹
 	Point* p2 = static_cast<Point*>(operator new(sizeof(Point) * 10));
 	
-	// 2. ÇÒ´çÇÑ ¸Ş¸ğ¸®¿¡ °´Ã¼¸¦ »ı¼º(»ı¼ºÀÚ È£Ãâ)
+	// 2. í• ë‹¹í•œ ë©”ëª¨ë¦¬ì— ê°ì²´ë¥¼ ìƒì„±(ìƒì„±ì í˜¸ì¶œ)
 	for (int i = 0; i < 10; i++)
 		new(&p2[i]) Point(0,0);
 
 
-	// 3. ¼Ò¸êÀÚ È£Ãâ
+	// 3. ì†Œë©¸ì í˜¸ì¶œ
 	for (int i = 9; i >= 0; i--)
 		p2[i].~Point();
 
-	// 4. ¸Ş¸ğ¸® ÇØÁö.
+	// 4. ë©”ëª¨ë¦¬ í•´ì§€.
 	operator delete(p2);
 
 	//vector<Point> v(10, Point(0,0));

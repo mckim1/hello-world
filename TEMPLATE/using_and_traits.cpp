@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -10,7 +10,7 @@
 #include <type_traits>
 using namespace std;
 
-// C++14 ÀÇ °ø½Ä Ç¥ÁØ
+// C++14 ì˜ ê³µì‹ í‘œì¤€
 //template<typename T> using remove_pointer_t = typename remove_pointer<T>::type;
 
 // C++17
@@ -19,7 +19,7 @@ using namespace std;
 template<typename T> void foo(T a)
 {
 	//typename remove_pointer<T>::type n; // n : int
-	remove_pointer_t<T> n; // À§¿Í µ¿ÀÏÇÑ Ç¥Çö.
+	remove_pointer_t<T> n; // ìœ„ì™€ ë™ì¼í•œ í‘œí˜„.
 
 	//if ( is_pointer<T>::value)
 	if (is_pointer_v<T>)

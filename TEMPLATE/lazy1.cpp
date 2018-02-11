@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -30,5 +30,5 @@ public:
 int main()
 {
 	A<int> a;
-	a.foo(); // foo¸¦ »ç¿ëÇØ¾ß¸¸ ¿¡·¯°¡ ¹ß»ıÇÕ´Ï´Ù.
+	a.foo(); // fooë¥¼ ì‚¬ìš©í•´ì•¼ë§Œ ì—ëŸ¬ê°€ ë°œìƒí•©ë‹ˆë‹¤.
 }

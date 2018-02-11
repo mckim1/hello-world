@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -11,8 +11,8 @@ using namespace std;
 void goo(int& a) { cout << "goo" << endl; a = 30; }
 void foo(int  a) { cout << "foo" << endl; }
 
-// ¿Ïº®ÇÑ Àü´Þ : ·¡ÆÛÇÔ¼ö°¡ ÀÎÀÚ¸¦ ¹Þ¾Æ¼­ ¿øº» ÇÔ¼ö¿¡°Ô ¿Ïº®ÇÏ°Ô
-//				Àü´ÞÇÏ´Â °³³ä
+// ì™„ë²½í•œ ì „ë‹¬ : ëž˜í¼í•¨ìˆ˜ê°€ ì¸ìžë¥¼ ë°›ì•„ì„œ ì›ë³¸ í•¨ìˆ˜ì—ê²Œ ì™„ë²½í•˜ê²Œ
+//				ì „ë‹¬í•˜ëŠ” ê°œë…
 // perfect forwarding.
 template<typename F, typename A> 
 void chronometry(F f, const A& arg)
@@ -26,7 +26,7 @@ int main()
 	//goo(n);
 	//foo(5);
 	chronometry(&goo, n); // goo(n)
-	chronometry(&foo, 5); // foo(5) ½ÇÇà½Ã ¼öÇà½Ã°£.
+	chronometry(&foo, 5); // foo(5) ì‹¤í–‰ì‹œ ìˆ˜í–‰ì‹œê°„.
 
 	cout << n << endl; // 30
 

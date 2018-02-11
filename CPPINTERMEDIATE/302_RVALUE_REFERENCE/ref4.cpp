@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -24,6 +24,6 @@ int main()
 	LREF&& r5 = n; // int& && => int&
 	RREF&& r6 = 10; // int&& && => int&&
 
-	int& && r7; // ÄÄÆÄÀÏ ¿¡·¯..
+	int& && r7; // ì»´íŒŒì¼ ì—ëŸ¬..
 
 }

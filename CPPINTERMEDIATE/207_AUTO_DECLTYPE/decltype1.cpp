@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -14,11 +14,11 @@ int main()
 	decltype(n) d1;	// int   // n = 10;
    	decltype(p) d2;	// int*
 
-	// (¼ö½Ä) : ¼ö½ÄÀÌ lvalue¶ó¸é ÂüÁ¶, ¾Æ´Ï¸é °ª Å¸ÀÔ
+	// (ìˆ˜ì‹) : ìˆ˜ì‹ì´ lvalueë¼ë©´ ì°¸ì¡°, ì•„ë‹ˆë©´ ê°’ íƒ€ì…
 	decltype(*p)  d3; // *p = 10;   int&
 	decltype((n)) d4; // (n) = 10;  int&
 
-	decltype(n + n) d5; // n+n = 10 °¡ µÉ¼ö ¾ø´Ù.  int 
+	decltype(n + n) d5; // n+n = 10 ê°€ ë ìˆ˜ ì—†ë‹¤.  int 
 	decltype(++n)   d6; // ++n = 10; ok..     int&
 	decltype(n++)   d7; // n++ = 10; error.   int
 

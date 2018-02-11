@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -20,21 +20,21 @@ public:
 	Buffer(size_t s, string t)
 		: sz(s), tag(t) {}
 	
-	// »ç¿ëÀÚ°¡ ¸¸µéÁö ¾ÊÀ¸¸é ÄÄÆÄÀÏ·¯°¡ ¾Æ·¡ ¸ğ¾çÁ¦°ø.
-	// ¾èÀºº¹»ç..
+	// ì‚¬ìš©ìê°€ ë§Œë“¤ì§€ ì•Šìœ¼ë©´ ì»´íŒŒì¼ëŸ¬ê°€ ì•„ë˜ ëª¨ì–‘ì œê³µ.
+	// ì–•ì€ë³µì‚¬..
 	Buffer(const Buffer& b) : sz(b.sz), tag(b.tag), test(b.test)
 	{
 	}
 	
 	/*
-	// move »ı¼ºÀÚ : ¸ğµç ¸â¹ö¸¦ move ·Î ¿Å±âµµ·Ï ÀÛ¼ºÇÑ´Ù.
+	// move ìƒì„±ì : ëª¨ë“  ë©¤ë²„ë¥¼ move ë¡œ ì˜®ê¸°ë„ë¡ ì‘ì„±í•œë‹¤.
 	Buffer(Buffer&& b) noexcept
 		: sz(move(b.sz)), tag(move(b.tag)), test(move(b.test))
 	{
 	}
 	*/
-	// ´ëÀÔ¿¬»êÀÚ.
-	// move ´ëÀÔ¿¬»êÀÚ.
+	// ëŒ€ì…ì—°ì‚°ì.
+	// move ëŒ€ì…ì—°ì‚°ì.
 };
 
 int main()

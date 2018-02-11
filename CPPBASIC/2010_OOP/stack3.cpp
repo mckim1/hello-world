@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -9,10 +9,10 @@
 
 struct Stack
 {
-	int buf[10];	// ¸â¹ö µ¥ÀÌÅ¸
+	int buf[10];	// ë©¤ë²„ ë°ì´íƒ€
 	int idx;
 
-	void push(int n) { buf[idx++] = n; } // ¸â¹ö ÇÔ¼ö
+	void push(int n) { buf[idx++] = n; } // ë©¤ë²„ í•¨ìˆ˜
 	int  pop() 	     { return buf[--idx];	}
 };
 
@@ -22,8 +22,8 @@ int main()
 	s1.idx = -1;
 	s2.idx = 0;
 
-	//push(&s1, 10); // ÇÔ¼ö Áß½É.
-	s1.push(30);	 // °´Ã¼ Áß½É.
+	//push(&s1, 10); // í•¨ìˆ˜ ì¤‘ì‹¬.
+	s1.push(30);	 // ê°ì²´ ì¤‘ì‹¬.
 	s1.push(20); // push(&s1, 20)
 
 	std::cout << s1.pop() << std::endl;

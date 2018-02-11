@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -23,8 +23,8 @@ int main()
 	Test t2 = t1;		// Copy 	
 	Test t3 = Test();	// Move
 	Test t4 = static_cast<Test&&>(t1);	// Move
-						// º¹»ç°¡ ¾Æ´Ñ move »ı¼ºÀÚ¸¦ È£ÃâÇØ ´Ş¶ó.
-	Test t5 = move(t2); // move°¡ ³»ºÎÀûÀ¸·Î À§Ã³·³ Ä³½ºÆÃÇÑ´Ù.
+						// ë³µì‚¬ê°€ ì•„ë‹Œ move ìƒì„±ìë¥¼ í˜¸ì¶œí•´ ë‹¬ë¼.
+	Test t5 = move(t2); // moveê°€ ë‚´ë¶€ì ìœ¼ë¡œ ìœ„ì²˜ëŸ¼ ìºìŠ¤íŒ…í•œë‹¤.
 }
 
 

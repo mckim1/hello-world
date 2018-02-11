@@ -1,4 +1,4 @@
-template<typename T> void goo(T a)
+ï»¿template<typename T> void goo(T a)
 {
 }
 
@@ -20,5 +20,5 @@ int main()
 	goo(3.4);
 
 	Mutex m1;
-	Mutex m2 = m1; // º¹»ç »ı¼ºÀÚ.
+	Mutex m2 = m1; // ë³µì‚¬ ìƒì„±ì.
 }

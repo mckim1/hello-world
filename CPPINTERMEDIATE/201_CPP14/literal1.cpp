@@ -1,8 +1,8 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
-// _ : »ç¿ëÀÚ »ç¿ë°¡´É.
-// _·Î ½ÃÀÛÇÏÁö ¾ÊÀº°Í : reserved
+// _ : ì‚¬ìš©ì ì‚¬ìš©ê°€ëŠ¥.
+// _ë¡œ ì‹œì‘í•˜ì§€ ì•Šì€ê²ƒ : reserved
 
 int operator""_k(unsigned long long v)
 {

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,11 +16,11 @@ void foo(int a)
 // a.exe | c++filt -t
 int main()
 {
-	void(*f1)(int) = &foo; // ok. ÇÔ¼ö ÁÖ¼Ò ²¨³»±â
-	void(*f2)(int) = foo;  // ÇÔ¼ö ÀÌ¸§Àº ÇÔ¼ö ÁÖ¼Ò·Î ¾Ï½ÃÀû Çüº¯È¯
+	void(*f1)(int) = &foo; // ok. í•¨ìˆ˜ ì£¼ì†Œ êº¼ë‚´ê¸°
+	void(*f2)(int) = foo;  // í•¨ìˆ˜ ì´ë¦„ì€ í•¨ìˆ˜ ì£¼ì†Œë¡œ ì•”ì‹œì  í˜•ë³€í™˜
 
-	typedef void(*PF)(int); // ÇÔ¼ö Æ÷ÀÎÅÍ Å¸ÀÔ
-	typedef void F(int);    // ÇÔ¼ö Å¸ÀÔ..
+	typedef void(*PF)(int); // í•¨ìˆ˜ í¬ì¸í„° íƒ€ì…
+	typedef void F(int);    // í•¨ìˆ˜ íƒ€ì…..
 
 	cout << typeid(&foo).name() << endl; // void(*)(int)
 	cout << typeid(foo).name() << endl;  // void(int)

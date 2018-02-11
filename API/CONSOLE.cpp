@@ -1,4 +1,4 @@
-#undef UNICODE
+ï»¿#undef UNICODE
 #undef _UNICODE
 #pragma comment(linker,"/subsystem:windows")
 #include <Windows.h>
@@ -178,7 +178,7 @@ LRESULT __stdcall WndProc(HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
 	case WM_DESTROY:
 		if ( console.hwnd != 0)
 		{
-			// console Ã¢ º¹±¸
+			// console ì°½ ë³µêµ¬
 			SetWindowLong(console.hwnd, GWL_STYLE, console.style);
 			SetParent(console.hwnd, console.phwnd);
 		}

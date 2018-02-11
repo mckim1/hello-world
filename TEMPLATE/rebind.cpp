@@ -1,4 +1,4 @@
-/*
+﻿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -6,7 +6,7 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-// 실제 allocator 소스는 user_define_allocator.cpp 소스를 참고 하세요.
+// ?ㅼ젣 allocator ?뚯뒪??user_define_allocator.cpp ?뚯뒪瑜?李멸퀬 ?섏꽭??
 template<typename T> class allocator
 {
 public:

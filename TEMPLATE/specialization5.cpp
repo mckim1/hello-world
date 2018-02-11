@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-// ÇÏ³ªÀÇ ¸â¹ö ÇÔ¼ö¸¸ Æ¯¼öÈ­ ÇÏ±â
+// í•˜ë‚˜ì˜ ë©¤ë²„ í•¨ìˆ˜ë§Œ íŠ¹ìˆ˜í™” í•˜ê¸°
 
 // primary template
 template<typename T> class Stack
@@ -24,14 +24,14 @@ template<typename T> void Stack<T>::push(T a)
 	cout << "T" << endl;
 };
 
-// Æ¯Á¤ ¸â¹öÇÔ¼ö¸¸ Æ¯¼öÈ­ ÇÏ´Â ÄÚµå
+// íŠ¹ì • ë©¤ë²„í•¨ìˆ˜ë§Œ íŠ¹ìˆ˜í™” í•˜ëŠ” ì½”ë“œ
 template<> void Stack<char*>::push(char* a)
 {
 	cout << "char*" << endl;
 };
 
-// Æ¯Á¤ ¸â¹öÇÔ¼ö¸¸ ºÎºĞ Æ¯¼öÈ­À» ÇÒ¼ö´Â ¾ø´Ù. 
-// ºÎºĞ Æ¯¼öÈ­´Â Å¬·¡½º ÀüÃ¼¸¦ º¯°æÇØ¾ß ÇÑ´Ù.
+// íŠ¹ì • ë©¤ë²„í•¨ìˆ˜ë§Œ ë¶€ë¶„ íŠ¹ìˆ˜í™”ì„ í• ìˆ˜ëŠ” ì—†ë‹¤. 
+// ë¶€ë¶„ íŠ¹ìˆ˜í™”ëŠ” í´ë˜ìŠ¤ ì „ì²´ë¥¼ ë³€ê²½í•´ì•¼ í•œë‹¤.
 template<> void Stack<T*>::push(char* a)
 {
 	cout << "char*" << endl;

@@ -1,4 +1,4 @@
-/*
+Ôªø/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -10,6 +10,6 @@
 
 int main()
 {
-	Add1(1, 2); // call (4πŸ¿Ã∆Æ∫Û∞¯∞£)
+	Add1(1, 2); // call (4Î∞îÏù¥Ìä∏ÎπàÍ≥µÍ∞Ñ)
 	Add2(1, 2); //
 }

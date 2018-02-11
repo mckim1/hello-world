@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -20,7 +20,7 @@ public:
 
 ostream& operator<<(ostream& os, const Complex& c)
 {
-	// »ó¼ö°´Ã¼´Â »ó¼ö ¸â¹ö¸¸ È£Ãâ°¡´ÉÇÏ´Ù.
+	// ìƒìˆ˜ê°ì²´ëŠ” ìƒìˆ˜ ë©¤ë²„ë§Œ í˜¸ì¶œê°€ëŠ¥í•˜ë‹¤.
 	//os.operator<<(3);
 	os << c.re << ", " << c.im;
 	return os;

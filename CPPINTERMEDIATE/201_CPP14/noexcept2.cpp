@@ -1,14 +1,14 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void algo1()
 {
-	// ºü¸£Áö¸¸ ¿¹¿Ü °¡´É¼ºÀÌ ÀÖ´Ù.
+	// ë¹ ë¥´ì§€ë§Œ ì˜ˆì™¸ ê°€ëŠ¥ì„±ì´ ìˆë‹¤.
 }
 
-void algo2() noexcept  // ÁöÁ¤ÀÚ
+void algo2() noexcept  // ì§€ì •ì
 {
-	// ´À¸®Áö¸¸ ¿¹¿Ü°¡ ³ª¿ÀÁö ¾Ê´Â´Ù.
+	// ëŠë¦¬ì§€ë§Œ ì˜ˆì™¸ê°€ ë‚˜ì˜¤ì§€ ì•ŠëŠ”ë‹¤.
 }
 
 class Test
@@ -19,7 +19,7 @@ public:
 
 int main()
 {
-	bool b1 = noexcept(algo1()); // 0. ¿¬»êÀÚ
+	bool b1 = noexcept(algo1()); // 0. ì—°ì‚°ì
 	bool b2 = noexcept(algo2()); // 1
 
 	cout << b1 << ", " << b2 << endl;

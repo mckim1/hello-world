@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -20,7 +20,7 @@ template<typename T> void printv(T a)
 	else
 		cout << a << endl;
 
-	// C++17 À» »ç¿ëÇß´Ù¸é ÇØ°áµÊ.
+	// C++17 ì„ ì‚¬ìš©í–ˆë‹¤ë©´ í•´ê²°ë¨.
 
 	/*
 	if constexpr (IsPointer<T>::value)

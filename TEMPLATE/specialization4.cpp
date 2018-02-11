@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -6,13 +6,13 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-// partial specialization °ú default parameter
+// partial specialization ê³¼ default parameter
 template<typename T, int N = 10> class Stack
 {
 	T buf[N];
 };
 
-// ºÎºĞ Æ¯¼öÈ­ - µğÆú°ªÀº Ç¥±â ÇÏÁö ¾Ê´Â´Ù. Ç¥±âÇÏÁö ¾Ê¾Æµµ primary °ªÀÌ Àû¿ëµÈ´Ù.
+// ë¶€ë¶„ íŠ¹ìˆ˜í™” - ë””í´ê°’ì€ í‘œê¸° í•˜ì§€ ì•ŠëŠ”ë‹¤. í‘œê¸°í•˜ì§€ ì•Šì•„ë„ primary ê°’ì´ ì ìš©ëœë‹¤.
 template<typename T, int N> class Stack<T*, N>
 {
 	T buf[N];

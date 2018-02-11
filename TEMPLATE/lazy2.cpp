@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -15,10 +15,10 @@ int main()
 {
 	//foo(0); // error
 
-	if (false)	// if¹®Àº ½ÇÇà½Ã°£ Á¶°Ç¹®ÀÌ¹Ç·Î
-		foo(0);	// ÄÄÆÄÀÏ½Ã¿¡ ÀÌ ÄÚµå´Â »ç¿ëµÈ´Ù°í ÆÇ´Ü.
+	if (false)	// ifë¬¸ì€ ì‹¤í–‰ì‹œê°„ ì¡°ê±´ë¬¸ì´ë¯€ë¡œ
+		foo(0);	// ì»´íŒŒì¼ì‹œì— ì´ ì½”ë“œëŠ” ì‚¬ìš©ëœë‹¤ê³  íŒë‹¨.
 
-	if constexpr(false) // C++17 static-if ¹®¹ı
+	if constexpr(false) // C++17 static-if ë¬¸ë²•
 		foo(0);
 
 }

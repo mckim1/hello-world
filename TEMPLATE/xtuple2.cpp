@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-// Step 2. ÇÏ³ªÀÇ °ªÀ» º¸°üÇÒ¼ö ÀÖµµ·Ï ºÎºĞ Æ¯¼öÈ­
+// Step 2. í•˜ë‚˜ì˜ ê°’ì„ ë³´ê´€í• ìˆ˜ ìˆë„ë¡ ë¶€ë¶„ íŠ¹ìˆ˜í™”
 template<typename ... Types> struct xtuple
 {
 	static constexpr int N = 0;

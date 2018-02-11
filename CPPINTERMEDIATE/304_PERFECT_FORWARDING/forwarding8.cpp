@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -28,8 +28,8 @@ int main()
 //	Point p(1, 2);
 //	v.push_back(p);
 
-	// ¼Ò¸êÀÚ È£Ãâ È½¼ö : 2
+	// ì†Œë©¸ì í˜¸ì¶œ íšŸìˆ˜ : 2
 	int n = 10;
 	v.emplace_back(1, 2, n);
-	// ¼Ò¸êÀÚ È£Ãâ È½¼ö : 1
+	// ì†Œë©¸ì í˜¸ì¶œ íšŸìˆ˜ : 1
 }

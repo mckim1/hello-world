@@ -1,11 +1,11 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 
-// º¹¼Ò¼ö 2°³¸¦ ´õÇÏ´Â ÇÔ¼ö¸¦ ¸¸µé°í ½Í´Ù.
+// ë³µì†Œìˆ˜ 2ê°œë¥¼ ë”í•˜ëŠ” í•¨ìˆ˜ë¥¼ ë§Œë“¤ê³  ì‹¶ë‹¤.
 
 void Add(int xr, int xi, int yr, int yi,//in parameter 
 		 int* sr, int* si ) // out parameter

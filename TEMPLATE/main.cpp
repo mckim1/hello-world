@@ -1,4 +1,4 @@
-// main.cpp
+﻿// main.cpp
 #include "lib.h"
 
 int main()

@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -17,13 +17,13 @@ int main()
 
 		if (std::cin.fail())
 		{
-			std::cout << "½ÇÆÐ" << std::endl;
+			std::cout << "ì‹¤íŒ¨" << std::endl;
 
-			// cin ÀÇ »óÅÂ¸¦ ³ªÅ¸³»´Â ºñÆ®¸¦ reset
+			// cin ì˜ ìƒíƒœë¥¼ ë‚˜íƒ€ë‚´ëŠ” ë¹„íŠ¸ë¥¼ reset
 			std::cin.clear();
 
-			// ÀÔ·Â ¹öÆÛ¸¦ ºñ¿î´Ù.
-			//std::cin.ignore(); // ÇÑÀÚ ºñ¿ì±â
+			// ìž…ë ¥ ë²„í¼ë¥¼ ë¹„ìš´ë‹¤.
+			//std::cin.ignore(); // í•œìž ë¹„ìš°ê¸°
 			std::cin.ignore(256, '\n');
 
 			continue;

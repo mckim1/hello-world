@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -12,7 +12,7 @@ int main()
 {
 	std::vector<int> v = { 1,2,3,4,5,6,7,8,9,10 };
 
-	// 1. [] ¿¬»êÀÚ - list ´Â ¾ÈµÊ.
+	// 1. [] ì—°ì‚°ì - list ëŠ” ì•ˆë¨.
 	for (int i = 0; i < v.size(); i++)
 	{
 		std::cout << v[i] << std::endl;
@@ -22,7 +22,7 @@ int main()
 	for (auto& n : v)
 		std::cout << n << std::endl;
 
-	// 3. ¹İº¹ÀÚ »ç¿ë
+	// 3. ë°˜ë³µì ì‚¬ìš©
 	auto p1 = std::begin(v);
 
 	while (p1 != std::end(v))

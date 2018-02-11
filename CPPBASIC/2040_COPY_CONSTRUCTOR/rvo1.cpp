@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -27,10 +27,10 @@ public:
 
 int main()
 {
-	//Point p1(1, 1);					// 1. »ı¼ºÀÚ			
+	//Point p1(1, 1);					// 1. ìƒì„±ì			
 
-	Point(1, 1); // Å¬·¡½ºÀÌ¸§()
-				// »ı¼ºÀÚ, ¼Ò¸êÀÚ, AAA 
+	Point(1, 1); // í´ë˜ìŠ¤ì´ë¦„()
+				// ìƒì„±ì, ì†Œë©¸ì, AAA 
 
 	std::cout << "AAA" << std::endl;// 2. AAA
-}									// 3. ¼Ò¸êÀÚ
+}									// 3. ì†Œë©¸ì

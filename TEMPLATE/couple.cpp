@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -12,7 +12,7 @@ using namespace std;
 template<typename T> void printN(const T& a) { cout << T::N << endl; }
 
 
-// ÀÓÀÇÀÇ Å¸ÀÔ 2°³¸¦ º¸°üÇÏ´Â ±¸Á¶Ã¼ 
+// ì„ì˜ì˜ íƒ€ì… 2ê°œë¥¼ ë³´ê´€í•˜ëŠ” êµ¬ì¡°ì²´ 
 template<typename T, typename U> struct couple
 {
 	T v1;
@@ -21,26 +21,26 @@ template<typename T, typename U> struct couple
 	static constexpr int N = 2;
 };
 
-// 2¹øÂ° ÀÎÀÚ°¡ recursiveÀÏ¶§¸¦ À§ÇÑ ºÎºĞÀü¹®È­
+// 2ë²ˆì§¸ ì¸ìê°€ recursiveì¼ë•Œë¥¼ ìœ„í•œ ë¶€ë¶„ì „ë¬¸í™”
 template<typename A, typename B, typename C> struct couple<A, couple<B, C>>
 {
 	A         v1;
 	couple<B, C> v2;
-	static constexpr int N = couple<B, C>::N + 1; // ÇÙ½É!
+	static constexpr int N = couple<B, C>::N + 1; // í•µì‹¬!
 };
 
 template<typename A, typename B, typename C> struct couple<couple<A, B>, C>
 {
 	couple<A, B>  v1;
 	C         v2;
-	static constexpr int N = couple<A, B>::N + 1; // ÇÙ½É!
+	static constexpr int N = couple<A, B>::N + 1; // í•µì‹¬!
 };
 
 template<typename A, typename B, typename C, typename D> struct couple<couple<A, B>, couple<C, D>>
 {
 	couple<A, B>  v1;
 	couple<C, D>  v2;
-	static constexpr int N = couple<A, B>::N + couple<C, D>::N; // ÇÙ½É!
+	static constexpr int N = couple<A, B>::N + couple<C, D>::N; // í•µì‹¬!
 };
 
 
@@ -48,7 +48,7 @@ int main()
 {
 	couple<couple<int, int>, couple<int, int>> d4; 
 
-	printN(d4); // 4³ª¿Í¾ß ÇÕ´Ï´Ù.
+	printN(d4); // 4ë‚˜ì™€ì•¼ í•©ë‹ˆë‹¤.
 }
 
 
@@ -61,7 +61,7 @@ int main()
 	couple<couple<couple<int, int>, int>, int> d4;
 
 	printN(d3); // 3
-	printN(d4); // 4 ³ª¿À°Ô ÇØº¸¼¼¿ä
+	printN(d4); // 4 ë‚˜ì˜¤ê²Œ í•´ë³´ì„¸ìš”
 }
 */
 

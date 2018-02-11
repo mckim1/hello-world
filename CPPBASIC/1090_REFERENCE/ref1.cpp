@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+О╩©/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -9,11 +9,11 @@
 
 int main()
 {
-	int n = 10;// ╦ч╦П╦╝ гр╢Г
+	int n = 10;// К╘■К╙╗К╕╛ М∙═К▀╧
 
 	int* p = &n;
 
-	int& r = n;	// rю╨ reference ╨╞╪Ж.
+	int& r = n;	// rЛ²─ reference КЁ─Л┬≤.
 	
 	r = 20;
 

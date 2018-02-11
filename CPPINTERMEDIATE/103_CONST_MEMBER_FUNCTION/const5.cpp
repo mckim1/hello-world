@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -13,7 +13,7 @@ class Point
 {
 	int x, y;
 
-	// mutable  ¸â¹ö º¯¼ö : »ó¼ö¸â¹öÇÔ¼ö ¾È¿¡¼­µµ °ªÀ» º¯°æ°¡´É.
+	// mutable  ë©¤ë²„ ë³€ìˆ˜ : ìƒìˆ˜ë©¤ë²„í•¨ìˆ˜ ì•ˆì—ì„œë„ ê°’ì„ ë³€ê²½ê°€ëŠ¥.
 	mutable char cache[16];
 	mutable bool cache_valid = false;
 public:

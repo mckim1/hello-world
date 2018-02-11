@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -20,20 +20,20 @@ struct xnullptr_t
 	template<typename T>
 	operator T*() { return 0; }
 };
-xnullptr_t xnullptr; // Æ÷ÀÎÅÍ 0
+xnullptr_t xnullptr; // í¬ì¸í„° 0
 */
 // C++ 11: nullptr
 int main()
 {
 //	foo(0);			// 1
-//	foo(xnullptr);	// 2. xnullptr_t => void* ·ÎÀÇ ¾Ï½ÃÀû º¯È¯ ÇÊ¿ä..
+//	foo(xnullptr);	// 2. xnullptr_t => void* ë¡œì˜ ì•”ì‹œì  ë³€í™˜ í•„ìš”..
 					//    xnullptr.operator void*()
 //	goo(xnullptr);  // 3 goo
 
 	int n = 0;
 //	double* p1 = xnullptr;
 
-	double* p2 = nullptr; // C++11 ÀÇ Æ÷ÀÎÅÍ 0
+	double* p2 = nullptr; // C++11 ì˜ í¬ì¸í„° 0
 						  
 	nullptr_t a = nullptr;
 

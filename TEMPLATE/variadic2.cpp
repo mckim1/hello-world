@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -18,7 +18,7 @@ template<typename ... Types> void foo(Types ... args)
 	cout << sizeof...(Types) << endl; // 3
 
 									  //goo(args); // error. 
-	goo(args...); // args... : pack ¾ÈÀÇ ¿ä¼ÒµéÀ» , ¸¦ »ç¿ëÇØ¼­ ³ª¿­ÇØ ´Þ¶ó.
+	goo(args...); // args... : pack ì•ˆì˜ ìš”ì†Œë“¤ì„ , ë¥¼ ì‚¬ìš©í•´ì„œ ë‚˜ì—´í•´ ë‹¬ë¼.
 				  // goo( 1, 3.4, "aaa")
 				  // args... : Pack Expansion
 }

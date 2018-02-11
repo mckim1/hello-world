@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -35,8 +35,8 @@ public:
 
 template<typename T> void Swap(T& x, T& y)
 {
-//	Test temp = x; // º¹»ç »ı¼ºÀÚ
-//	x = y;		   // º¹»ç ´ëÀÔ
+//	Test temp = x; // ë³µì‚¬ ìƒì„±ì
+//	x = y;		   // ë³µì‚¬ ëŒ€ì…
 //	y = temp;
 
 	Test temp = move(x); // static_cast<Test&&>

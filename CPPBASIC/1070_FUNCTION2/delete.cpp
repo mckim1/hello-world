@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -9,9 +9,9 @@
 void foo(int a) {}
 
 
-//void foo(double a); // ¼±¾ð¸¸. {}
+//void foo(double a); // ì„ ì–¸ë§Œ. {}
 
-void foo(double a) = delete; // ÇÔ¼ö »èÁ¦.
+void foo(double a) = delete; // í•¨ìˆ˜ ì‚­ì œ.
 
 int main()
 {

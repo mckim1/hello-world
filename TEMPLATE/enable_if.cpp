@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,28 +9,28 @@
 #include <type_traits>
 using namespace std;
 
-// foo ÇÔ¼ö¸¦ Á¤¼ö °è¿­¿¡ ´ëÇØ¼­¸¸ ÄÚµå »ı¼ºµÇ°Ô ÇÏ°í ½Í´Ù.
-// ¹æ¹ı 1. static_assert 
-// Æ¯Â¡ : T°¡ Á¤¼ö°¡ ¾Æ´Ï¸é ¹«Á¶°Ç error ¹ß»ı.
+// foo í•¨ìˆ˜ë¥¼ ì •ìˆ˜ ê³„ì—´ì— ëŒ€í•´ì„œë§Œ ì½”ë“œ ìƒì„±ë˜ê²Œ í•˜ê³  ì‹¶ë‹¤.
+// ë°©ë²• 1. static_assert 
+// íŠ¹ì§• : Tê°€ ì •ìˆ˜ê°€ ì•„ë‹ˆë©´ ë¬´ì¡°ê±´ error ë°œìƒ.
 template<typename T> void foo(T a)
 {
 	static_assert(is_integral<T>::value, "error");
 }
 
-// ¹æ¹ı 2. enable_if
-// Æ¯Â¡ : T°¡ Á¤¼ö°¡ ¾Æ´Ï¸é error°¡ ¾Æ´Ï¶ó ÄÚµå »ı¼ºÀ» ÇÏÁö ¾ÊÀ½. È£Ãâ °¡´ÉÇÑ ´Ù¸¥ foo()°¡ ÀÖÀ¸¸é »ç¿ëµÊ
-// enable_if À§Ä¡ 1. ÇÔ¼ö ¸®ÅÏ Å¸ÀÔ¿¡ Àû¿ë
+// ë°©ë²• 2. enable_if
+// íŠ¹ì§• : Tê°€ ì •ìˆ˜ê°€ ì•„ë‹ˆë©´ errorê°€ ì•„ë‹ˆë¼ ì½”ë“œ ìƒì„±ì„ í•˜ì§€ ì•ŠìŒ. í˜¸ì¶œ ê°€ëŠ¥í•œ ë‹¤ë¥¸ foo()ê°€ ìˆìœ¼ë©´ ì‚¬ìš©ë¨
+// enable_if ìœ„ì¹˜ 1. í•¨ìˆ˜ ë¦¬í„´ íƒ€ì…ì— ì ìš©
 template<typename T> typename enable_if< is_integral<T>::value,void >::type foo(T a)
 {
 }
 
-// enable_if À§Ä¡ 2. ÇÔ¼ö ÀÎÀÚ Å¸ÀÔ¿¡ Àû¿ë - »ı¼ºÀÚ.. 
+// enable_if ìœ„ì¹˜ 2. í•¨ìˆ˜ ì¸ì íƒ€ì…ì— ì ìš© - ìƒì„±ì.. 
 template<typename T>   
 void foo(T a, typename enable_if< is_integral<T>::value, void >::type* p = nullptr )
 {
 }
 
-// enable_if À§Ä¡ 3. ÅÛÇÃ¸´ ÀÎÀÚ¿¡ Àû¿ë
+// enable_if ìœ„ì¹˜ 3. í…œí”Œë¦¿ ì¸ìì— ì ìš©
 // template<typename T, void* = nullptr >
 template<typename T, typename enable_if< is_integral<T>::value, void >::type* = nullptr >
 void foo(T a)

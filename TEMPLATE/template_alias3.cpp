@@ -1,11 +1,11 @@
-/*
+﻿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
 * MODULE     : template_alias3.cpp
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
-// using Ȱ��
+// using 활용
 
 template<typename T, typename U> class Test {};
 

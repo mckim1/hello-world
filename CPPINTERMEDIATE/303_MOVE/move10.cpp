@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -40,7 +40,7 @@ int main()
 	for (int i = 2; i < 4; i++)
 		new(&p2[i]) Test;
 	//---------------
-	// ÃÖÃÊ ¹öÆÛ ÆÄ±«
+	// ìµœì´ˆ ë²„í¼ íŒŒê´´
 	for (int i = 1; i >= 0; i--)
 		p1[i].~Test();
 

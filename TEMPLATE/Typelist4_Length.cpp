@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 template<typename T, typename U> struct Typelist
@@ -13,20 +13,20 @@ struct NullType {};
 #define TYPELIST_3(T1, T2, T3)		Typelist<T1, Typelist<T2, Typelist<T3, NullType>>>
 #define TYPELIST_4(T1, T2, T3, T4)	Typelist<T1, Typelist<T2, Typelist<T3, Typelist<T4, NullType>>>>
 //-----------------------------------------------------------------------------------------------------
-// TypelistÀÇ ¿ä¼Ò °¹¼ö ±¸ÇÏ±â.
+// Typelistì˜ ìš”ì†Œ ê°¯ìˆ˜ êµ¬í•˜ê¸°.
 
-// 1. »ç¿ëÇÏ´Â ¸ğ½ÀÀ» º¸°í primary template ÀÛ¼º.
+// 1. ì‚¬ìš©í•˜ëŠ” ëª¨ìŠµì„ ë³´ê³  primary template ì‘ì„±.
 template<typename T> struct Length;
 //{
 //};
 
-// 2. °¹¼ö¸¦ ±¸ÇÒ¼ö ÀÖµµ·Ï ºÎºĞ Æ¯¼öÈ­
+// 2. ê°¯ìˆ˜ë¥¼ êµ¬í• ìˆ˜ ìˆë„ë¡ ë¶€ë¶„ íŠ¹ìˆ˜í™”
 template<typename T, typename U> struct Length<Typelist<T, U>>
 {
 	enum { value = Length<U>::value + 1 };
 };
 
-// 3. Àç±Í¸¦ Á¾·á ÇÏ±â À§ÇÑ Àü¹®È­(Æ¯¼öÈ­)
+// 3. ì¬ê·€ë¥¼ ì¢…ë£Œ í•˜ê¸° ìœ„í•œ ì „ë¬¸í™”(íŠ¹ìˆ˜í™”)
 template<> struct Length<NullType>
 {
 	enum { value = 0 };

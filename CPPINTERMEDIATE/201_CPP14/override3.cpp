@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 template<typename T> class Base
@@ -12,9 +12,9 @@ public:
 class Derived : public Base<int*>
 {
 public:
-	// °¡»ó ÇÔ¼ö foo¸¦ ÀçÁ¤ÀÇÇØ¼­
-	// "Derived foo" ¶ó°í Ãâ·ÂÇØ º¸¼¼¿ä.
-	// override »ç¿ëÇÏÁö ¸»°í.
+	// ê°€ìƒ í•¨ìˆ˜ fooë¥¼ ì¬ì •ì˜í•´ì„œ
+	// "Derived foo" ë¼ê³  ì¶œë ¥í•´ ë³´ì„¸ìš”.
+	// override ì‚¬ìš©í•˜ì§€ ë§ê³ .
 };
 
 int main()

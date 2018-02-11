@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -10,13 +10,13 @@
 using namespace std;
 
 
-// ÀÏ¹İÇÔ¼ö : µ¿ÀÛ¸¸ ÀÖ°í »óÅÂ°¡ ¾ø´Ù.
-// ÇÔ¼ö°´Ã¼(fuctor) : µ¿ÀÛ°ú »óÅÂ°¡ ÀÖ´Ù.
+// ì¼ë°˜í•¨ìˆ˜ : ë™ì‘ë§Œ ìˆê³  ìƒíƒœê°€ ì—†ë‹¤.
+// í•¨ìˆ˜ê°ì²´(fuctor) : ë™ì‘ê³¼ ìƒíƒœê°€ ìˆë‹¤.
 class Random
 {
 	bitset<10> bs;
 public:
-	Random() {	bs.reset(); // ¸ğµç ºñÆ®¸¦ 0À¸·Î
+	Random() {	bs.reset(); // ëª¨ë“  ë¹„íŠ¸ë¥¼ 0ìœ¼ë¡œ
 	}
 	int operator()()
 	{

@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -32,7 +32,7 @@ int main()
 //--------------------------
 /*
 #include <algorithm>
-using namespace std; // std::count() ÇÔ¼ö°¡ ÀÖ´Ù
+using namespace std; // std::count() í•¨ìˆ˜ê°€ ìžˆë‹¤
 
 int count = 0;
 

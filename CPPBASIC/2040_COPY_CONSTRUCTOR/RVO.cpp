@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -26,6 +26,6 @@ public:
 };
 int main()
 {
-	Point p1(1, 1);			// 1. ª˝º∫¿⁄
+	Point p1(1, 1);			// 1. ÏÉùÏÑ±Ïûê
 	cout << "AAA" << endl;	// 2. AAA
-}							// 3. º“∏Í¿⁄
+}							// 3. ÏÜåÎ©∏Ïûê

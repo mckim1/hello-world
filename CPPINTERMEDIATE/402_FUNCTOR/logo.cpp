@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,8 +9,8 @@
 #include <algorithm>
 using namespace std;
 
-// ÇÔ¼ö °´Ã¼´Â ÀÚ½Å¸¸ÀÇ Å¸ÀÔÀÌ ÀÖ´Ù.
-// signature°¡ µ¿ÀÏ ÇØµµ ¸ğµç ÇÔ¼ö°´Ã¼´Â ´Ù¸¥ Å¸ÀÔÀÌ´Ù.
+// í•¨ìˆ˜ ê°ì²´ëŠ” ìì‹ ë§Œì˜ íƒ€ì…ì´ ìˆë‹¤.
+// signatureê°€ ë™ì¼ í•´ë„ ëª¨ë“  í•¨ìˆ˜ê°ì²´ëŠ” ë‹¤ë¥¸ íƒ€ì…ì´ë‹¤.
 
 struct Less
 {

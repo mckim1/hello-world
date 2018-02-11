@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -11,16 +11,16 @@ using namespace std;
 
 int main()
 {
-	// lambda expression È°¿ë 1. ÇÔ¼ö ÀÎÀÚ·Î »ç¿ë
+	// lambda expression í™œìš© 1. í•¨ìˆ˜ ì¸ìë¡œ ì‚¬ìš©
 	//sort(x, x+10, [](int a, int b) { return a < b; });
 
 
-	//[](int a, int b) { return a + b; };//ÀÓ½Ã°´Ã¼»ı¼º
+	//[](int a, int b) { return a + b; };//ì„ì‹œê°ì²´ìƒì„±
 
 	//int n = [](int a, int b) { return a + b; }(1,2);
 
-	// lambda expression È°¿ë 2. auto º¯¼ö¿¡ ´ã¾Æ¼­
-	//						ÇÔ¼ö Ã³·³ »ç¿ë.
+	// lambda expression í™œìš© 2. auto ë³€ìˆ˜ì— ë‹´ì•„ì„œ
+	//						í•¨ìˆ˜ ì²˜ëŸ¼ ì‚¬ìš©.
 	auto f = [](int a, int b) { return a + b; };
 
 	cout << f(1, 2) << endl; // 3

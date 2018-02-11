@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -23,7 +23,7 @@ public:
 	~String() { delete[] buff; }
 
 
-	// ±íÀº º¹»ç·Î ±¸ÇöÇÑ º¹»ç »ı¼ºÀÚ.
+	// ê¹Šì€ ë³µì‚¬ë¡œ êµ¬í˜„í•œ ë³µì‚¬ ìƒì„±ì.
 	String(const String& s) : size(s.size)
 	{
 		buff = new char[size + 1];
@@ -48,12 +48,12 @@ int main()
 
 	std::cout << s1 << std::endl;
 
-	String s2 = s1; // º¹»ç »ı¼ºÀÚ
+	String s2 = s1; // ë³µì‚¬ ìƒì„±ì
 
 	std::cout << s2 << std::endl;
 	
 	/*
 	String s3 = "world";
-	s2 = s3;	    // ´ëÀÔ ¿¬»êÀÚ.
+	s2 = s3;	    // ëŒ€ì… ì—°ì‚°ì.
 	*/
 }

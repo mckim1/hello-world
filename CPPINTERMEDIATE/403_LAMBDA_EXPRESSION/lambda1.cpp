@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,13 +16,13 @@ int main()
 {
 	int x[10] = { 1,3,5,7,9,2,4,6,8,10 };
 
-	// ºñ±³Á¤Ã¥À¸·Î ÇÔ¼ö »ç¿ë.
+	// ë¹„êµì •ì±…ìœ¼ë¡œ í•¨ìˆ˜ ì‚¬ìš©.
 	sort(x, x+10, cmp);
 
-	// ºñ±³Á¤Ã¥À¸·Î ÇÔ¼ö°´Ã¼ »ç¿ë.
+	// ë¹„êµì •ì±…ìœ¼ë¡œ í•¨ìˆ˜ê°ì²´ ì‚¬ìš©.
 	sort(x, x+10, less<int>());
 
-	// C++11. ¶÷´Ù Ç¥Çö½Ä(lambda expression)
+	// C++11. ëŒë‹¤ í‘œí˜„ì‹(lambda expression)
 	sort(x, x + 10, 
 		  [](int a, int b) { return a < b; } );
 

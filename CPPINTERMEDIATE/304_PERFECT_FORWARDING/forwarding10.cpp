@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -24,8 +24,8 @@ void chronometry(F f, T&& arg)
 
 	f(forward<T&&>(static_cast<int&&>(arg))); 
 
-	// lvalue ÀÏ¶§ T : int& => int&
-	// rvalue ÀÏ¶§ T : int  => int&&
+	// lvalue ì¼ë•Œ T : int& => int&
+	// rvalue ì¼ë•Œ T : int  => int&&
 	//f(xforward(arg));
 }
 

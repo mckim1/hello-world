@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -31,8 +31,8 @@ void operator delete(void* p) noexcept
 
 int main()
 {
-	Point* p = new Point;	// 1. ¸Ş¸ğ¸® ÇÒ´ç - operator new( sizeof(Point))
-							// 2. »ı¼ºÀÚ È£Ãâ
+	Point* p = new Point;	// 1. ë©”ëª¨ë¦¬ í• ë‹¹ - operator new( sizeof(Point))
+							// 2. ìƒì„±ì í˜¸ì¶œ
 	delete p;
 }
 

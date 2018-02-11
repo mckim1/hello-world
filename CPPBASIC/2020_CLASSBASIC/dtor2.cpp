@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -19,8 +19,8 @@ private:
 
 int main()
 {
-	//Car c;	// Ω∫≈√ ∞¥√º
+	//Car c;	// Ïä§ÌÉù Í∞ùÏ≤¥
 
-	Car* p = new Car; // »¸ ∞¥√º.
+	Car* p = new Car; // Ìûô Í∞ùÏ≤¥.
 	//delete p;
 }

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -38,7 +38,7 @@ int main()
 	}
 	catch (...)
 	{
-		cout << "¿¹¿Ü ¹ß»ý" << endl;
+		cout << "ì˜ˆì™¸ ë°œìƒ" << endl;
 	}
 }
 

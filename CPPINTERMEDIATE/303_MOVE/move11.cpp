@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,15 +9,15 @@
 #include "Test.h"		
 using namespace std;
 
-// T&  : lvalue ¸¸ ¹ŞÀ»¼ö ÀÖ´Ù.
-// T&& : lvalue ¿Í rvalue¸¦ ¸ğµÎ ¹ŞÀ»¼ö ÀÖ´Ù. 
-// ÀÎÀÚ·Î lvalue Àü´Ş : T => Test&  T&& : Test& && => Test&
-//        rvalue Àü´Ş : T => Test   T&& : Test &&  => Test&&
+// T&  : lvalue ë§Œ ë°›ì„ìˆ˜ ìˆë‹¤.
+// T&& : lvalue ì™€ rvalueë¥¼ ëª¨ë‘ ë°›ì„ìˆ˜ ìˆë‹¤. 
+// ì¸ìë¡œ lvalue ì „ë‹¬ : T => Test&  T&& : Test& && => Test&
+//        rvalue ì „ë‹¬ : T => Test   T&& : Test &&  => Test&&
 template<typename T> 
 typename remove_reference<T>::type &&
 xmove(T&& obj)
 {
-	// ¸ñÇ¥ : rvalue·Î Ä³½ºÆÃ.
+	// ëª©í‘œ : rvalueë¡œ ìºìŠ¤íŒ….
 	//return static_cast<T&&>(obj);
 
 	return static_cast<typename remove_reference<T>::type &&>(obj);

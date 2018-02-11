@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,23 +9,23 @@
 #include <iostream>
 using namespace std;
 
-// type_traits¸¦ »ç¿ëÇÏ´Â ¹æ¹ı
-#include <type_traits>     // ÀÌ Çì´õ°¡ ÇÊ¿äÇÏ°í!
+// type_traitsë¥¼ ì‚¬ìš©í•˜ëŠ” ë°©ë²•
+#include <type_traits>     // ì´ í—¤ë”ê°€ í•„ìš”í•˜ê³ !
 
-template<typename T> void goo(T a, true_type) { cout << "Æ÷ÀÎÅÍ" << endl; }
-template<typename T> void goo(T a, false_type) { cout << "Æ÷ÀÎÅÍ ¾Æ´Ô" << endl; }
+template<typename T> void goo(T a, true_type) { cout << "í¬ì¸í„°" << endl; }
+template<typename T> void goo(T a, false_type) { cout << "í¬ì¸í„° ì•„ë‹˜" << endl; }
 
 template<typename T> void foo(T a)
 {
-	// 1. traits<T>::value¸¦ »ç¿ëÇÏ´Â ¹æ½Ä - °á±¹ if¹®
-	//    ´ÜÁ¡ : Æ÷ÀÎÅÍÀÏ¶§¶óµµ "*a" µîÀÇ Ç¥Çö½ÄÀº »ç¿ëÇÒ¼ö ¾ø´Ù. if¹®Àº ½ÇÇà½Ã°£ ºĞ±â¹®ÀÌ¹Ç·Î!!
+	// 1. traits<T>::valueë¥¼ ì‚¬ìš©í•˜ëŠ” ë°©ì‹ - ê²°êµ­ ifë¬¸
+	//    ë‹¨ì  : í¬ì¸í„°ì¼ë•Œë¼ë„ "*a" ë“±ì˜ í‘œí˜„ì‹ì€ ì‚¬ìš©í• ìˆ˜ ì—†ë‹¤. ifë¬¸ì€ ì‹¤í–‰ì‹œê°„ ë¶„ê¸°ë¬¸ì´ë¯€ë¡œ!!
 	if (is_pointer<T>::value)
-		cout << "Æ÷ÀÎÅÍ" << endl; // *a ½ÄÀÇ Ç¥ÇöÀ» »ç¿ëÇÒ¼ö ¾ø´Ù.
+		cout << "í¬ì¸í„°" << endl; // *a ì‹ì˜ í‘œí˜„ì„ ì‚¬ìš©í• ìˆ˜ ì—†ë‹¤.
 	else
-		cout << "Æ÷ÀÎÅÍ ¾Æ´Ô" << endl;
+		cout << "í¬ì¸í„° ì•„ë‹˜" << endl;
 
 
-	// 2. ÇÔ¼ö ¿À¹ö·Îµù »ç¿ë - ÄÄÆÄÀÏ ½Ã°£ ºĞ±â¹®, Æ÷ÀÎÅÍ ÀÏ¶§ *a µîÀÇ Ç¥Çö »ç¿ë°¡´É
+	// 2. í•¨ìˆ˜ ì˜¤ë²„ë¡œë”© ì‚¬ìš© - ì»´íŒŒì¼ ì‹œê°„ ë¶„ê¸°ë¬¸, í¬ì¸í„° ì¼ë•Œ *a ë“±ì˜ í‘œí˜„ ì‚¬ìš©ê°€ëŠ¥
 
 	goo(a, is_pointer<T>());
 }

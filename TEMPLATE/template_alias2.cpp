@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -10,7 +10,7 @@
 // template alias
 template<typename T> class List {};
 
-// typedef : type º°ÄªÀ» ¸¸µéÁö¸¸... template ÀÇ º°ÄªÀ» ¸¸µé¼ö ¾ø´Ù.
+// typedef : type ë³„ì¹­ì„ ë§Œë“¤ì§€ë§Œ... template ì˜ ë³„ì¹­ì„ ë§Œë“¤ìˆ˜ ì—†ë‹¤.
 typedef List<int> IntList; // ok..
 
 //template<typename T> typedef List<T> MyList<T>;  // error. 

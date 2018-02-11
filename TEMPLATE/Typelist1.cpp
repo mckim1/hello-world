@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
-// Andrei Alexandrescue, loki ¶óÀÌºê·¯¸®, Modern C++ Design
+// Andrei Alexandrescue, loki ë¼ì´ë¸ŒëŸ¬ë¦¬, Modern C++ Design
 
-// 1. °ªÀ» º¸°üÇÏÁö ¾Ê´Â´Ù.
-// 2. N°³ÀÇ Å¸ÀÔÀ» º¸°üÇÑ´Ù.
+// 1. ê°’ì„ ë³´ê´€í•˜ì§€ ì•ŠëŠ”ë‹¤.
+// 2. Nê°œì˜ íƒ€ì…ì„ ë³´ê´€í•œë‹¤.
 template<typename T, typename U> struct Typelist
 {
 	typedef T Head;

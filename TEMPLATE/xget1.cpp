@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 struct Base
@@ -14,8 +14,8 @@ int main()
 	Derived d;
 
 	cout << d.value << endl; // 20
-	cout << (static_cast<Base>(d)).value << endl;  // 10. ÀÓ½Ã°´Ã¼ »ý¼º
-	cout << (static_cast<Base&>(d)).value << endl; // 10. ÀÓ½Ã°´Ã¼ »ý¼º
+	cout << (static_cast<Base>(d)).value << endl;  // 10. ìž„ì‹œê°ì²´ ìƒì„±
+	cout << (static_cast<Base&>(d)).value << endl; // 10. ìž„ì‹œê°ì²´ ìƒì„±
 		
 	(static_cast<Base>(d)).value = 30;	// error
 	(static_cast<Base&>(d)).value = 30;	// ok

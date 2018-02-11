@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -12,8 +12,8 @@
 using namespace std;
 using namespace boost::typeindex;
 
-// ±ÔÄ¢ 1. ÅÛÇÃ¸´ ÀÎÀÚ¸¦ °ª Å¸ÀÔÀ¸·Î ¹ŞÀ»¶§
-//		   ÀÎÀÚÀÇ const, volatile, reference ¼Ó¼ºÀº ¸ğµÎ Á¦°Å µÈ´Ù.
+// ê·œì¹™ 1. í…œí”Œë¦¿ ì¸ìë¥¼ ê°’ íƒ€ì…ìœ¼ë¡œ ë°›ì„ë•Œ
+//		   ì¸ìì˜ const, volatile, reference ì†ì„±ì€ ëª¨ë‘ ì œê±° ëœë‹¤.
 template<typename T> void foo(T a)
 {
 	--a;
@@ -34,10 +34,10 @@ int main()
 	foo(c); // const int	T : int     a : int
 	foo(cr);// const int&   T : int		a : int
 
-	// ÁÖÀÇ! ÀÎÀÚ°¡ °¡Áø const ¼Ó¼º¸¸ Á¦°Å
-	const int* p1 = &n; // p1À» µû¶ó°¡¸é const, p1Àº const ¾Æ´Ô.
-	int* const p2 = &n; // p2°¡ const
+	// ì£¼ì˜! ì¸ìê°€ ê°€ì§„ const ì†ì„±ë§Œ ì œê±°
+	const int* p1 = &n; // p1ì„ ë”°ë¼ê°€ë©´ const, p1ì€ const ì•„ë‹˜.
+	int* const p2 = &n; // p2ê°€ const
 
-	foo(p1);	// T : const int*,    ¿©±â¼­ÀÇ const´Â ÀÎÀÚÀÇ const°¡ ¾Æ´Ô.
-	foo(p2);	// T : int*, Áï, const ¼Ó¼º Á¦°Å
+	foo(p1);	// T : const int*,    ì—¬ê¸°ì„œì˜ constëŠ” ì¸ìì˜ constê°€ ì•„ë‹˜.
+	foo(p2);	// T : int*, ì¦‰, const ì†ì„± ì œê±°
 }

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,10 +9,10 @@
 template<typename T> class list
 {
 public:
-	// ÄÁÅ×ÀÌ³Ê°¡ ÀúÀåÇÏ´Â Å¸ÀÔÀ» ¿ÜºÎ¿¡ ¾Ë·Á ÁØ´Ù.
+	// ì»¨í…Œì´ë„ˆê°€ ì €ì¥í•˜ëŠ” íƒ€ì…ì„ ì™¸ë¶€ì— ì•Œë ¤ ì¤€ë‹¤.
 	typedef T value_type;
 	//......
 };
 
 list<int> s;
-list<int>::value_type n; // nÀº °á±¹ int ÀÔ´Ï´Ù.
+list<int>::value_type n; // nì€ ê²°êµ­ int ì…ë‹ˆë‹¤.

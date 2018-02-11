@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -18,5 +18,5 @@ int main()
 
 	Stack<int> s2; 
 
-	Stack<> s3; // ¸ğµç ÀÎÀÚ¸¦ µğÆúÆ® °ª »ç¿ë.
+	Stack<> s3; // ëª¨ë“  ì¸ìë¥¼ ë””í´íŠ¸ ê°’ ì‚¬ìš©.
 }

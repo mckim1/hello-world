@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -21,7 +21,7 @@ public:
 	}
 	~Person() { delete[] name; }
 
-	// º¹»ç »ı¼ºÀÚ »èÁ¦..
+	// ë³µì‚¬ ìƒì„±ì ì‚­ì œ..
 	Person(const Person&) = delete;
 };
 
@@ -31,7 +31,7 @@ int main()
 	std::mutex m2 = m1;
 
 //	Person p1("KIM", 2);
-//	Person p2 = p1; // ÄÄÆÄÀÏ ¿¡·¯¸¦ ¹ß»ıÇØ º¸ÀÚ.
+//	Person p2 = p1; // ì»´íŒŒì¼ ì—ëŸ¬ë¥¼ ë°œìƒí•´ ë³´ì.
 }
 
 

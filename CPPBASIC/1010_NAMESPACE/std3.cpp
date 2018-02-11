@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -10,8 +10,8 @@
 //#include <stdio.h>
 #include <cstdio>
 /*
-// cstdio ÀÇ ¿ø¸®
-#include <stdio.h> // printf°¡ Àü¿ª¿¡ ÀÖ´Ù.
+// cstdio ì˜ ì›ë¦¬
+#include <stdio.h> // printfê°€ ì „ì—­ì— ìˆë‹¤.
 
 namespace std
 {

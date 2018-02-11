@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,7 +9,7 @@
 #include "Test.h"
 using namespace std;
 
-// lvalue¸¦ Àü´ÞÇÏ¸é T : lvalue ÂüÁ¶.. => const Test&
+// lvalueë¥¼ ì „ë‹¬í•˜ë©´ T : lvalue ì°¸ì¡°.. => const Test&
 template<typename T>
 typename remove_reference<T>::type &&
 xmove(T&& obj)  

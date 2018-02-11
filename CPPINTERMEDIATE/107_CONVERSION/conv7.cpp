@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -12,7 +12,7 @@ int main()
 	void* p1 = 10; // error.
 
 	int   n2 = 0; // ok
-	void* p2 = 0; // ok. 0Àº Á¤¼öÁö¸¸ Æ÷ÀÎÅÍ·Î ¾Ï½ÃÀû Çüº¯È¯µÈ´Ù.
+	void* p2 = 0; // ok. 0ì€ ì •ìˆ˜ì§€ë§Œ í¬ì¸í„°ë¡œ ì•”ì‹œì  í˜•ë³€í™˜ëœë‹¤.
 
 }
 

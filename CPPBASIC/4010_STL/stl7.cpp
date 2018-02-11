@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -19,7 +19,7 @@ int main()
 
 	if (p == v.end())
 	{
-		std::cout << "°Ë»ö ½ÇÆÐ" << std::endl;
+		std::cout << "ê²€ìƒ‰ ì‹¤íŒ¨" << std::endl;
 	}
 
 	auto p1 = std::begin(v); 
@@ -27,7 +27,7 @@ int main()
 	auto ret = std::find(p1, p1 + 2, 3);
 
 	if (ret == p1 + 2 )
-		std::cout << "½ÇÆÐ" << std::endl;
+		std::cout << "ì‹¤íŒ¨" << std::endl;
 
 	std::find(ret, std::end(v), 3);
 

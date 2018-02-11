@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -19,14 +19,14 @@ public:
 
 int main()
 {
-	// malloc : ¸Ş¸ğ¸®¸¸ ÇÒ´ç
+	// malloc : ë©”ëª¨ë¦¬ë§Œ í• ë‹¹
 	Point* p1 = (Point*)malloc(sizeof(Point));
 
 
-	// new : °´Ã¼ÀÇ »ı¼º ( ¸Ş¸ğ¸® ÇÒ´ç + »ı¼ºÀÚ È£Ãâ)
+	// new : ê°ì²´ì˜ ìƒì„± ( ë©”ëª¨ë¦¬ í• ë‹¹ + ìƒì„±ì í˜¸ì¶œ)
 	Point* p2 = new Point;
 
 
-	Point* p3 = new Point;		// »õ·Î¿î¸Ş¸ğ¸®¿¡ °´Ã¼¸¦ »ı¼ºÇØ ´Ş¶ó
-	Point* p4 = new(p1) Point;	// ±âÁ¸ ¸Ş¸ğ¸®¿¡ °´Ã¼¸¦ »ı¼ºÇØ ´Ş¶ó.
+	Point* p3 = new Point;		// ìƒˆë¡œìš´ë©”ëª¨ë¦¬ì— ê°ì²´ë¥¼ ìƒì„±í•´ ë‹¬ë¼
+	Point* p4 = new(p1) Point;	// ê¸°ì¡´ ë©”ëª¨ë¦¬ì— ê°ì²´ë¥¼ ìƒì„±í•´ ë‹¬ë¼.
 } 

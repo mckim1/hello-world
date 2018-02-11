@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -12,7 +12,7 @@ int main()
 	const int c = n;
 	const int& cr = c;
 
-	// auto : °ª º¹»ç ¹æ½Ä
+	// auto : ê°’ ë³µì‚¬ ë°©ì‹
 	auto a1 = n;	// int
 	auto a2 = r;	// int, 
 	auto a3 = c;	// int
@@ -25,8 +25,8 @@ int main()
 	auto& a8 = cr;	// auto : const int a8 : const int&
 
 
-	const char* s1 = "hello"; // s1 ÀÚÃ¼´Â const ¾Æ´Ô
-							  // s1À» µû¶ó°¡¸é const
+	const char* s1 = "hello"; // s1 ìì²´ëŠ” const ì•„ë‹˜
+							  // s1ì„ ë”°ë¼ê°€ë©´ const
 	auto a9 = s1;	// const char*
 
 	const char* const s2 = "hello";

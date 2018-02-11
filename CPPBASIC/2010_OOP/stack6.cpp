@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -19,7 +19,7 @@ public:
 		buf = new int[sz];
 		idx = 0; 
 	}
-	// �Ҹ��� :  ��ü�� �ı��ɶ� �ڵ����� ȣ��.
+	// 소멸자 :  객체가 파괴될때 자동으로 호출.
 	~Stack()
 	{
 		delete[] buf;

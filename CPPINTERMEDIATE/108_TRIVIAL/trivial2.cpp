@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <type_traits>
 using namespace std;
 
@@ -6,12 +6,12 @@ template<typename T> void copy_type(T* dst, T* arc, int sz)
 {
 	if (is_trivially_copyable<T>::value)
 	{
-		cout << "º¹»ç »ý¼ºÀÚ°¡ trivial" << endl;
+		cout << "ë³µì‚¬ ìƒì„±ìžê°€ trivial" << endl;
 		memcpy(dst, src, sizeof(T)*sz);
 	}
 	else
 	{
-		cout << "º¹»ç »ý¼ºÀÚ°¡ trivial ÇÏÁö ¾ÊÀº °æ¿ì" << endl;
+		cout << "ë³µì‚¬ ìƒì„±ìžê°€ trivial í•˜ì§€ ì•Šì€ ê²½ìš°" << endl;
 		while (sz--)
 		{
 			new(dst) T(*src);

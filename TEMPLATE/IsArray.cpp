@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -8,13 +8,13 @@
 
 #include <iostream>
 using namespace std;
-//			º¯¼öÀÌ¸§    Å¸ÀÔ
+//			ë³€ìˆ˜ì´ë¦„    íƒ€ì…
 
 // int a;		a		int
 // int* p;		p		int*
 // int x[10];	x		int[10]	=> T[N]
 
-// int[] : Å©±â¸¦ ¾Ë¼ö ¾ø´Â ¹è¿­ Å¸ÀÔ
+// int[] : í¬ê¸°ë¥¼ ì•Œìˆ˜ ì—†ëŠ” ë°°ì—´ íƒ€ì…
 
 template<typename T> struct IsArray
 {
@@ -30,10 +30,10 @@ template<typename T, int N> struct IsArray<T[N]>
 
 template<typename T> void foo(const T& a) // int[10]
 {
-	if (IsArray<T>::value)   // À§ ÄÚµå¸¦ ¼öÁ¤ÇØ¼­ IsArray<>¸¸µé¾î º¸¼¼¿ä.. 1Â÷ ¹è¿­¸¸ °í·ÁÇØ º¸¼¼¿ä
-		cout << "¹è¿­ ÀÔ´Ï´Ù. Å©±â´Â " << IsArray<T>::size << endl;
+	if (IsArray<T>::value)   // ìœ„ ì½”ë“œë¥¼ ìˆ˜ì •í•´ì„œ IsArray<>ë§Œë“¤ì–´ ë³´ì„¸ìš”.. 1ì°¨ ë°°ì—´ë§Œ ê³ ë ¤í•´ ë³´ì„¸ìš”
+		cout << "ë°°ì—´ ì…ë‹ˆë‹¤. í¬ê¸°ëŠ” " << IsArray<T>::size << endl;
 	else
-		cout << "¹è¿­ÀÌ ¾Æ´Õ´Ï´Ù." << endl;
+		cout << "ë°°ì—´ì´ ì•„ë‹™ë‹ˆë‹¤." << endl;
 }
 
 int main()

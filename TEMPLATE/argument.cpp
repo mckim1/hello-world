@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -11,19 +11,19 @@ using namespace std;
 
 int f(int, double, char) { return 0; }
 
-// ÇÔ¼öÀÇ N ¹øÂ° ÀÎÀÚ Å¸ÀÔ ±¸ÇÏ±â.
+// í•¨ìˆ˜ì˜ N ë²ˆì§¸ ì¸ì íƒ€ì… êµ¬í•˜ê¸°.
 template<int N, typename T> struct argument
 {
 	typedef void type;
 };
 
-// N == 0 ÀÏ¶§
+// N == 0 ì¼ë•Œ
 template<typename R, typename A1, typename ... Types> struct argument<0, R(A1, Types...)>
 {
 	typedef A1 type;
 };
 
-// N != 0 ÀÏ¶§
+// N != 0 ì¼ë•Œ
 template<int N, typename R, typename A1, typename ... Types> struct argument<N, R(A1, Types...)>
 {
 	typedef typename argument<N-1, R(Types...)>::type type;

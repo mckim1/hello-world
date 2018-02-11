@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 // Concept Ts
@@ -16,7 +16,7 @@ int main()
 	auto f2 = [] {return 10; }; 
 
 
-	// C++17 : () ÇÔ¼ö¸¦ constexpr ÇÔ¼ö·Î..
+	// C++17 : () í•¨ìˆ˜ë¥¼ constexpr í•¨ìˆ˜ë¡œ..
 	auto f3 = [](int a, int b) constexpr
 	{
 		return a + b; 

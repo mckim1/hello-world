@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -14,8 +14,8 @@ struct Point
 	int x, y;
 };
 
-// T´Â < ¿¬»êÀÌ °¡´ÉÇØ¾ß ÇÑ´Ù.
-// ¹®Á¦Á¡ : ¿¡·¯ ¸Þ¼¼Áö°¡ º¹ÀâÇÏ°Ô Ãâ·ÂµÈ´Ù.
+// TëŠ” < ì—°ì‚°ì´ ê°€ëŠ¥í•´ì•¼ í•œë‹¤.
+// ë¬¸ì œì  : ì—ëŸ¬ ë©”ì„¸ì§€ê°€ ë³µìž¡í•˜ê²Œ ì¶œë ¥ëœë‹¤.
 template<typename T> T Min(T x, T y)
 {
 	return (y < x) ? y : x;

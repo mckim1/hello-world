@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -12,7 +12,7 @@ class Person
 {
 	char* name;
 	int   age;
-	int*  ref; // ÂüÁ¶°è¼ö ¸Ş¸ğ¸®ÀÇ ÁÖ¼Ò
+	int*  ref; // ì°¸ì¡°ê³„ìˆ˜ ë©”ëª¨ë¦¬ì˜ ì£¼ì†Œ
 public:
 
 	Person(const char* n, int a) : age(a)
@@ -34,11 +34,11 @@ public:
 		}
 	}
 
-	// ¸ğµç ¸â¹ö¸¦ ¾èÀº º¹»ç ÇÑ´Ù.
+	// ëª¨ë“  ë©¤ë²„ë¥¼ ì–•ì€ ë³µì‚¬ í•œë‹¤.
 	Person(const Person& p)
 		: name(p.name), age(p.age), ref(p.ref)
 	{
-		++(*ref); // ÂüÁ¶ °è¼ö Áõ°¡
+		++(*ref); // ì°¸ì¡° ê³„ìˆ˜ ì¦ê°€
 	}
 };
 
@@ -46,7 +46,7 @@ int main()
 {
 	Person p1("KIM", 2);
 
-	Person p2 = p1;  // º¹»ç »ı¼ºÀÚ.
+	Person p2 = p1;  // ë³µì‚¬ ìƒì„±ì.
 	
 }
 

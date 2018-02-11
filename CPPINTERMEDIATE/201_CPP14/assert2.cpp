@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <mutex>
 using namespace std;
 
@@ -15,7 +15,7 @@ static_assert(
 
 template<typename T> void Swap(T& a, T& b)
 {
-	// T°¡ °¡Á®¾ßÇÏ´Â Á¶°ÇÀ» Á¶»ç
+	// Tê°€ ê°€ì ¸ì•¼í•˜ëŠ” ì¡°ê±´ì„ ì¡°ì‚¬
 	static_assert(is_copy_constructible<T>::value,
 		"error. T is not copyable");
 

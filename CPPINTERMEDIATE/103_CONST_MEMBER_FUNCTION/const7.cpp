@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -25,10 +25,10 @@ void Test::goo() const
 int main()
 {
 	Test t1;
-	t1.foo(); // 1¹ø, ¾øÀ¸¸é 2¹ø
+	t1.foo(); // 1ë²ˆ, ì—†ìœ¼ë©´ 2ë²ˆ
 
 	const Test t2;
-	t2.foo(); // 2¹ø, ¾øÀ¸¸é error
+	t2.foo(); // 2ë²ˆ, ì—†ìœ¼ë©´ error
 }
 
 

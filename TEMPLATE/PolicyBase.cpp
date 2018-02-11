@@ -1,4 +1,4 @@
-template<typename T, typename ThreadModel> class List
+ï»¿template<typename T, typename ThreadModel> class List
 {
 	ThreadModel tm;
 public:
@@ -10,7 +10,7 @@ public:
 	}
 };
 
-// µ¿±âÈ­ Á¤Ã¥À» ´ãÀº Á¤Ã¥ Å¬·¡½º : ¹İµå½Ã Lock()/Unlock() ÀÌ ÀÖ¾î¾ß ÇÑ´Ù.
+// ë™ê¸°í™” ì •ì±…ì„ ë‹´ì€ ì •ì±… í´ë˜ìŠ¤ : ë°˜ë“œì‹œ Lock()/Unlock() ì´ ìˆì–´ì•¼ í•œë‹¤.
 struct NoLock
 {
 	inline void Lock() {}

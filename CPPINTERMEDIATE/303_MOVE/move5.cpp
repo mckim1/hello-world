@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,15 +16,15 @@ public:
 	Test(const Test& t) { cout << "Copy" << endl; }
 	Test(Test&& t)      { cout << "Move" << endl; }
 
-	Test& operator=(const Test& t) { return *this; } // º¹»ç ´ëÀÔ¿¬»êÀÚ
-	Test& operator=(Test&& t)      { return *this; } // move ´ëÀÔ¿¬»êÀÚ
+	Test& operator=(const Test& t) { return *this; } // ë³µì‚¬ ëŒ€ìž…ì—°ì‚°ìž
+	Test& operator=(Test&& t)      { return *this; } // move ëŒ€ìž…ì—°ì‚°ìž
 };
 
 int main()
 {
 	Test t1;
-	Test t2 = t1;	// ÃÊ±âÈ­. º¹»ç »ý¼ºÀÚ
-	t2 = t1;		// ´ëÀÔ.   ´ëÀÔ ¿¬»êÀÚ
+	Test t2 = t1;	// ì´ˆê¸°í™”. ë³µì‚¬ ìƒì„±ìž
+	t2 = t1;		// ëŒ€ìž….   ëŒ€ìž… ì—°ì‚°ìž
 
 	t2 = move(t1);
 

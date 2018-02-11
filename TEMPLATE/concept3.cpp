@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -26,7 +26,7 @@ concept bool LessThanComparable = requires(T a, T b)
 };
 
 /*
-// ¹æ¹ý 1.
+// ë°©ë²• 1.
 template<typename T> requires LessThanComparable<T>
 T Min(T x, T y)
 {
@@ -35,7 +35,7 @@ T Min(T x, T y)
 */
 
 /*
-// ¹æ¹ý 2.
+// ë°©ë²• 2.
 template<typename T> 
 T Min(T x, T y) requires LessThanComparable<T>
 {
@@ -43,7 +43,7 @@ T Min(T x, T y) requires LessThanComparable<T>
 }
 */
 
-// Ãà¾àÇü.
+// ì¶•ì•½í˜•.
 LessThanComparable Min(LessThanComparable x, LessThanComparable y)
 {
 	return (y < x) ? y : x;

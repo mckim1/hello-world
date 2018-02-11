@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -19,12 +19,12 @@ int main()
 	int n4 = { 0 }; 
 
 	//---------------------------
-	int n5;		// defalut initialization. ¾²·¹±â°ª	
-	int n6{};	// value initialization.   0À¸·Î ÃÊ±âÈ­
+	int n5;		// defalut initialization. ì“°ë ˆê¸°ê°’	
+	int n6{};	// value initialization.   0ìœ¼ë¡œ ì´ˆê¸°í™”
 
-	cout << n5 << endl; // ¾²·¹±â°ª
+	cout << n5 << endl; // ì“°ë ˆê¸°ê°’
 	cout << n6 << endl; // 0
 
-	int n7(); // ÁÖÀÇ. ÇÔ¼ö ¼±¾ð. 
+	int n7(); // ì£¼ì˜. í•¨ìˆ˜ ì„ ì–¸. 
 
 }

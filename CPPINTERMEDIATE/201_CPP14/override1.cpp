@@ -1,4 +1,4 @@
-class Base
+﻿class Base
 {
 public:
 	virtual void f1(int) {}

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -25,15 +25,15 @@ int main()
 {
 	OFile f("a.txt");
 
-	// C ÇÔ¼ö¸¦ »ç¿ëÇØ¼­ È­ÀÏ ÀÛ¾÷
+	// C í•¨ìˆ˜ë¥¼ ì‚¬ìš©í•´ì„œ í™”ì¼ ì‘ì—…
 	fputs("hello", f);
-	fprintf(f, "n = %d", 10);	// OFile => FILE* ·Î ¾Ï½ÃÀû º¯È¯µÇ¸é °¡´É.
+	fprintf(f, "n = %d", 10);	// OFile => FILE* ë¡œ ì•”ì‹œì  ë³€í™˜ë˜ë©´ ê°€ëŠ¥.
 							// f.operator FILE*()
 	
 	String s1 = "hello";
 	char s2[10];
 
-	strcpy(s2, s1); // String => const char* ¾Ï½ÃÀû º¯È¯..
+	strcpy(s2, s1); // String => const char* ì•”ì‹œì  ë³€í™˜..
 }
 
 

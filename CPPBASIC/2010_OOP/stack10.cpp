@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -6,7 +6,7 @@
 
 
 #include <iostream>
-#include <stack>  //C++ «•¡ÿ stack
+#include <stack>  //C++ ÌëúÏ§Ä stack
 
 int main()
 {
@@ -16,9 +16,9 @@ int main()
 	s.push(20);
 	s.push(30);
 
-	//int n = s.pop(); // error. pop ¡¶∞≈∏∏. ∏Æ≈œæ»µ .
+	//int n = s.pop(); // error. pop Ï†úÍ±∞Îßå. Î¶¨ÌÑ¥ÏïàÎê®.
 
-	int n1 = s.top(); // ∏Æ≈œ∏∏. ¡¶∞≈ æ»µ . 30
+	int n1 = s.top(); // Î¶¨ÌÑ¥Îßå. Ï†úÍ±∞ ÏïàÎê®. 30
 	s.pop();
 	int n2 = s.top(); // 30
 

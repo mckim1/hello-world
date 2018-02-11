@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -33,7 +33,7 @@ namespace Video
 
 
 
-// global namespace ( Àü¿ª°ø°£)
+// global namespace ( ì „ì—­ê³µê°„)
 void init()
 {
 	printf("System init\n");

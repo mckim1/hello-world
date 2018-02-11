@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -21,11 +21,11 @@ public:
 	~Person() { delete[] name; }
 
 
-	// ¼ÒÀ¯±Ç ÀÌÀüÀÇ º¹»ç »ı¼ºÀÚ
-	Person( Person& p)  // const °¡ ¾ø´Ù.
-		: age(p.age), name(p.name) // ¾èÀºº¹»ç
+	// ì†Œìœ ê¶Œ ì´ì „ì˜ ë³µì‚¬ ìƒì„±ì
+	Person( Person& p)  // const ê°€ ì—†ë‹¤.
+		: age(p.age), name(p.name) // ì–•ì€ë³µì‚¬
 	{
-		// ¿ø·¡ °´Ã¼°¡ °¡Áø name À» 0À¸·Î
+		// ì›ë˜ ê°ì²´ê°€ ê°€ì§„ name ì„ 0ìœ¼ë¡œ
 		p.name = 0;
 	}
 };
@@ -34,7 +34,7 @@ int main()
 {
 	Person p1("KIM", 2);
 
-	Person p2 = p1;	// °´Ã¼ÀÇ º¹»ç.
+	Person p2 = p1;	// ê°ì²´ì˜ ë³µì‚¬.
 }
 
 

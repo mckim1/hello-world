@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -8,7 +8,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <functional> // STL ÀÇ ÇÔ¼ö°´Ã¼
+#include <functional> // STL ì˜ í•¨ìˆ˜ê°ì²´
 
 bool cmp(int a, int b) { return a > b; }
 
@@ -19,10 +19,10 @@ int main()
 
 	//std::sort(v.begin(), v.end()); // <
 
-	// 1. ÀÏ¹Ý ÇÔ¼ö »ç¿ë.
+	// 1. ì¼ë°˜ í•¨ìˆ˜ ì‚¬ìš©.
 	//std::sort(v.begin(), v.end(), cmp );
 
-	// 2. ÇÔ¼ö °´Ã¼
+	// 2. í•¨ìˆ˜ ê°ì²´
 	//std::greater<int> g;  // >
 	//std::sort(v.begin(), v.end(), g );
 

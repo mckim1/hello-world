@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -21,14 +21,14 @@ public:
 
 void foo(Animal* p)
 {
-	// ¸ðµç µ¿¹°ÀÇ °øÅëÀÇ ÀÛ¾÷..
+	// ëª¨ë“  ë™ë¬¼ì˜ ê³µí†µì˜ ìž‘ì—…..
 }
 
 void foo(Dog* p)
 {
 	foo( static_cast<Animal*>(p)
 
-	// p°¡ Dog¶ó¸é »ö»óµµ º¯°æÇÏ°í ½Í´Ù.
+	// pê°€ Dogë¼ë©´ ìƒ‰ìƒë„ ë³€ê²½í•˜ê³  ì‹¶ë‹¤.
 }
 
 

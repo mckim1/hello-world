@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -17,7 +17,7 @@ public:
 int main()
 {
 	complex<int> c1(1,2); // ok
-	complex      c2(1, 2); // C++14±îÁö´Â ¿¡·¯, C++17 ºÎÅÍ °¡´É
+	complex      c2(1, 2); // C++14ê¹Œì§€ëŠ” ì—ëŸ¬, C++17 ë¶€í„° ê°€ëŠ¥
 
-	complex      c3; //  C++17¿¡¼­ µµ ¿¡·¯, ÄÄÆÄÀÏ µÇ°Ô ÇÏ·Á¸é class template type deduction guide ÇÊ¿ä
+	complex      c3; //  C++17ì—ì„œ ë„ ì—ëŸ¬, ì»´íŒŒì¼ ë˜ê²Œ í•˜ë ¤ë©´ class template type deduction guide í•„ìš”
 }

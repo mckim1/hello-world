@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,8 +9,8 @@ class Point
 {
 	int x, y;
 public:
-	// explicit : º¯È¯ »ı¼ºÀÚ·Î »ç¿ëµÉ¼ö ¾ø´Ù.
-	//		      copy initialization µÉ¼ö ¾ø´Ù.
+	// explicit : ë³€í™˜ ìƒì„±ìë¡œ ì‚¬ìš©ë ìˆ˜ ì—†ë‹¤.
+	//		      copy initialization ë ìˆ˜ ì—†ë‹¤.
 	explicit Point()    		 : x(0), y(0) {}
 	explicit Point(int a)        : x(a), y(0) {}
 	explicit Point(int a, int b) : x(a), y(b) {}
@@ -19,13 +19,13 @@ public:
 int main()
 {
 	Point p1(5);	// ok.
-	//Point p2 = 5;	// ok. ÇÏÁö¸¸ »ı¼ºÀÚ explicit ¶ó¸é error.
+	//Point p2 = 5;	// ok. í•˜ì§€ë§Œ ìƒì„±ì explicit ë¼ë©´ error.
 
 	Point p3(1, 1);		// ok
 	//Point p4 = (1, 1);	// error.
 
 	Point p5{ 1,1 };	// ok
-	//Point p6 = { 1,1 };	// ok. ÇÏÁö¸¸ »ı¼ºÀÚ explicit ¶ó¸é error.
+	//Point p6 = { 1,1 };	// ok. í•˜ì§€ë§Œ ìƒì„±ì explicit ë¼ë©´ error.
 
 	Point p7;
 	Point p8{};		// direct

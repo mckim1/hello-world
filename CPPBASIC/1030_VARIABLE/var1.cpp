@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -9,7 +9,7 @@
 
 struct Point
 {
-	int x = 0; // ¸â¹ö ÃÊ±âÈ­. C++11
+	int x = 0; // ë©¤ë²„ ì´ˆê¸°í™”. C++11
 	int y = 0;
 };
 
@@ -22,7 +22,7 @@ int main()
 	int n2 = 1'000'000;	// C++11
 
 	//foo();
-	int n3 = 0; //  ÇÔ¼ö Áß°£¿¡ º¯¼ö¼±¾ğ °¡´É.
+	int n3 = 0; //  í•¨ìˆ˜ ì¤‘ê°„ì— ë³€ìˆ˜ì„ ì–¸ ê°€ëŠ¥.
 
 	bool b = true; // false. C99
 

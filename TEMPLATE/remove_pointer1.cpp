@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -9,8 +9,8 @@
 #include <iostream>
 using namespace std;
 
-// T¿¡ º¯Çü Å¸ÀÔ ±¸ÇÏ±â
-// primary template : typedef Á¦°ø
+// Tì— ë³€í˜• íƒ€ì… êµ¬í•˜ê¸°
+// primary template : typedef ì œê³µ
 template<typename T> struct xremove_pointer
 {
 	typedef T type;
@@ -23,10 +23,10 @@ template<typename T> struct xremove_pointer<T*>
 
 template<typename T> void foo(T a)  // T : int*
 {
-	// ¹İµå½Ã typename ÀÖ¾î¾ß ÇÕ´Ï´Ù.
+	// ë°˜ë“œì‹œ typename ìˆì–´ì•¼ í•©ë‹ˆë‹¤.
 	typename  xremove_pointer<T>::type n;  
 
-	// nÀÇ Å¸ÀÔ ÀÌ¸§ Ãâ·Â
+	// nì˜ íƒ€ì… ì´ë¦„ ì¶œë ¥
 	cout << typeid(n).name() << endl;
 }
 

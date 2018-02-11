@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -8,7 +8,7 @@
 
 #include <iostream>
 using namespace std;
-// Step 3. N°³¸¦ º¸°üÇÏ´Â tuple
+// Step 3. Nê°œë¥¼ ë³´ê´€í•˜ëŠ” tuple
 template<typename ... Types> struct xtuple
 {
 	static constexpr int N = 0;
@@ -26,9 +26,9 @@ template<typename T, typename ... Types> struct xtuple<T, Types...> : public xtu
 int main()
 {
 	//xtuple<			  >        // primary template
-	//xtuple<			  double>  // 3.4À» º¸°ü
-	//xtuple<		char, double>  // 'A'À» º¸°ü
-	xtuple<int, char, double> t3(3, 'A', 3.4); // 3À» º¸°ü
+	//xtuple<			  double>  // 3.4ì„ ë³´ê´€
+	//xtuple<		char, double>  // 'A'ì„ ë³´ê´€
+	xtuple<int, char, double> t3(3, 'A', 3.4); // 3ì„ ë³´ê´€
 
 	cout << t3.value << endl;
 
@@ -38,11 +38,11 @@ int main()
 //	double d = xget<2>(t3);
 }
 /*
-template<int N, typename T> // T´Â Æ©ÇÃ
-Æ©ÇÃ TÀÇ N¹øÂ° ¿ä¼ÒÀÇ Å¸ÀÔ&
+template<int N, typename T> // TëŠ” íŠœí”Œ
+íŠœí”Œ Tì˜ Në²ˆì§¸ ìš”ì†Œì˜ íƒ€ì…&
 xget(T& tp)
 {
-	return static_cast<tpÀÇ N¹ø¤Š ±âº» Å¸ÀÔ&>(tp).value;
+	return static_cast<tpì˜ Në²ˆì¨° ê¸°ë³¸ íƒ€ì…&>(tp).value;
 }
 */
 

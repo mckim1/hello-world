@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -21,7 +21,7 @@ public:
 
 int main()
 {
-	Plus p; // Plus Å¸ÀÔÀÇ °´Ã¼
+	Plus p; // Plus íƒ€ì…ì˜ ê°ì²´
 
 	int n = p(1, 2); // p.operator()(1,2)
 

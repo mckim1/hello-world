@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -18,7 +18,7 @@ template<int N, typename T> struct argument;
 //	typedef void type;
 //};
 
-// ÇÙ½É !!: ºÎºĞ Æ¯¼öÈ­À» ÅëÇØ¼­ ¿øÇÏ´Â Å¸ÀÔÀ» ±¸ÇÒ¼ö ÀÖµµ·Ï Å¸ÀÔ ºĞÇÒÀ» ÇÑ´Ù.
+// í•µì‹¬ !!: ë¶€ë¶„ íŠ¹ìˆ˜í™”ì„ í†µí•´ì„œ ì›í•˜ëŠ” íƒ€ì…ì„ êµ¬í• ìˆ˜ ìˆë„ë¡ íƒ€ì… ë¶„í• ì„ í•œë‹¤.
 template<typename R, typename A1, typename A2> struct argument<0, R(A1, A2)>
 {
 	typedef A1 type;

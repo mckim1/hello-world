@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+О╩©/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -24,10 +24,10 @@ public:
 // copy ellipse
 Point foo()
 {
-	Point pt(1, 2); // ╩Щ╪╨юз.
+	Point pt(1, 2); // Л┐²Л└╠Л·░.
 
-	return pt;	// ╦╝ео©К юс╫ц╟╢ц╪ ╩Щ╪╨
-				// юс╫ц╟╢ц╪ ╦╝ео.
+	return pt;	// К╕╛М└╢Л ╘ Л·└Л▀°Й╟²Л╡╢ Л┐²Л└╠
+				// Л·└Л▀°Й╟²Л╡╢ К╕╛М└╢.
 }
 
 int main()

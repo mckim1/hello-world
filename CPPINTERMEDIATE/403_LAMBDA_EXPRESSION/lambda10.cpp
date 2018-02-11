@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int main()
@@ -7,10 +7,10 @@ int main()
 
 	//auto f1 = [v1, v2]() { v1 = 10; v2 = 20;};// error 
 	
-	// mutable lambda : () ¿¬»êÀÚ ÇÔ¼ö¸¦ ºñ»ó¼ö ÇÔ¼ö·Î
+	// mutable lambda : () ì—°ì‚°ì í•¨ìˆ˜ë¥¼ ë¹„ìƒìˆ˜ í•¨ìˆ˜ë¡œ
 	auto f1 = [v1, v2]() mutable { v1 = 10; v2 = 20; };
 
-	f1(); // ¶÷´Ù Ç¥Çö½Ä ½ÇÇà..
+	f1(); // ëŒë‹¤ í‘œí˜„ì‹ ì‹¤í–‰..
 
 	cout << v1 << endl; // 0
 	cout << v2 << endl; // 0

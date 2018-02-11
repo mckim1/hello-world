@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,7 +16,7 @@ int main()
 	// g++  : int* first, count
 	initializer_list<int> s = { 1, 2, 3, 4, 5 };
 
-	auto p = begin(s); // »ó¼ö¸¦ °¡¸®Å°´Â ¹İº¹ÀÚ
+	auto p = begin(s); // ìƒìˆ˜ë¥¼ ê°€ë¦¬í‚¤ëŠ” ë°˜ë³µì
 	//*p = 20; // error
 
 	cout << *p << endl;

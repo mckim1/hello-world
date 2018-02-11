@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -20,7 +20,7 @@ int main()
 //	set<int,    greater<int> > s1;
 	set<double, greater<double> > s2;
 
-	s1.insert(10); // <, less ÇÔ¼ö°´Ã¼
+	s1.insert(10); // <, less í•¨ìˆ˜ê°ì²´
 	s1.insert(20); 
 	s1.insert(15);
 

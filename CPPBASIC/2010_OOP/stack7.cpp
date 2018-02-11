@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -14,7 +14,7 @@ private:
 	int* buf;
 	int  idx;
 public:
-	// Å¬·¡½º ¾È¿¡´Â ¸â¹öÇÔ¼öÀÇ ¼±¾ğ¸¸.
+	// í´ë˜ìŠ¤ ì•ˆì—ëŠ” ë©¤ë²„í•¨ìˆ˜ì˜ ì„ ì–¸ë§Œ.
 	Stack(int sz = 10);
 	~Stack();
 	void push(int n);
@@ -22,7 +22,7 @@ public:
 };
 
 // Stack.cpp
-// ¸â¹ö ÇÔ¼ö ±¸ÇöÀº Å¬·¡½º ¿ÜºÎ¿¡.
+// ë©¤ë²„ í•¨ìˆ˜ êµ¬í˜„ì€ í´ë˜ìŠ¤ ì™¸ë¶€ì—.
 Stack::Stack(int sz)
 {
 	buf = new int[sz];

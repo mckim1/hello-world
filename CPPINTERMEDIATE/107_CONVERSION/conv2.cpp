@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,8 +9,8 @@
 #include <iostream>
 using namespace std;
 
-// Point => int : º¯È¯ ¿¬»êÀÚ   p.operator int()
-// int => Point : º¯È¯ »ı¼ºÀÚ   Point(int)
+// Point => int : ë³€í™˜ ì—°ì‚°ì   p.operator int()
+// int => Point : ë³€í™˜ ìƒì„±ì   Point(int)
 
 class Point
 {
@@ -19,8 +19,8 @@ public:
 	Point()				: x(0), y(0) {}
 	Point(int a, int b) : x(a), y(b) {}
 
-	// ÀÎÀÚ°¡ ÇÑ°³ÀÎ »ı¼ºÀÚ -  º¯È¯ »ı¼ºÀÚ
-	//							´Ù¸¥ Å¸ÀÔÀÌ Point·Î º¯È¯ µÇ°Ô ÇÑ´Ù.
+	// ì¸ìê°€ í•œê°œì¸ ìƒì„±ì -  ë³€í™˜ ìƒì„±ì
+	//							ë‹¤ë¥¸ íƒ€ì…ì´ Pointë¡œ ë³€í™˜ ë˜ê²Œ í•œë‹¤.
 	Point(int a) : x(a), y(0) {}
 
 	operator int() 	{ return x; }
@@ -35,8 +35,8 @@ int main()
 	Point p(1, 2);
 
 	n = p; // Point => int   p.operator int()
-	p = n; // int => Point   n.operator Point() °¡ ÀÖÀ¸¸é µÈ´Ù.
-		   //		         ÇÏÁö¸¸, nÀº »ç¿ëÀÚÁ¤ÀÇ Å¸ÀÔÀÌ ¾Æ´Ï´Ù
+	p = n; // int => Point   n.operator Point() ê°€ ìˆìœ¼ë©´ ëœë‹¤.
+		   //		         í•˜ì§€ë§Œ, nì€ ì‚¬ìš©ìì •ì˜ íƒ€ì…ì´ ì•„ë‹ˆë‹¤
 }
 
 

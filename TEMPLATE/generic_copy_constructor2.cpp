@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -17,16 +17,16 @@ template<typename T> class complex
 public:
 	complex(T a = T(), T b = T()) : re(a), im(b) {}
 	
-	// º¹»ç »ı¼ºÀÚ ¸ğ¾ç 1.
-	//complex(const complex<T>&);		// complex<double> c3 = c1; ÀÏ¶§ c1Àº ¹İµå½Ã complex<double> ÀÌ¾î¾ß ÇÑ´Ù.
+	// ë³µì‚¬ ìƒì„±ì ëª¨ì–‘ 1.
+	//complex(const complex<T>&);		// complex<double> c3 = c1; ì¼ë•Œ c1ì€ ë°˜ë“œì‹œ complex<double> ì´ì–´ì•¼ í•œë‹¤.
 
-	// º¹»ç »ı¼ºÀÚ ¸ğ¾ç 2.
-	//complex(const complex<int>&);		// complex<double> c3 = c1; ÀÏ¶§ c1Àº ¹İµå½Ã complex<int> ÀÌ¾î¾ß ÇÑ´Ù.
+	// ë³µì‚¬ ìƒì„±ì ëª¨ì–‘ 2.
+	//complex(const complex<int>&);		// complex<double> c3 = c1; ì¼ë•Œ c1ì€ ë°˜ë“œì‹œ complex<int> ì´ì–´ì•¼ í•œë‹¤.
 
 
-	// º¹»ç »ı¼ºÀÚ ¸ğ¾ç 3. ÀÏ¹İÈ­µÈ º¹»ç »ı¼ºÀÚ
-	// "U°¡ T·Î º¹»ç °¡´ÉÇÏ´Ù¸é complex<U> ´Â complex<T> ·Î º¹»ç °¡´ÉÇØ¾ß ÇÑ´Ù."
-	template<typename U> complex(const complex<U>&);		// complex<double> c3 = c1; ÀÏ¶§ c1Àº complex<U> ÀÌ¹Ç·Î, ÀÓÀÇÀÇ Å¸ÀÔÀÇ complex ÀÌ´Ù.
+	// ë³µì‚¬ ìƒì„±ì ëª¨ì–‘ 3. ì¼ë°˜í™”ëœ ë³µì‚¬ ìƒì„±ì
+	// "Uê°€ Të¡œ ë³µì‚¬ ê°€ëŠ¥í•˜ë‹¤ë©´ complex<U> ëŠ” complex<T> ë¡œ ë³µì‚¬ ê°€ëŠ¥í•´ì•¼ í•œë‹¤."
+	template<typename U> complex(const complex<U>&);		// complex<double> c3 = c1; ì¼ë•Œ c1ì€ complex<U> ì´ë¯€ë¡œ, ì„ì˜ì˜ íƒ€ì…ì˜ complex ì´ë‹¤.
 
 	template<typename> friend class complex;
 };
@@ -39,6 +39,6 @@ complex<T>::complex(const complex<U>& c) : re(c.re), im(c.im)
 int main()
 {
 	complex<int> c1(1, 2); // ok
-	complex<int> c2 = c1;  // ok. º¹»ç »ı¼ºÀÚ
-	complex<double> c3 = c1; // error. c1, c3 ´Â ´Ù¸¥ Å¸ÀÔÀÌ´Ù.!
+	complex<int> c2 = c1;  // ok. ë³µì‚¬ ìƒì„±ì
+	complex<double> c3 = c1; // error. c1, c3 ëŠ” ë‹¤ë¥¸ íƒ€ì…ì´ë‹¤.!
 }

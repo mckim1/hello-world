@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -23,6 +23,6 @@ int main()
 {
 	Point p;
 
-	std::cout << p.x << std::endl; // ¾²·¹±â°ª
+	std::cout << p.x << std::endl; // ì“°ë ˆê¸°ê°’
 	std::cout << p.y << std::endl; // 0
 }

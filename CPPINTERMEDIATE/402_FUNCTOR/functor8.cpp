@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -14,11 +14,11 @@ int main()
 {
 	bitset<10> bs;
 
-	bs.reset(); // ¸ðµç ¿ä¼Ò¸¦ 0
-	bs.reset(4); // 4¹øÂ° ºñÆ®¸¦ 0À¸·Î
+	bs.reset(); // ëª¨ë“  ìš”ì†Œë¥¼ 0
+	bs.reset(4); // 4ë²ˆì§¸ ë¹„íŠ¸ë¥¼ 0ìœ¼ë¡œ
 
 	bs[2] = 1;
-	bs[1].flip(); // 1¹øÂ°°¡ 1
+	bs[1].flip(); // 1ë²ˆì§¸ê°€ 1
 	// 0000000110
 
 	string s = bs.to_string();

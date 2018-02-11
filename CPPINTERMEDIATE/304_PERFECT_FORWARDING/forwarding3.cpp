@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -20,7 +20,7 @@ template<typename F> void chronometry(F f, int&& arg)
 {
 	// int&& arg = 10
 	//f(arg);
-	// ÇØ°áÃ¥ : lvalueÀÎ arg¸¦ rvalue·Î ´Ù½Ã Ä³½ºÆÃÇÑ´Ù
+	// í•´ê²°ì±… : lvalueì¸ argë¥¼ rvalueë¡œ ë‹¤ì‹œ ìºìŠ¤íŒ…í•œë‹¤
 	f(static_cast<int&&>(arg));
 }
 
@@ -29,8 +29,8 @@ int main()
 	//hoo(10); // ok..
 	chronometry(&hoo, 10); // error
 	
-	int&& arg = 10; // 10 Àº rvalue,
-					// arg´Â lvalue ÀÌ´Ù.
+	int&& arg = 10; // 10 ì€ rvalue,
+					// argëŠ” lvalue ì´ë‹¤.
 
 	
 	int n = 0;

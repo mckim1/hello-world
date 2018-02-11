@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <type_traits>
 using namespace std;
 
@@ -6,9 +6,9 @@ struct Point
 {
 	int x, y;
 
-	Point() {} // »ç¿ëÀÚ°¡ »ı¼ºÀÚ Á¦°ø.
+	Point() {} // ì‚¬ìš©ìê°€ ìƒì„±ì ì œê³µ.
 
-	//Point() = default; // ÄÄÆÄÀÏ·¯°¡ Á¦°ø.
+	//Point() = default; // ì»´íŒŒì¼ëŸ¬ê°€ ì œê³µ.
 
 //	Point(const Point& ) = default;
 //	Point(int a, int b) : x(a), y(b) {}
@@ -18,8 +18,8 @@ int main()
 {
 	Point p1{};  
 
-	cout << p1.x << endl; // default »ı¼ºÀÚ - 0
-						  // »ç¿ëÀÚ°¡ Á¦°ø - garbage
+	cout << p1.x << endl; // default ìƒì„±ì - 0
+						  // ì‚¬ìš©ìê°€ ì œê³µ - garbage
 
 
 

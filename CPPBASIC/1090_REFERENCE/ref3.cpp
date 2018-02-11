@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -11,7 +11,7 @@ int main()
 {
 	int n = 0;
 
-	scanf("%d", &n); // ÀÎÀÚ·Î Æ÷ÀÎÅÍ·Î Àü´Þ ¹ÞÀ½.
+	scanf("%d", &n); // ì¸ìžë¡œ í¬ì¸í„°ë¡œ ì „ë‹¬ ë°›ìŒ.
 
-	std::cin >> n;   // ÂüÁ¶·Î Àü´Þ¹ÞÀ½.
+	std::cin >> n;   // ì°¸ì¡°ë¡œ ì „ë‹¬ë°›ìŒ.
 }

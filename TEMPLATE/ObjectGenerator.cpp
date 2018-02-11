@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -17,7 +17,7 @@ public:
 	complex(T r, T i) {}
 };
 
-// Å¬·¡½º ÅÛÇÃ¸´ÀÇ °´Ã¼¸¦ ¸¸µå´Â ÇÔ¼ö ÅÛÇÃ¸´
+// í´ë˜ìŠ¤ í…œí”Œë¦¿ì˜ ê°ì²´ë¥¼ ë§Œë“œëŠ” í•¨ìˆ˜ í…œí”Œë¦¿
 template<typename T> complex<T> make_complex(const T& a, const T& b)
 {
 	return complex<T>(a, b);
@@ -30,14 +30,14 @@ template<typename T> void foo(T a)
 
 int main()
 {
-	// 1. °´Ã¼¸¦ ¸¸µé¾î¼­ Àü´Ş
+	// 1. ê°ì²´ë¥¼ ë§Œë“¤ì–´ì„œ ì „ë‹¬
 	complex<int> c1(1, 2);
 	foo(c1);
 
-	// 2. ÀÓ½Ã°´Ã¼·Î Àü´Ş, ¹®Á¦Á¡.. C++14 ±îÁö´Â int¸¦ »ı·«ÇÒ¼ö ¾ø´Ù.!
+	// 2. ì„ì‹œê°ì²´ë¡œ ì „ë‹¬, ë¬¸ì œì .. C++14 ê¹Œì§€ëŠ” intë¥¼ ìƒëµí• ìˆ˜ ì—†ë‹¤.!
 	foo(complex<int>(1, 2));
 
-	// 3. make ÇÔ¼ö »ç¿ë
+	// 3. make í•¨ìˆ˜ ì‚¬ìš©
 	foo(make_complex(1, 2));
 
 	foo(pair<int, double>(1, 3.4));

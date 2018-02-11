@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -17,7 +17,7 @@ public:
 	~Point() { cout << "~Point()" << endl; }
 };
 
-// placement new : »ý¼ºÀÚ¸¦ È£ÃâÇÏ±â À§ÇØ ¸¸µç new
+// placement new : ìƒì„±ìžë¥¼ í˜¸ì¶œí•˜ê¸° ìœ„í•´ ë§Œë“  new
 // 
 /*
 void* operator new(size_t sz, void* p)
@@ -29,10 +29,10 @@ int main()
 {
 	Point p;	
 
-	//new Point; // ÀÎÀÚ°¡ 1°³ÀÎ operator new()È£Ãâ.
+	//new Point; // ì¸ìžê°€ 1ê°œì¸ operator new()í˜¸ì¶œ.
 
-	new(&p) Point; // ÀÎÀÚ°¡ 2°³ÀÎ operator new()È£Ãâ.
-					// ¸Þ¸ð¸® ÇÒ´çÀÌ ¾Æ´Ñ »ý¼ºÀÚ¸¦
-					// È£ÃâÇÏ´Â ÄÚµå
+	new(&p) Point; // ì¸ìžê°€ 2ê°œì¸ operator new()í˜¸ì¶œ.
+					// ë©”ëª¨ë¦¬ í• ë‹¹ì´ ì•„ë‹Œ ìƒì„±ìžë¥¼
+					// í˜¸ì¶œí•˜ëŠ” ì½”ë“œ
 	p.~Point(); 
 }

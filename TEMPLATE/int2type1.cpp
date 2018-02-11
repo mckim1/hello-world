@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -14,11 +14,11 @@ void foo(double a) {}
 
 int main()
 {
-	// Å¸ÀÔ¿¡ µû¸¥ ÇÔ¼ö ¿À¹ö·Îµù
+	// íƒ€ì…ì— ë”°ë¥¸ í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©
 	foo(3);		// foo(int) 
 	foo(3.4);	// foo(double)
 
-	// °ª¿¡ µû¸¥ ¿À¹ö·Îµù ?? - 0, 1 Àº °°Àº Å¸ÀÔÀÌ¹Ç·Î °°Àº ÇÔ¼ö È£Ãâ
+	// ê°’ì— ë”°ë¥¸ ì˜¤ë²„ë¡œë”© ?? - 0, 1 ì€ ê°™ì€ íƒ€ì…ì´ë¯€ë¡œ ê°™ì€ í•¨ìˆ˜ í˜¸ì¶œ
 	foo(0);	// foo(int)
 	foo(1);	// foo(int);
 }

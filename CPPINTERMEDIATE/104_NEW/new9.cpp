@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -22,7 +22,7 @@ public:
 
 int main()
 {
-	// IPC : °øÀ¯¸Þ¸ð¸®¸¦ »ç¿ëÇÑ ÇÁ·Î¼¼½º°£ Åë½Å, mmap()
+	// IPC : ê³µìœ ë©”ëª¨ë¦¬ë¥¼ ì‚¬ìš©í•œ í”„ë¡œì„¸ìŠ¤ê°„ í†µì‹ , mmap()
 
 	HANDLE hMap = CreateFileMappingA(INVALID_HANDLE_VALUE, 0, PAGE_READWRITE, 0, sizeof(Point), 0);
 	

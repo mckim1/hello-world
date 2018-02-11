@@ -1,4 +1,4 @@
-
+ï»¿
 /*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
@@ -7,7 +7,7 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-// ¸â¹ö ÇÔ¼ö 4°³ * 3°³ Å¸ÀÔ => 12°³ ÇÔ¼ö »ı¼º
+// ë©¤ë²„ í•¨ìˆ˜ 4ê°œ * 3ê°œ íƒ€ì… => 12ê°œ í•¨ìˆ˜ ìƒì„±
 template<typename T> class Vector
 {
 	T* buff;

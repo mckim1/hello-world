@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -18,7 +18,7 @@ void foo(Animal* p)
 {
 	if (typeid(*p) == typeid(Dog))
 	{
-		std::cout << "p´Â Dog" << std::endl;
+		std::cout << "pëŠ” Dog" << std::endl;
 	}
 	const std::type_info& t1 = typeid(*p);
 	const std::type_info& t2 = typeid(Dog);

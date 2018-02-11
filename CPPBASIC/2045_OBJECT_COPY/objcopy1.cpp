@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Ôªø/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -26,7 +26,7 @@ int main()
 	Person p1("KIM", 2);
 
 	Person p2 = p1; // runtime error
-					// ∫πªÁ ª˝º∫¿⁄.
+					// Î≥µÏÇ¨ ÏÉùÏÑ±Ïûê.
 
 
 }

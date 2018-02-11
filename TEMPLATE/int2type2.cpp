@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -13,18 +13,18 @@ template<int N> struct int2type
 
 void foo(int n) {}
 
-// 0, 1 ¿¡ µû¸¥ ÇÔ¼ö ¿À¹ö·Îµù.
+// 0, 1 ì— ë”°ë¥¸ í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©.
 void foo(int2type<0>) {}
 void foo(int2type<1>) {}
 
 int main()
 {
 	foo(0);	
-	foo(1);	// 0, 1Àº °°Àº Å¸ÀÔ.. foo(0), foo(1)Àº °°Àº ÇÔ¼ö È£Ãâ
+	foo(1);	// 0, 1ì€ ê°™ì€ íƒ€ì….. foo(0), foo(1)ì€ ê°™ì€ í•¨ìˆ˜ í˜¸ì¶œ
 	
 	int2type<0> t0;
 	int2type<1> t1;
 
 	foo(t0);
-	foo(t1); // t0, t1 Àº ´Ù¸¥ Å¸ÀÔÀÌ¹Ç·Î foo(t0), foo(t1)Àº ´Ù¸¥ ÇÔ¼ö È£Ãâ.
+	foo(t1); // t0, t1 ì€ ë‹¤ë¥¸ íƒ€ì…ì´ë¯€ë¡œ foo(t0), foo(t1)ì€ ë‹¤ë¥¸ í•¨ìˆ˜ í˜¸ì¶œ.
 }

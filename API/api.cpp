@@ -1,4 +1,4 @@
-#undef UNICODE
+﻿#undef UNICODE
 #undef _UNICODE
 #include <Windows.h>
 #pragma comment(linker,"/subsystem:windows")

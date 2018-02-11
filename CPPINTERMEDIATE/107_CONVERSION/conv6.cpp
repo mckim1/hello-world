@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -27,11 +27,11 @@ int main()
 
 	String16 s = "hello"; // error
 
-	// STL ÀÇ string Å¬·¡½º´Â »ı¼ºÀÚ°¡ explicit °¡ ¾Æ´Ô.
+	// STL ì˜ string í´ë˜ìŠ¤ëŠ” ìƒì„±ìê°€ explicit ê°€ ì•„ë‹˜.
 	string s1("hello");		// ok
 	string s2 = "hello";	// ok
 
 
-	shared_ptr<int> p1 = new int;	// error  »ı¼ºÀÚ°¡ explicit
+	shared_ptr<int> p1 = new int;	// error  ìƒì„±ìê°€ explicit
 	shared_ptr<int> p2(new int);	// ok..
 }

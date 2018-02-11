@@ -1,4 +1,4 @@
-/*
+﻿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -7,7 +7,7 @@
 */
 
 // 1. type
-// 2. 값( non-type)
+// 2. 媛? non-type)
 // 3. template 
 
 template<typename T, int N> struct Stack

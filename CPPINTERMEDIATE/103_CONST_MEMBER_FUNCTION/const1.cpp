@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -20,9 +20,9 @@ public:
 		x = a; 
 		y = b; 
 	}
-	void print()  //const	// »ó¼ö ¸â¹ö ÇÔ¼ö
+	void print()  //const	// ìƒìˆ˜ ë©¤ë²„ í•¨ìˆ˜
 	{
-	//	x = 10;	// error. ¸ğµç ¸â¹ö¸¦ »ó¼ö Ãë±ŞÇÑ´Ù.
+	//	x = 10;	// error. ëª¨ë“  ë©¤ë²„ë¥¼ ìƒìˆ˜ ì·¨ê¸‰í•œë‹¤.
 
 		cout << x << ", " << y << endl;
 	}

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,18 +9,18 @@ int main()
 {
 	int n = 10;
 
-	// ±ÔÄ¢ 1. not const lvalue reference ´Â lvalue ¸¸ ÂüÁ¶ °¡´É
+	// ê·œì¹™ 1. not const lvalue reference ëŠ” lvalue ë§Œ ì°¸ì¡° ê°€ëŠ¥
 	int& r1 = n;	// ok
 	int& r2 = 10;	// error
 
-	// ±ÔÄ¢ 2. const lvalue reference ´Â lvalue ¿Í rvalue¸¦ ¸ğµÎ ÂüÁ¶ °¡´É
+	// ê·œì¹™ 2. const lvalue reference ëŠ” lvalue ì™€ rvalueë¥¼ ëª¨ë‘ ì°¸ì¡° ê°€ëŠ¥
 	const int& r3 = n;	// ok
 	const int& r4 = 10;	// ok   
 
 	//const Point& r = Point(1, 1);
 	//r.x = 10;
 
-	// ±ÔÄ¢ 3. rvalue reference ´Â rvalue ¸¸ °¡¸®Å³¼ö ÀÖ´Ù. C++11 ¹®¹ı.
+	// ê·œì¹™ 3. rvalue reference ëŠ” rvalue ë§Œ ê°€ë¦¬í‚¬ìˆ˜ ìˆë‹¤. C++11 ë¬¸ë²•.
 	int&& r1 = n;	// error
 	int&& r2 = 10;	// ok.
 }

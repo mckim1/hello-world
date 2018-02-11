@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -14,8 +14,8 @@ public:
 	//int getGear() { return gear; }
 	void changeGear(int n) { gear = n;	}
 
-	// friend ÇÔ¼ö : ¸â¹ö ÇÔ¼ö°¡ ¾Æ´ÏÁö¸¸
-	//				private Á¢±Ù°¡´É.
+	// friend í•¨ìˆ˜ : ë©¤ë²„ í•¨ìˆ˜ê°€ ì•„ë‹ˆì§€ë§Œ
+	//				private ì ‘ê·¼ê°€ëŠ¥.
 	friend void fixBike();
 
 //	friend class AAA;

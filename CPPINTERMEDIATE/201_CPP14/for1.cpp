@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <list>
 using namespace std;
 
@@ -8,7 +8,7 @@ int main()
 	list<int> s = { 1,2,3,4,5,6,7,8,9,10 };
 
 	// foreach()
-	for ( auto& n : s ) // ¹è¿­, STL ÄÁÅ×ÀÌ³Ê..
+	for ( auto& n : s ) // ë°°ì—´, STL ì»¨í…Œì´ë„ˆ..
 		cout << n << endl;
 
 //	for (int i = 0; i < 10; i++)

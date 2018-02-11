@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -6,10 +6,10 @@
 */
 
 
-void f1(int&  a) {} // lvalue ¸¸ ÀÎÀÚ·Î Àü´Ş °¡´É. f1(n) : ok.     f1(10) : error
-void f2(int&& a) {} // rvalue ¸¸ ÀÎÀÚ·Î Àü´Ş °¡´É. f2(n) : error.  f2(10) : ok
+void f1(int&  a) {} // lvalue ë§Œ ì¸ìë¡œ ì „ë‹¬ ê°€ëŠ¥. f1(n) : ok.     f1(10) : error
+void f2(int&& a) {} // rvalue ë§Œ ì¸ìë¡œ ì „ë‹¬ ê°€ëŠ¥. f2(n) : error.  f2(10) : ok
 
-// ¸ğµç Å¸ÀÔÀÇ lvalue ¸¸ Àü´Ş °¡´É.
+// ëª¨ë“  íƒ€ì…ì˜ lvalue ë§Œ ì „ë‹¬ ê°€ëŠ¥.
 template<typename T> void f3(T& a) {} // T : int&   T& : int& &
 
 
@@ -17,12 +17,12 @@ int main()
 {
 	int n = 10;
 
-	// TÀÇ Å¸ÀÔÀ» »ç¿ëÀÚ°¡ ÁöÁ¤ÇÒ °æ¿ì
-	f3<int>(n );	// f3( int & a)  => lvalue Àü´Ş °¡´É.
-	f3<int&>(n );	// f3( int& & a) => f3( int& a) => lvalue Àü´Ş °¡´É.
-	f3<int&&>(n );	// f3( int&& & a)=> f3( int& a) => lvalue Àü´Ş °¡´É.
+	// Tì˜ íƒ€ì…ì„ ì‚¬ìš©ìê°€ ì§€ì •í•  ê²½ìš°
+	f3<int>(n );	// f3( int & a)  => lvalue ì „ë‹¬ ê°€ëŠ¥.
+	f3<int&>(n );	// f3( int& & a) => f3( int& a) => lvalue ì „ë‹¬ ê°€ëŠ¥.
+	f3<int&&>(n );	// f3( int&& & a)=> f3( int& a) => lvalue ì „ë‹¬ ê°€ëŠ¥.
 
-	// »ç¿ëÀÚ°¡ T Å¸ÀÔÀ» ÁöÁ¤ÇÏÁö ¾ÊÀº °æ¿ì
+	// ì‚¬ìš©ìê°€ T íƒ€ì…ì„ ì§€ì •í•˜ì§€ ì•Šì€ ê²½ìš°
 	f3(10); // error
 	f3(n);  // T : int.  ok.
 }

@@ -1,4 +1,4 @@
-#include <type_traits>
+ï»¿#include <type_traits>
 #include <set>
 using namespace std;
 
@@ -33,7 +33,7 @@ using remove_pointer_t =
 
 template<typename T> void foo(T a)
 {
-	// T¿¡¼­ Æ÷ÀÎÅÍ¸¦ Á¦°ÅÇÑ Å¸ÀÔÀ» ±¸ÇÏ°í ½Í´Ù.
+	// Tì—ì„œ í¬ì¸í„°ë¥¼ ì œê±°í•œ íƒ€ì…ì„ êµ¬í•˜ê³  ì‹¶ë‹¤.
 	//typename remove_pointer<T>::type t; // C++11
 
 	remove_pointer_t<T> t; // C++14 style

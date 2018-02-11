@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,7 +16,7 @@ struct Resource
 	~Resource() { cout << "release Resource" << endl; }
 };
 
-// ÇØ°áÃ¥ 1. Raw Pointer ´ë½Å ½º¸¶Æ® Æ÷ÀÎÅÍ »ç¿ë
+// í•´ê²°ì±… 1. Raw Pointer ëŒ€ì‹  ìŠ¤ë§ˆíŠ¸ í¬ì¸í„° ì‚¬ìš©
 
 class Test
 {
@@ -43,7 +43,7 @@ int main()
 	}
 	catch (...)
 	{
-		cout << "¿¹¿Ü ¹ß»ý" << endl;
+		cout << "ì˜ˆì™¸ ë°œìƒ" << endl;
 	}
 }
 

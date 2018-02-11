@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -13,14 +13,14 @@ public:
 	template<typename T> class Complex {};
 };
 
-template<typename T> typename T::template Complex<int> foo(T a)  // T ´Â Test
+template<typename T> typename T::template Complex<int> foo(T a)  // T ëŠ” Test
 {
 	Test::f<int>(); // ok
 
-	T::f<int>();    // error. < ¸¦ ÇØ¼®ÇÒ¼ö ¾ø´Ù.
+	T::f<int>();    // error. < ë¥¼ í•´ì„í• ìˆ˜ ì—†ë‹¤.
 	T::template f<int>();    // ok
 
-	Test::Complex<int> c1; // ok.. TestÀÇ ¼±¾ğÀ» Á¶»çÇÒ¼ö ÀÖ´Ù.
+	Test::Complex<int> c1; // ok.. Testì˜ ì„ ì–¸ì„ ì¡°ì‚¬í• ìˆ˜ ìˆë‹¤.
 	T::Complex<int> c2;    // error.
 	T::template Complex<int> c3;    // error.
 	typename T::template Complex<int> c4;    // ok

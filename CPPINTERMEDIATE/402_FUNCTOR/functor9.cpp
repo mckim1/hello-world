@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -9,16 +9,16 @@
 #include <bitset>
 using namespace std;
 
-// 0 ~ 9 »çÀÌÀÇ Áßº¹µÇÁö ¾ÊÀº ³­¼ö¸¦ ¸®ÅÏÇÏ´Â ÇÔ¼ö.
+// 0 ~ 9 ì‚¬ì´ì˜ ì¤‘ë³µë˜ì§€ ì•Šì€ ë‚œìˆ˜ë¥¼ ë¦¬í„´í•˜ëŠ” í•¨ìˆ˜.
 
-// ÀÏ¹İÇÔ¼ö : µ¿ÀÛ¸¸ ÀÖ°í »óÅÂ°¡ ¾ø´Ù.
+// ì¼ë°˜í•¨ìˆ˜ : ë™ì‘ë§Œ ìˆê³  ìƒíƒœê°€ ì—†ë‹¤.
 bitset<10> bs;
 bitset<10> bs1;
 void clear_random() { bs.reset(); }
 int random()
 {
 	int v = -1;
-	//static bitset<10> bs; // 10°³°¡ 0À¸·Î ÃÊ±âÈ­
+	//static bitset<10> bs; // 10ê°œê°€ 0ìœ¼ë¡œ ì´ˆê¸°í™”
 	do
 	{
 		v = rand() % 10;

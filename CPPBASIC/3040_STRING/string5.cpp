@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -23,7 +23,7 @@ public:
 	~String() { delete[] buff; }
 
 
-	// ±íÀº º¹»ç·Î ±¸ÇöÇÑ º¹»ç »ı¼ºÀÚ.
+	// ê¹Šì€ ë³µì‚¬ë¡œ êµ¬í˜„í•œ ë³µì‚¬ ìƒì„±ì.
 	String(const String& s) : size(s.size)
 	{
 		buff = new char[size + 1];
@@ -32,7 +32,7 @@ public:
 
 	String& operator=(const String& s)
 	{
-		// ÀÚ½Å°úÀÇ ´ëÀÔÀ» Á¶»çÇÑ´Ù.
+		// ìì‹ ê³¼ì˜ ëŒ€ì…ì„ ì¡°ì‚¬í•œë‹¤.
 		if (&s == this)
 			return *this;
 
@@ -64,7 +64,7 @@ int main()
 	String s1 = "apple";
 	String s2 = "banana";
 
-	//s1 = s2; // ´ëÀÔ ¿¬»êÀÚ.
+	//s1 = s2; // ëŒ€ì… ì—°ì‚°ì.
 
 	s1 = s1;
 

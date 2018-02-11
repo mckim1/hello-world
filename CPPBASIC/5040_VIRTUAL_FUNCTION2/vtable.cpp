@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -34,8 +34,8 @@ int main()
 
 	Animal* p = &d1;
 
-	// 1. ÄÄÆÄÀÏ·¯´Â p°¡ Animal*  ¶ó´Â »ç½Ç¸¸ ¾È´Ù.
-	// 2. °¡»óÇÔ¼ö ÀÎÁö Á¶»ç.
+	// 1. ì»´íŒŒì¼ëŸ¬ëŠ” pê°€ Animal*  ë¼ëŠ” ì‚¬ì‹¤ë§Œ ì•ˆë‹¤.
+	// 2. ê°€ìƒí•¨ìˆ˜ ì¸ì§€ ì¡°ì‚¬.
 
 	p->foo(); // p->vtptr[2]()
 

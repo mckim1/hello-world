@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 template<typename T, typename U> struct Typelist
@@ -13,27 +13,27 @@ struct NullType {};
 #define TYPELIST_3(T1, T2, T3)		Typelist<T1, Typelist<T2, Typelist<T3, NullType>>>
 #define TYPELIST_4(T1, T2, T3, T4)	Typelist<T1, Typelist<T2, Typelist<T3, Typelist<T4, NullType>>>>
 //-----------------------------------------------------------------------------------------------------
-// TypelistÀÇ N ¹øÂ° ¿ä¼ÒÀÇ Å¸ÀÔ ±¸ÇÏ±â
-// 1. »ç¿ëÇÏ´Â ÄÚµå¸¦ º¸°í primary template ÀÛ¼º.
+// Typelistì˜ N ë²ˆì§¸ ìš”ì†Œì˜ íƒ€ì… êµ¬í•˜ê¸°
+// 1. ì‚¬ìš©í•˜ëŠ” ì½”ë“œë¥¼ ë³´ê³  primary template ì‘ì„±.
 // T : Typelist
 template<typename T, int N> struct TypeAt;
 
 
-// 2. ¿øÇÏ´Â Å¸ÀÔÀ» ±¸ÇÒ¼ö ÀÖµµ·Ï ºÎºĞÆ¯¼öÈ­
-//  T : TypelistÀÇ ¿ä¼Ò Å¸ÀÔ
+// 2. ì›í•˜ëŠ” íƒ€ì…ì„ êµ¬í• ìˆ˜ ìˆë„ë¡ ë¶€ë¶„íŠ¹ìˆ˜í™”
+//  T : Typelistì˜ ìš”ì†Œ íƒ€ì…
 /*
 template<typename T, typename U, int N> struct TypeAt<Typelist<T, U>, N>
 {
 	typedef ? type;
 };
 */
-// N == 0 ÀÏ¶§.
+// N == 0 ì¼ë•Œ.
 template<typename T, typename U> struct TypeAt<Typelist<T, U>, 0>
 {
 	typedef T type;
 };
 
-// N != 0 ÀÏ¶§.
+// N != 0 ì¼ë•Œ.
 template<typename T, typename U, int N> struct TypeAt<Typelist<T, U>, N>
 {
 	typedef  typename  TypeAt<U, N-1>::type   type;

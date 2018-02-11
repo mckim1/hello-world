@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <list>
 #include <vector>
 #include <iterator>
 using namespace std;
 
-// ÄÁÅ×ÀÌ³ÊÀÇ ¸ğµç ¿ä¼Ò¸¦ Ãâ·ÂÇÏ´Â ÇÔ¼ö.
+// ì»¨í…Œì´ë„ˆì˜ ëª¨ë“  ìš”ì†Œë¥¼ ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜.
 template<typename T> void show(T& c)
 {
 //	auto p1 = c.begin();

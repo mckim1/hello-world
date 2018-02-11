@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,15 +16,15 @@ int main()
 {
 	int n = 10;
 
-	foo(n);	// 1¹ø, 1¹øÀÌ ¾øÀ¸¸é 2¹ø
-	foo(10);// 3¹ø, 3¹øÀÌ ¾øÀ¸¸é 2¹ø
+	foo(n);	// 1ë²ˆ, 1ë²ˆì´ ì—†ìœ¼ë©´ 2ë²ˆ
+	foo(10);// 3ë²ˆ, 3ë²ˆì´ ì—†ìœ¼ë©´ 2ë²ˆ
 
 	int& r1 = n;
-	foo(r1);	// 1¹ø, ¾øÀ¸¸é 2¹ø
+	foo(r1);	// 1ë²ˆ, ì—†ìœ¼ë©´ 2ë²ˆ
 
-	int&& r2 = 10;	// 10Àº rvalue, 10À» °¡¸®Å°´Â ÀÌ¸§ÀÖ´Â 
-					//				r2 ÂüÁ¶º¯¼ö´Â lvalue ÀÌ´Ù.
-	foo(r2);		// 1¹ø. 
+	int&& r2 = 10;	// 10ì€ rvalue, 10ì„ ê°€ë¦¬í‚¤ëŠ” ì´ë¦„ìˆëŠ” 
+					//				r2 ì°¸ì¡°ë³€ìˆ˜ëŠ” lvalue ì´ë‹¤.
+	foo(r2);		// 1ë²ˆ. 
 
-	foo(static_cast<int&&>(r2));  // 3¹ø.
+	foo(static_cast<int&&>(r2));  // 3ë²ˆ.
 }

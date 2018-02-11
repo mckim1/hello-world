@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -16,7 +16,7 @@ struct Resource
 	~Resource() { cout << "release Resource" << endl; }
 };
 
-// ÇØ°áÃ¥ 2. two-phase constructor
+// í•´ê²°ì±… 2. two-phase constructor
 
 class Test
 {
@@ -24,16 +24,16 @@ class Test
 public:
 	Test() : p(0)
 	{
-		// ¿¹¿Ü °¡´É¼ºÀÌ ÀÖ´Â ¾î¶°ÇÑ ÀÛ¾÷µµ ÇÏÁö ¾Ê´Â´Ù.
-		// °¡»óÇÔ¼ö È£Ãâ()
+		// ì˜ˆì™¸ ê°€ëŠ¥ì„±ì´ ìžˆëŠ” ì–´ë– í•œ ìž‘ì—…ë„ í•˜ì§€ ì•ŠëŠ”ë‹¤.
+		// ê°€ìƒí•¨ìˆ˜ í˜¸ì¶œ()
 	}
 
-	// ÀÚ¿ø ÇÒ´ç Àü¿ëÇÔ¼ö
+	// ìžì› í• ë‹¹ ì „ìš©í•¨ìˆ˜
 	void Construct()
 	{
 		p = new Resource;
 		//cout << "Test()" << endl;
-		// °¡»óÇÔ¼ö È£Ãâ()
+		// ê°€ìƒí•¨ìˆ˜ í˜¸ì¶œ()
 		throw 1;
 	}
 
@@ -50,11 +50,11 @@ int main()
 	try
 	{
 		Test t;
-		t.Construct(); // ÇÊ¿äÇÑ ÀÚ¿ø ÇÒ´ç.
+		t.Construct(); // í•„ìš”í•œ ìžì› í• ë‹¹.
 	}
 	catch (...)
 	{
-		cout << "¿¹¿Ü ¹ß»ý" << endl;
+		cout << "ì˜ˆì™¸ ë°œìƒ" << endl;
 	}
 }
 

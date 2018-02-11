@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -15,11 +15,11 @@ int main()
 	cin >> n;  // 'a'
 
 	if (cin.fail())
-		cout << "½ÇÆĞ" << endl;
+		cout << "ì‹¤íŒ¨" << endl;
 
-	if ( cin )  // if ( bool, Á¤¼ö, Æ÷ÀÎÅÍ, ½Ç¼ö )
+	if ( cin )  // if ( bool, ì •ìˆ˜, í¬ì¸í„°, ì‹¤ìˆ˜ )
 				// cin.operator void*() => C++98/03
 				// cin.operator bool()  => C++11
-		cout << "¼º°ø" << endl;
+		cout << "ì„±ê³µ" << endl;
 
 }

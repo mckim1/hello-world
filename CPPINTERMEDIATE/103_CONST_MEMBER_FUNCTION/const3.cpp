@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -6,8 +6,8 @@
 * Copyright (C) 2018 CODENURI Inc. All rights reserved.
 */
 
-// °´Ã¼ÀÇ »óÅÂ¸¦ º¯°æÇÏÁö ¾ÊÀº ¸ğµç ¸â¹öÇÔ¼ö´Â(getxxx)
-// ¹İµå½Ã const ¸â¹ö ÇÔ¼ö°¡ µÇ¾î¾ß ÇÑ´Ù.
+// ê°ì²´ì˜ ìƒíƒœë¥¼ ë³€ê²½í•˜ì§€ ì•Šì€ ëª¨ë“  ë©¤ë²„í•¨ìˆ˜ëŠ”(getxxx)
+// ë°˜ë“œì‹œ const ë©¤ë²„ í•¨ìˆ˜ê°€ ë˜ì–´ì•¼ í•œë‹¤.
 struct Rect
 {
 	int ox, oy, width, height;
@@ -18,7 +18,7 @@ struct Rect
 	int getArea() const {	return width * height; }
 };
 
-void foo(  const Rect& r) // call by value º¸´Ù´Â const & °¡ ÁÁ´Ù.
+void foo(  const Rect& r) // call by value ë³´ë‹¤ëŠ” const & ê°€ ì¢‹ë‹¤.
 {
 	int n = r.getArea(); // error.
 }

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -15,11 +15,11 @@ T square(T a)
 
 int main()
 {
-	// Å¸ÀÔÀ» ¸í½ÃÀûÀ¸·Î Àü´ÞÇÑ °æ¿ì
+	// íƒ€ìž…ì„ ëª…ì‹œì ìœ¼ë¡œ ì „ë‹¬í•œ ê²½ìš°
 	square<int>(3);
 	square<double>(3.3);
 
-	// Å¸ÀÔÀ» Àü´ÞÇÏÁö ¾ÊÀº °æ¿ì - ÄÄÆÄÀÏ·¯°¡ ÇÔ¼ö ÀÎÀÚ¸¦ ÅëÇØ¼­ °áÁ¤
+	// íƒ€ìž…ì„ ì „ë‹¬í•˜ì§€ ì•Šì€ ê²½ìš° - ì»´íŒŒì¼ëŸ¬ê°€ í•¨ìˆ˜ ì¸ìžë¥¼ í†µí•´ì„œ ê²°ì •
 	square(3);
 	square(3.3);
 }

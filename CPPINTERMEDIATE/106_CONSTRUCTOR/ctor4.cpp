@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -25,5 +25,5 @@ public:
 
 int main()
 {
-	Rect r; // p1ÀÇ »ı¼ºÀÚ, p2 »ı¼ºÀÚ, Rect »ı¼ºÀÚ
+	Rect r; // p1ì˜ ìƒì„±ì, p2 ìƒì„±ì, Rect ìƒì„±ì
 }

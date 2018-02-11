@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -7,13 +7,13 @@
 
 #include <iostream>
 
-//void foo() throw(int) // int Çü ¿¹¿Ü °¡´É¼º.
-//void foo() throw() // ¿¹¿Ü°¡ ¾ø´Ù.
-//void foo()  // ¿¹¿Ü°¡ ÀÖÀ»¼ö ÀÖ´Ù.
+//void foo() throw(int) // int í˜• ì˜ˆì™¸ ê°€ëŠ¥ì„±.
+//void foo() throw() // ì˜ˆì™¸ê°€ ì—†ë‹¤.
+//void foo()  // ì˜ˆì™¸ê°€ ìˆì„ìˆ˜ ìˆë‹¤.
 
-//void foo()  // ¿¹¿Ü°¡ ÀÖ´Ù.
-//void foo() noexcept(false) // ¿¹¿Ü°¡ ÀÖ´Ù.
-//void foo() noexcept(true)  // ¿¹¿Ü°¡ ¾ø´Ù.
+//void foo()  // ì˜ˆì™¸ê°€ ìˆë‹¤.
+//void foo() noexcept(false) // ì˜ˆì™¸ê°€ ìˆë‹¤.
+//void foo() noexcept(true)  // ì˜ˆì™¸ê°€ ì—†ë‹¤.
 
 void foo()//noexcept        // noexcept(true)
 {

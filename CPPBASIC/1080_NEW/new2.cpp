@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -15,12 +15,12 @@ int main()
 
 	free(p1);
 
-	int* p2 = new int; // int ÇÑ°³ ÇÒ´ç. 4byte
+	int* p2 = new int; // int í•œê°œ í• ë‹¹. 4byte
 	delete p2;
 
 	int* p3 = new int[10];
 	//delete[] p3;
 
-	delete p3; // undefined( ¹ÌÁ¤ÀÇ µ¿ÀÛ)
+	delete p3; // undefined( ë¯¸ì •ì˜ ë™ì‘)
 
 }

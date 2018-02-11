@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -9,11 +9,11 @@
 
 int main()
 {
-	//const int c = 10; // ÄÄÆÄÀÏ ½Ã°£ »ó¼ö
+	//const int c = 10; // ì»´íŒŒì¼ ì‹œê°„ ìƒìˆ˜
 						//
 
 	int n = 10;
-	const int c = n;	// ½ÇÇà½Ã°£ »ó¼ö
+	const int c = n;	// ì‹¤í–‰ì‹œê°„ ìƒìˆ˜
 
 	//int* p = &c;	// error
 

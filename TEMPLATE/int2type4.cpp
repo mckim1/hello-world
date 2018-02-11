@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -13,31 +13,31 @@ using namespace std;
 template<typename T> struct IsPointer { static constexpr bool value = false; };
 template<typename T> struct IsPointer<T*> { static constexpr bool value = true; };
 
-// Áö¿¬µÈ ÀÎ½ºÅÏ½ºÈ­ : »ç¿ëµÇÁö ¾ÊÀº ÇÔ¼ö ÅÛÇÃ¸´Àº ½ÇÁ¦ C++ ÄÚµå¸¦ »ý¼ºÇÏÁö ¾Ê´Â´Ù´Â °³³ä..
-//					 ½ÇÁ¦ ÄÚµå°¡ »ý¼ºµÇÁö¾ÊÀ¸¹Ç·Î ÄÄÆÄÀÏµµ ¾ÈµÊ..
+// ì§€ì—°ëœ ì¸ìŠ¤í„´ìŠ¤í™” : ì‚¬ìš©ë˜ì§€ ì•Šì€ í•¨ìˆ˜ í…œí”Œë¦¿ì€ ì‹¤ì œ C++ ì½”ë“œë¥¼ ìƒì„±í•˜ì§€ ì•ŠëŠ”ë‹¤ëŠ” ê°œë…..
+//					 ì‹¤ì œ ì½”ë“œê°€ ìƒì„±ë˜ì§€ì•Šìœ¼ë¯€ë¡œ ì»´íŒŒì¼ë„ ì•ˆë¨..
 
-template<typename T> void printv_not_pointer(T a)// Æ÷ÀÎÅÍ°¡ ¾Æ´Ò¶§¸¸ »ç¿ëÇÒ ¹öÀü
+template<typename T> void printv_not_pointer(T a)// í¬ì¸í„°ê°€ ì•„ë‹ë•Œë§Œ ì‚¬ìš©í•  ë²„ì „
 {
 	cout << a << endl;
 }
 
-template<typename T> void printv_pointer(T a)// Æ÷ÀÎÅÍ ÀÏ¶§¸¸ »ç¿ëÇÒ ¹öÀü
+template<typename T> void printv_pointer(T a)// í¬ì¸í„° ì¼ë•Œë§Œ ì‚¬ìš©í•  ë²„ì „
 {
 	cout << a << " : " << *a << endl;
 }
 
 template<typename T> void printv(T a)
 {
-	// ÀÇµµ : false °¡ ³ª¿À¸é ½ÇÇàµÇÁö ¾ÊÀ¸¹Ç·Î , ÄÚµå »ý¼ºÇÏÁö ¾ÊÀ»°ÍÀÌ´Ù...
-	//       ÇÏÁö¸¸.. 
+	// ì˜ë„ : false ê°€ ë‚˜ì˜¤ë©´ ì‹¤í–‰ë˜ì§€ ì•Šìœ¼ë¯€ë¡œ , ì½”ë“œ ìƒì„±í•˜ì§€ ì•Šì„ê²ƒì´ë‹¤...
+	//       í•˜ì§€ë§Œ.. 
 	if (IsPointer<T>::value)
 		printv_pointer(a);
 	else
 		printv_not_pointer(a);
 
-	// ÇÏÁö¸¸, if()¹®Àº ÄÄÆÄÀÏ ½Ã°£¿¡ false ·Î °áÁ¤µÇ¾úÁö¸¸.. if()¹®Àº °á±¹ ½ÇÇà½Ã°£ ¸ÞÄ¿´ÏÁò ÀÌ¹Ç·Î
-	// ÄÄÆÄÀÏ·¯´Â ÄÄÆÄÀÏ ÇÒ¶§´Â À§ 2°³ÀÇ ÇÔ¼ö°¡ ¸ðµÎ ÇÊ¿äÇÏ´Ù°í ÆÇ´ÜÇÏ°í
-	// 2°³ÀÇ ÅÛÇÃ¸´À» ¸ðµÎ ½ÇÁ¦ ÇÔ¼ö·Î ¸¸µé°Ô µË´Ï´Ù. 
+	// í•˜ì§€ë§Œ, if()ë¬¸ì€ ì»´íŒŒì¼ ì‹œê°„ì— false ë¡œ ê²°ì •ë˜ì—ˆì§€ë§Œ.. if()ë¬¸ì€ ê²°êµ­ ì‹¤í–‰ì‹œê°„ ë©”ì»¤ë‹ˆì¦˜ ì´ë¯€ë¡œ
+	// ì»´íŒŒì¼ëŸ¬ëŠ” ì»´íŒŒì¼ í• ë•ŒëŠ” ìœ„ 2ê°œì˜ í•¨ìˆ˜ê°€ ëª¨ë‘ í•„ìš”í•˜ë‹¤ê³  íŒë‹¨í•˜ê³ 
+	// 2ê°œì˜ í…œí”Œë¦¿ì„ ëª¨ë‘ ì‹¤ì œ í•¨ìˆ˜ë¡œ ë§Œë“¤ê²Œ ë©ë‹ˆë‹¤. 
 }
 
 int main()

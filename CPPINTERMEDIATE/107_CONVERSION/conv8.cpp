@@ -1,4 +1,4 @@
-/*
+﻿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -26,9 +26,9 @@ int main()
 
 	foo(NULL);		// 2
 
-	goo(NULL);	// void* => char* ���� �Ͻ��� ��ȯ �ʿ�.
+	goo(NULL);	// void* => char* 로의 암시적 변환 필요.
 				// C   : ok
-				// C++ : �Ͻ��� ��ȯ �ȵ�.
+				// C++ : 암시적 변환 안됨.
 }
 
 

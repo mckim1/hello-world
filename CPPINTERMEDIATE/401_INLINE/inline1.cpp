@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -12,10 +12,10 @@ inline int Add2(int a, int b) { return a + b; }
 
 int main()
 {
-	int n1 = Add1(1, 2); // È£Ãâ
-	int n2 = Add2(1, 2); // Ä¡È¯
-						 // ÀåÁ¡ : ¼Óµµ°¡ ºü¸£´Ù
-						 // ´ÜÁ¡ : ¸ñÀûÄÚµå°¡ Ä¿Áø´Ù.
+	int n1 = Add1(1, 2); // í˜¸ì¶œ
+	int n2 = Add2(1, 2); // ì¹˜í™˜
+						 // ì¥ì  : ì†ë„ê°€ ë¹ ë¥´ë‹¤
+						 // ë‹¨ì  : ëª©ì ì½”ë“œê°€ ì»¤ì§„ë‹¤.
 
 	// g++ inline1.cpp -S        => inline1.s
 	// cl  inline1.cpp /FAs /Ob1 => inline1.asm

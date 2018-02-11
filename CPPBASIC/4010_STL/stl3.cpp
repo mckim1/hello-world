@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -19,7 +19,7 @@ int main()
 	//std::list<int>::iterator p = s.begin();
 
 	//auto p1 = s.begin();
-	//auto p2 = s.end(); // ¸¶Áö¸· ´ÙÀ½¿ä¼Ò.
+	//auto p2 = s.end(); // ë§ˆì§€ë§‰ ë‹¤ìŒìš”ì†Œ.
 
 	auto p1 = std::begin(s);
 	auto p2 = std::end(s);

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -10,8 +10,8 @@
 #include <typeinfo>
 using namespace std;
 
-// non-type(°ª) parameter
-// Á¤¼öÇü »ó¼ö, enum »ó¼ö, Æ÷ÀÎÅÍ, ÇÔ¼ö Æ÷ÀÎÅÍ, ¸â¹ö ÇÔ¼ö Æ÷ÀÎÅÍ.
+// non-type(ê°’) parameter
+// ì •ìˆ˜í˜• ìƒìˆ˜, enum ìƒìˆ˜, í¬ì¸í„°, í•¨ìˆ˜ í¬ì¸í„°, ë©¤ë²„ í•¨ìˆ˜ í¬ì¸í„°.
 // c++17 : auto
 
 template<auto N> struct Test
@@ -26,8 +26,8 @@ int x = 0;
 
 int main()
 {
-	Test<10> t1; // N : intÀÇ °ª
-	Test<&x> t2; // N : int* ÀÇ °ª.
+	Test<10> t1; // N : intì˜ ê°’
+	Test<&x> t2; // N : int* ì˜ ê°’.
 	Test<&main> t3;  
 }
 

@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -28,8 +28,8 @@ int main()
 	Dog d;
 	Animal* p = &d;
 
-	p->Cry(); // Cry()°¡ °¡»óÇÔ¼ö ¶ó¸é 
-			  // Dog ÀÇ Cry() È£Ãâ
+	p->Cry(); // Cry()ê°€ ê°€ìƒí•¨ìˆ˜ ë¼ë©´ 
+			  // Dog ì˜ Cry() í˜¸ì¶œ
 }
 
 

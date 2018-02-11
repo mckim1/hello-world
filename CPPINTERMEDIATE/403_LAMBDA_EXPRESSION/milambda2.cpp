@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 template<typename ... Types> class mi : public Types... // public lambda1, public lambda2
@@ -6,7 +6,7 @@ template<typename ... Types> class mi : public Types... // public lambda1, publi
 public:
 	mi(Types&& ... args) : Types(args)... {} 
 
-	// ±â¹İ Å¬·¡½ºÀÇ Æ¯Á¤ÇÔ¼ö¸¦ »ç¿ëÇÒ¼ö ÀÖ°Ô..
+	// ê¸°ë°˜ í´ë˜ìŠ¤ì˜ íŠ¹ì •í•¨ìˆ˜ë¥¼ ì‚¬ìš©í• ìˆ˜ ìˆê²Œ..
 	using Types::operator()...;
 };
 

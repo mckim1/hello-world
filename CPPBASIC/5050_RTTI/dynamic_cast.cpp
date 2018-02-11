@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -26,7 +26,7 @@ void foo(Animal* p)
 		Dog* pDog = static_cast<Dog*>(p);
 	}
 
-	// È¤½Ã p°¡ Dog ¶ó¸é color
+	// í˜¹ì‹œ pê°€ Dog ë¼ë©´ color
 	//p->color = 10; // error
 	//Dog* pDog = static_cast<Dog*>(p);
 

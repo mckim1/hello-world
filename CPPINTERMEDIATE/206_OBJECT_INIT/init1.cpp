@@ -1,4 +1,4 @@
-/*
+Ôªø/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -11,8 +11,8 @@ int main()
 	int n1 = 0;
 	int n2(0);
 	int ar[3] = { 1,2,3 };
-	Point p = { 1,2 };		// ±∏¡∂√º
-	complex c(1, 2);		// ≈¨∑°Ω∫
+	Point p = { 1,2 };		// Íµ¨Ï°∞Ï≤¥
+	complex c(1, 2);		// ÌÅ¥ÎûòÏä§
 
 	// 2.
 	class Test

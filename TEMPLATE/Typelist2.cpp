@@ -1,9 +1,9 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
-// Step2. NullType °ú ¸ÅÅ©·Î µµÀÔ
+// Step2. NullType ê³¼ ë§¤í¬ë¡œ ë„ì…
 
-// Typelist : Å¸ÀÔÀ» ¿©·¯°³ º¸°üÇÏ´Â typeÀÇ list(°ªÀÌ ¾Æ´Ô.)
+// Typelist : íƒ€ì…ì„ ì—¬ëŸ¬ê°œ ë³´ê´€í•˜ëŠ” typeì˜ list(ê°’ì´ ì•„ë‹˜.)
 
 template<typename T, typename U> struct Typelist
 {
@@ -13,7 +13,7 @@ template<typename T, typename U> struct Typelist
 
 struct NullType {}; 
 
-// ¸ÅÅ©·Î µµÀÔ
+// ë§¤í¬ë¡œ ë„ì…
 #define TYPELIST_1(T1)       Typelist<T1, NullType>
 #define TYPELIST_2(T1, T2)   Typelist<T1, Typelist<T2, NullType>>
 #define TYPELIST_3(T1, T2, T3)   Typelist<T1, Typelist<T2, Typelist<T3, NullType>>>

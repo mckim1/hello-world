@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ï»¿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 /* HOME  : ecourse.co.kr
 /* EMAIL : smkang @ codenuri.co.kr 
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
@@ -31,9 +31,9 @@ int main()
 	/*
 	std::cout << s1 << std::endl;
 
-	String s2 = s1; // º¹»ç »ý¼ºÀÚ
+	String s2 = s1; // ë³µì‚¬ ìƒì„±ìž
 
 	String s3 = "world";
-	s2 = s3;	    // ´ëÀÔ ¿¬»êÀÚ.
+	s2 = s3;	    // ëŒ€ìž… ì—°ì‚°ìž.
 	*/
 }

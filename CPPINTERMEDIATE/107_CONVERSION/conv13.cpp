@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Intermediate
@@ -12,18 +12,18 @@ class istream   // basic_istream
 public:
 	bool fail() { return false; }
 
-	// ¹æ¹ı 1. bool ·Î º¯È¯ - ´ÜÁ¡. shift  ¿¬»êÀÌ Çã¿ëµÈ´Ù.
+	// ë°©ë²• 1. bool ë¡œ ë³€í™˜ - ë‹¨ì . shift  ì—°ì‚°ì´ í—ˆìš©ëœë‹¤.
 	//operator bool() { return fail() ? false : true; }
 
-	// ¹æ¹ı 2. void* ·ÎÀÇ º¯È¯ - C++ 98/03
+	// ë°©ë²• 2. void* ë¡œì˜ ë³€í™˜ - C++ 98/03
 	// operator void*() { return fail() ? 0 : this; }
 
-	// ¹æ¹ı 3. ÇÔ¼ö Æ÷ÀÎÅÍ·ÎÀÇ º¯È¯.
+	// ë°©ë²• 3. í•¨ìˆ˜ í¬ì¸í„°ë¡œì˜ ë³€í™˜.
 	//typedef void(*F)();
 	//operator F() { return fail() ? 0 : &true_function; }
 
-	// ¹æ¹ı 4. ¸â¹ö ÇÔ¼ö Æ÷ÀÎÅÍ·ÎÀÇ º¯È¯. - Safe BOOL
-	//          if() ¹®¿¡ ³ÖÀ»¼ö ÀÖ´Â side effect°¡ °¡Àå Àû´Ù..
+	// ë°©ë²• 4. ë©¤ë²„ í•¨ìˆ˜ í¬ì¸í„°ë¡œì˜ ë³€í™˜. - Safe BOOL
+	//          if() ë¬¸ì— ë„£ì„ìˆ˜ ìˆëŠ” side effectê°€ ê°€ì¥ ì ë‹¤..
 	struct Dummy
 	{
 		void true_function() {}

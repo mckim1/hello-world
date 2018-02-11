@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 * HOME       : ecourse.co.kr
 * EMAIL      : smkang @ codenuri.co.kr
 * COURSENAME : C++ Template Programming
@@ -14,7 +14,7 @@ template<typename T, typename U> struct Test
 	static void foo() { cout << "T, U" << endl; }
 };
 
-// int, ÀÓÀÇÀÇ Å¸ÀÔ
+// int, ìž„ì˜ì˜ íƒ€ìž…
 template<typename U> struct Test<int, U>
 {
 	static void foo() { cout << "int, U" << endl; }
