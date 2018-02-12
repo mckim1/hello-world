@@ -23,6 +23,6 @@ int main()
 
 	//p.Point(); // error.
 	p.~Point(); // ok.
-	
+
 
 }

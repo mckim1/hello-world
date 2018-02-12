@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -12,16 +12,16 @@ class Point
 	int x, y;
 	//int* buf;
 public:
-	Point() 
+	Point()
 	{
-		std::cout << "Point()" << std::endl; 
+		std::cout << "Point()" << std::endl;
 	//	buf = new int[10];
 	}
 	/*
-	~Point() 
+	~Point()
 	{
 	//	delete[] buf;
-		std::cout << "~Point()" << std::endl; 
+		std::cout << "~Point()" << std::endl;
 	}
 	*/
 };

@@ -16,11 +16,11 @@ int main()
 	int x[3] = { 1,2,3 }; // x : int[3]
 
 	auto  a1 = x;	// int a1[3] = x; error
-					// int* a1 = x; 
+					// int* a1 = x;
 
 	auto& a2 = x;	// int (&a2)[3] = x; // ok
 					// a2 : int (&)[3]
-	
+
 	decltype(x) d;  // int [3]
 
 	cout << typeid(a1).name() << endl; // int*

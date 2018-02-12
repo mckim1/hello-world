@@ -12,7 +12,7 @@ using namespace std;
 
 // template<size_t ... N> struct index_sequence {};
 
-template<typename TP, size_t ... I > 
+template<typename TP, size_t ... I >
 void print_tuple_imp(const TP& tp, const index_sequence<I...>& ) // I : 0, 1, 2
 {
 	int x[] = { get<I>(tp)... }; // get<0>(tp), get<1>(tp), get<2>(tp)

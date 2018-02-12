@@ -24,7 +24,7 @@ int main()
 {
 	list<int> c = { 1,2,3 };
 	//vector<int> c = { 1,2,3 };
-	
+
 	show(c);
 
 	int x[3] = { 1,2, 3 };

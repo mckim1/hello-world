@@ -12,7 +12,7 @@ int main()
 	auto f1 = [&v1, &v2]() { v1 = 10; v2 = 20; };
 
 
-	f1(); 
+	f1();
 
 	cout << v1 << endl; // 10
 	cout << v2 << endl; // 20

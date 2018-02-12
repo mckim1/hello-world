@@ -11,7 +11,7 @@
 #include <limits>
 using namespace std;
 
-template <class T> class ecAlloc 
+template <class T> class ecAlloc
 {
 public:
 	typedef T        value_type;
@@ -23,7 +23,7 @@ public:
 	typedef std::ptrdiff_t difference_type;
 
 	// policy clone 을 위한 도구. "rebind" 동영상 참고.
-	template <class U> struct rebind 
+	template <class U> struct rebind
 	{
 		typedef ecAlloc<U> other;
 	};
@@ -41,7 +41,7 @@ public:
 	}
 
 	// 메모리만 할당하는 함수. 초기화(생성자 호출) 하지 않습니다.
-	pointer allocate(size_type num, const void* = 0) 
+	pointer allocate(size_type num, const void* = 0)
 	{
 		cerr << "allocate " << num << " element(s)"
 			      << " of size " << sizeof(T) << endl;
@@ -51,7 +51,7 @@ public:
 	}
 
 	// 초기화(생성자 호출) 함수. Placement new를 사용합니다.
-	void construct(pointer p, const T& value) {		
+	void construct(pointer p, const T& value) {
 		new((void*)p)T(value);
 	}
 

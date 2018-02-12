@@ -25,7 +25,7 @@ template<typename R, typename ... Types> struct result<R(Types...)>
 
 template<typename T> void foo(T& a) // 여기서 T는 int(int, double) 타입입니다.
 {
-	typename result<T>::type n;  
+	typename result<T>::type n;
 
 	cout << typeid(n).name() << endl;  // int 가 나와야 합니다.
 }

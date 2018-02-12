@@ -23,7 +23,7 @@ public:
 	// convert to function pointer
 	operator bool(*)(int, int)()  { return &static_method; }
 
-	static bool static_method(int a, int b) 
+	static bool static_method(int a, int b)
 	{
 		return a < b;
 	}

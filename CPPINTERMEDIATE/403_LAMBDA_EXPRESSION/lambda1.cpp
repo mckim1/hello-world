@@ -23,7 +23,7 @@ int main()
 	sort(x, x+10, less<int>());
 
 	// C++11. 람다 표현식(lambda expression)
-	sort(x, x + 10, 
+	sort(x, x + 10,
 		  [](int a, int b) { return a < b; } );
 
 }

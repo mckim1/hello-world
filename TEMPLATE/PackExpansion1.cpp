@@ -17,7 +17,7 @@ void goo(int a, int b, int c)
 int hoo(int a) { return -a; }
 
 // Pack Expansion : (pack을 사용하는 패턴)...
-template<typename ... Types> void foo(Types ... args) // args : 1,2,3 
+template<typename ... Types> void foo(Types ... args) // args : 1,2,3
 {
 	//int ar[] = { args... }; // 1, 2, 3
 

@@ -6,9 +6,9 @@
 */
 
 
-void f1(int&  a) {} 
-void f2(int&& a) {} 
-template<typename T> void f3(T&  a) {} 
+void f1(int&  a) {}
+void f2(int&& a) {}
+template<typename T> void f3(T&  a) {}
 template<typename T> void f4(T&& a) {}
 
 // int&  : int 형의 lvalue 전달 가능.
@@ -18,7 +18,7 @@ template<typename T> void f4(T&& a) {}
 // T&&   : 모든 타입의 lvalue 와 rvalue 모두 전달 가능.(함수 생성)
 //		   "universal reference"  => "forwarding reference"
 //			lvalue 를 전달하면 foo(n)  => T : int&    T&& : int& && => int&
-//          rvalue 를 전달하면 foo(10) => T : int     T&& : int&&    
+//          rvalue 를 전달하면 foo(10) => T : int     T&& : int&&
 
 
 

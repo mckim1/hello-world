@@ -15,7 +15,7 @@ void foo(double a) {}
 int main()
 {
 	// 타입에 따른 함수 오버로딩
-	foo(3);		// foo(int) 
+	foo(3);		// foo(int)
 	foo(3.4);	// foo(double)
 
 	// 값에 따른 오버로딩 ?? - 0, 1 은 같은 타입이므로 같은 함수 호출

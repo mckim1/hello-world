@@ -12,20 +12,20 @@ using Duo = pair<T, U>;
 
 Duo<int, double> d1; // pair<int, double>
 
-template<typename T> 
+template<typename T>
 using Ptr = T*;
 
 Ptr<int> p2; // int*
 
 
-// 3. 
+// 3.
 template<typename T>
 using Point = pair<T, T>;
 
 Point<int> p;   // pair<int, int>
 
 
-// 4. 
+// 4.
 
 template<typename T>
 using remove_pointer_t =

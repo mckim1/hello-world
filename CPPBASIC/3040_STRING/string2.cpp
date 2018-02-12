@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -12,7 +12,7 @@
 class String
 {
 	char* buff;
-	int   size; 
+	int   size;
 public:
 	String(const char* s)
 	{

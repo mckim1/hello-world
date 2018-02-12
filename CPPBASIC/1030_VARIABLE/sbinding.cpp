@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -22,11 +22,11 @@ int main()
 
 	//int [a, b] = p; // error
 
-	//const auto [a, b] = p; 
+	//const auto [a, b] = p;
 
 	int x[2] = { 1,2 };
 
 	auto[a, b] = x;
 
-	std::cout << a << ", " << b << std::endl;	
+	std::cout << a << ", " << b << std::endl;
 }

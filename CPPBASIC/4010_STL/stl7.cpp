@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -14,7 +14,7 @@ int main()
 {
 	std::vector<int> v = { 1,2,3,4,5 };
 
-	// [first, last) 
+	// [first, last)
 	auto p = std::find(v.begin(), v.end(), 13);
 
 	if (p == v.end())
@@ -22,7 +22,7 @@ int main()
 		std::cout << "검색 실패" << std::endl;
 	}
 
-	auto p1 = std::begin(v); 
+	auto p1 = std::begin(v);
 
 	auto ret = std::find(p1, p1 + 2, 3);
 

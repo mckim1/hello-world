@@ -24,13 +24,13 @@ int random()
 		v = rand() % 10;
 	} while (bs.test(v));
 
-	bs.set(v);	
+	bs.set(v);
 	return v;
 }
 
 int main()
 {
 	for ( int i = 0; i < 10; i++)
-		cout << random() << " "; 
+		cout << random() << " ";
 	random();
 }

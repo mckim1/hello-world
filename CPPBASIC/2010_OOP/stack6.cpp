@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -17,7 +17,7 @@ public:
 	Stack(int sz = 10)
 	{
 		buf = new int[sz];
-		idx = 0; 
+		idx = 0;
 	}
 	// 소멸자 :  객체가 파괴될때 자동으로 호출.
 	~Stack()

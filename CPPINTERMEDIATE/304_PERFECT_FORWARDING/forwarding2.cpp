@@ -27,6 +27,6 @@ int main()
 	chronometry(&goo, n);
 	chronometry(&foo, 5);
 
-	cout << n << endl; 
+	cout << n << endl;
 
 }

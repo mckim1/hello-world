@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -12,7 +12,7 @@ class Point
 	int x, y;
 public:
 	Point(int a, int b) : x(a), y(b) {}
-	
+
 	int getX() const { return x; }
 
 	void print() const
@@ -31,6 +31,6 @@ int main()
 	Point p(1, 2);
 
 	p.print(); // ok...
-	
+
 	foo(p);
 }

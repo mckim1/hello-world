@@ -26,7 +26,7 @@ template<typename R, typename A1, typename A2> struct result<R(A1, A2)>
 
 template<typename T> void foo(T& t)  // T : int(int, char)
 {
-	typename result<T>::type n; 
+	typename result<T>::type n;
 
 	cout << typeid(n).name() << endl;
 }

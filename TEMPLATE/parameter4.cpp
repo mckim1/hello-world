@@ -28,6 +28,6 @@ int main()
 {
 	Test<10> t1; // N : int의 값
 	Test<&x> t2; // N : int* 의 값.
-	Test<&main> t3;  
+	Test<&main> t3;
 }
 

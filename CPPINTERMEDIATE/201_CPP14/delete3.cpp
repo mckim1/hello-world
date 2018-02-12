@@ -16,7 +16,7 @@ struct Point
 
 int main()
 {
-	Point p1{};  
+	Point p1{};
 
 	cout << p1.x << endl; // default 생성자 - 0
 						  // 사용자가 제공 - garbage

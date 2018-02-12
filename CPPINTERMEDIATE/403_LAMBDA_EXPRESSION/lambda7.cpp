@@ -14,7 +14,7 @@ int main()
 
 	auto f2 = [](int a, int b) -> int { return a + b; };
 
-	auto f3 = [](int a, int b){ 
+	auto f3 = [](int a, int b){
 						if (a == 1)
 							return a;
 						else

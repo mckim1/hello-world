@@ -15,10 +15,10 @@ public:
 
 	Point(int a = 0, int b = 0) : x(a), y(b) {}
 
-	void set(int a, int b) 
+	void set(int a, int b)
 	{
-		x = a; 
-		y = b; 
+		x = a;
+		y = b;
 	}
 	void print()  //const	// 상수 멤버 함수
 	{

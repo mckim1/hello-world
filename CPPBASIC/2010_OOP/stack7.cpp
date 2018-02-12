@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -30,16 +30,16 @@ Stack::Stack(int sz)
 }
 Stack::~Stack()
 {
-	delete[] buf; 
+	delete[] buf;
 }
 
-void Stack::push(int n) 
+void Stack::push(int n)
 {
-	buf[idx++] = n; 
+	buf[idx++] = n;
 }
-int  Stack::pop() 
+int  Stack::pop()
 {
-	return buf[--idx]; 
+	return buf[--idx];
 }
 
 

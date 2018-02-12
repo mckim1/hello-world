@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -15,13 +15,13 @@ struct Stack
 
 };
 
-void push(Stack* s, int n) 
-{ 
+void push(Stack* s, int n)
+{
 	s->buf[(s->idx)++] = n;
 }
 int  pop(Stack* s )
-{ 
-	return s->buf[--(s->idx)]; 
+{
+	return s->buf[--(s->idx)];
 }
 
 int main()

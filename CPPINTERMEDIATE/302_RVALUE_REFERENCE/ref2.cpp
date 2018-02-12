@@ -15,7 +15,7 @@ int main()
 
 	// 규칙 2. const lvalue reference 는 lvalue 와 rvalue를 모두 참조 가능
 	const int& r3 = n;	// ok
-	const int& r4 = 10;	// ok   
+	const int& r4 = 10;	// ok
 
 	//const Point& r = Point(1, 1);
 	//r.x = 10;

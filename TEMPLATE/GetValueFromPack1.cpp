@@ -14,7 +14,7 @@ using namespace std;
 // 1. pack expansion 사용
 template<typename ... Types> void foo(Types ... args)
 {
-	// args : 1,2,3 
+	// args : 1,2,3
 	//int x[] = { 0,  args... };
 	/*
 	initializer_list<int> x = { args... };

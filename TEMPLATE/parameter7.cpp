@@ -8,9 +8,9 @@
 
 // template 파라미터의 종류
 
-// 1. type 
+// 1. type
 // 2. 값(non-type) : 정수형 상수, enum 상수, 포인터, 함수 포인터, C++17 auto
-// 3. template 
+// 3. template
 
 // "default 값 사용가능."
 

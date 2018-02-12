@@ -1,9 +1,9 @@
 ﻿
 int main()
 {
-	int(*f)(int, int) = [](int a, int b) 
+	int(*f)(int, int) = [](int a, int b)
 	{
-		return a + b; 
+		return a + b;
 	};
 
 	int v = 0;

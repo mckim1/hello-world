@@ -12,11 +12,11 @@ using namespace std;
 struct Point
 {
 	int x, y;
-	
+
 	bool operator<(const Point&  p)
 	{
 	return x < p.x;
-	}	
+	}
 };
 
 template<typename T>
@@ -36,7 +36,7 @@ T Min(T x, T y)
 
 /*
 // 방법 2.
-template<typename T> 
+template<typename T>
 T Min(T x, T y) requires LessThanComparable<T>
 {
 	return (y < x) ? y : x;

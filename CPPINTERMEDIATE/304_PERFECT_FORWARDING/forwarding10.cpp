@@ -22,7 +22,7 @@ void chronometry(F f, T&& arg)
 {
 	//f(static_cast<T&&>(arg));
 
-	f(forward<T&&>(static_cast<int&&>(arg))); 
+	f(forward<T&&>(static_cast<int&&>(arg)));
 
 	// lvalue 일때 T : int& => int&
 	// rvalue 일때 T : int  => int&&

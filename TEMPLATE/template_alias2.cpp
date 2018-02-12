@@ -13,14 +13,14 @@ template<typename T> class List {};
 // typedef : type 별칭을 만들지만... template 의 별칭을 만들수 없다.
 typedef List<int> IntList; // ok..
 
-//template<typename T> typedef List<T> MyList<T>;  // error. 
+//template<typename T> typedef List<T> MyList<T>;  // error.
 
 template<typename T> using MyList = List<T>;
 
 int main()
 {
 	//List<int> s;
-	//IntList s; 
+	//IntList s;
 
-	MyList<int> s; // List<int> 
+	MyList<int> s; // List<int>
 }

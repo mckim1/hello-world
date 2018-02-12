@@ -20,7 +20,7 @@ int main()
 	int* p1 = &n;
 
 	//void(Point::*f)() = &Point::print; // 멤버 함수 포인터
-	
+
 	int Point::*p2 = &Point::x; // 멤버 변수 포인터
 							    // 0
 	int Point::*p3 = &Point::y; // 4

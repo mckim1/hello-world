@@ -14,7 +14,7 @@ int main()
 	auto f3 = [v1, &v2]() {};
 
 
-	
+
 	// default capture
 	auto f4 = [=]() {};	// capture by copy
 	auto f5 = [&]() {}; // capture by reference
@@ -27,7 +27,7 @@ int main()
 	auto f9  = [x = v1, v2 = v2, v3]() {};
 	auto f10 = [v1, y = v2, &r = v3]() {};
 
-	
+
 
 	string s = "hello";
 	auto f11 = [s1 = move(s)] ()  { };

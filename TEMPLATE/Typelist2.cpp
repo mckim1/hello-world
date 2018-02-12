@@ -11,7 +11,7 @@ template<typename T, typename U> struct Typelist
 	typedef U Tail;
 };
 
-struct NullType {}; 
+struct NullType {};
 
 // 매크로 도입
 #define TYPELIST_1(T1)       Typelist<T1, NullType>
@@ -26,8 +26,8 @@ int main()
 	Typelist<int, Typelist<double, NullType>> t2;
 	//Typelist<int, Typelist<double, Typelist<char, NullType>>> t3;
 
-	TYPELIST_1(int) t4; // 
-	TYPELIST_4(int, double, char, short) t4; // 
+	TYPELIST_1(int) t4; //
+	TYPELIST_4(int, double, char, short) t4; //
 }
 
 

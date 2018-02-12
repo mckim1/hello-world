@@ -16,7 +16,7 @@ int main()
 {
 	invoke(&foo, 10, 20); // foo(10,20)
 	Dialog dlg;
-	invoke(&Dialog::setColor, &dlg, 2); 
+	invoke(&Dialog::setColor, &dlg, 2);
 						// dlg.setColor(2);
 
 	// 멤버 변수 포인터

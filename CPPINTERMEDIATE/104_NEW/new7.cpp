@@ -13,10 +13,10 @@ class Point
 {
 	int x, y;
 public:
-	Point(int a, int b) : x(a), y(b) 
+	Point(int a, int b) : x(a), y(b)
 	{
 		cout << "Point(int, int)" << endl;
-	} 
+	}
 };
 
 int main()
@@ -30,7 +30,7 @@ int main()
 
 	// 1. 메모리만 먼저 힙에 할당
 	Point* p2 = static_cast<Point*>(operator new(sizeof(Point) * 10));
-	
+
 	// 2. 할당한 메모리에 객체를 생성(생성자 호출)
 	for (int i = 0; i < 10; i++)
 		new(&p2[i]) Point(0,0);

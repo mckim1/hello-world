@@ -14,16 +14,16 @@ using namespace std;
 
 struct Less
 {
-	inline bool operator()(int a, int b) const 
+	inline bool operator()(int a, int b) const
 	{
-		return a < b; 
+		return a < b;
 	}
 };
 struct Greater
 {
-	inline bool operator()(int a, int b) const 
-	{ 
-		return a > b; 
+	inline bool operator()(int a, int b) const
+	{
+		return a > b;
 	}
 };
 template<typename T> void Sort(int* x, int n, T cmp)
@@ -40,8 +40,8 @@ template<typename T> void Sort(int* x, int n, T cmp)
 int main()
 {
 	int x[10] = { 1,3,5,7,9,2,4,6,8,10 };
-	Less	f1; 
-	Greater f2; 
-	Sort(x, 10, f1);  
-	Sort(x, 10, f2); 
+	Less	f1;
+	Greater f2;
+	Sort(x, 10, f1);
+	Sort(x, 10, f2);
 }

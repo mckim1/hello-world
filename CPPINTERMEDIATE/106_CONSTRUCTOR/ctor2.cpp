@@ -21,11 +21,11 @@ class Derived : public Base
 public:
 	Derived() : Base()
 	{
-		cout << "D()" << endl; 
+		cout << "D()" << endl;
 	}
 	Derived(int a) : Base(a)
-	{ 
-		cout << "D(int)" << endl; 
+	{
+		cout << "D(int)" << endl;
 	}
 	~Derived()      { cout << "~D()" << endl; }
 };

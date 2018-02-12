@@ -10,7 +10,7 @@
 #include <iostream>
 #include "Point.h"
 
-Point::Point(int a, int b) : x(a), y(b) 
+Point::Point(int a, int b) : x(a), y(b)
 {
 }
 void Point::set(int a, int b)

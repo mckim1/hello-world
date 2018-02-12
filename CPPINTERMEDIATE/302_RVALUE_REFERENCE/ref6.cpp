@@ -19,10 +19,10 @@ int main()
 	// 사용자가 T의 타입을 명시적으로 전달할때
 	f4<int>(10 );	// f4(int&& a)   => rvalue 를 전달
 	f4<int&>(n );	// f4(int& && a) => f4(int& a) => lvalue 를 전달
-	f4<int&&>(10 ); // f4(int&& && a)=> f4(int&& a) => rvalue 전달 
+	f4<int&&>(10 ); // f4(int&& && a)=> f4(int&& a) => rvalue 전달
 
 	// T의 타입을 명시적으로 전달하지 않을때
 	f4(n);	// ok. 컴파일러가 T를 int& 로 결정.
-	f4(10);	// ok. 컴파일러가 T를 int  로 결정. f4(T&& ) => f4(int && ) 
+	f4(10);	// ok. 컴파일러가 T를 int  로 결정. f4(T&& ) => f4(int && )
 }
 

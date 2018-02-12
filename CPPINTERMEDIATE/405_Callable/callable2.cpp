@@ -6,7 +6,7 @@ using namespace std;
 template<typename F, typename ... Types>
 decltype(auto) chronometry(F&& f, Types&& ... args)
 {
-	std::forward<F>(f)(std::forward<Types>(args)...); 
+	std::forward<F>(f)(std::forward<Types>(args)...);
 }
 
 int main()

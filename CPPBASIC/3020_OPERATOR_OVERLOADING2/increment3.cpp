@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -34,9 +34,9 @@ int main()
 	std::cout << n << std::endl;
 
 
-	Integer n1 = 3; 
+	Integer n1 = 3;
 
-	++++n1;	// ++(++n1) => 
+	++++n1;	// ++(++n1) =>
 			// (n1.operator++()).operator++()
 
 	n1.print(); // 5

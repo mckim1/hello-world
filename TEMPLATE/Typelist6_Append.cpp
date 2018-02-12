@@ -44,7 +44,7 @@ template<typename Head, typename Tail> struct Append<Typelist<Head, Tail>, NullT
 };
 
 
-// 5. Typelist<Head, Tail>, T =>  Typelist<Head, Append<Tail, T>::type> 
+// 5. Typelist<Head, Tail>, T =>  Typelist<Head, Append<Tail, T>::type>
 
 template<typename Head, typename Tail, typename T> struct Append<Typelist<Head, Tail>, T >
 {

@@ -16,7 +16,7 @@ int main()
 	Test t1;
 	Test t2 = t1; // copy
 	Test t3 = move(t2); // move
-	 
+
 	bool b = is_nothrow_move_constructible<Test>::value;
 	cout << b << endl;
 
@@ -27,7 +27,7 @@ int main()
 	/*
 	Test* p1 = new Test[2];
 	Test* p2 = new Test[4];
-	
+
 	for (int i = 0; i < 2; i++)
 		p2[i] = move( p1[i] );
 		*/

@@ -14,14 +14,14 @@ int main()
 
 	// auto : 값 복사 방식
 	auto a1 = n;	// int
-	auto a2 = r;	// int, 
+	auto a2 = r;	// int,
 	auto a3 = c;	// int
 	auto a4 = cr;	// int
 
 
 	auto& a5 = n;	// auto : int   a5 : int&
 	auto& a6 = r;	// auto : int   a6 : int&
-	auto& a7 = c;   // auto : const int a7 : const int& 
+	auto& a7 = c;   // auto : const int a7 : const int&
 	auto& a8 = cr;	// auto : const int a8 : const int&
 
 

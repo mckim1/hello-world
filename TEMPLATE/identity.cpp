@@ -12,7 +12,7 @@ template<typename T> struct identity
 };
 
 // implicit, explicit 인스턴스화 모두 가능
-// template<typename T> void foo(T a) 
+// template<typename T> void foo(T a)
 
 // explicit instantiation 만 가능.
 template<typename T> void foo(typename identity<T>::type a)

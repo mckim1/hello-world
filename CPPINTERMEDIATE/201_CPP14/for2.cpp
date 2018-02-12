@@ -31,7 +31,7 @@ int main()
 	list<int> s = { 1,2,3,4,5,6,7,8,9,10 };
 
 
-//	for (auto& n : s) 
+//	for (auto& n : s)
 //		cout << n << endl;
 
 	for ( auto p = begin(s); p != end(s); ++p )

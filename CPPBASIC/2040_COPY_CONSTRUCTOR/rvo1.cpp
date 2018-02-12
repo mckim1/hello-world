@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -27,10 +27,10 @@ public:
 
 int main()
 {
-	//Point p1(1, 1);					// 1. 생성자			
+	//Point p1(1, 1);					// 1. 생성자
 
 	Point(1, 1); // 클래스이름()
-				// 생성자, 소멸자, AAA 
+				// 생성자, 소멸자, AAA
 
 	std::cout << "AAA" << std::endl;// 2. AAA
 }									// 3. 소멸자

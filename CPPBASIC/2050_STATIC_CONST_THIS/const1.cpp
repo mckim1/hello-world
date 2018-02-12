@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -13,10 +13,10 @@ class Point
 public:
 	Point(int a, int b) : x(a), y(b) {}
 
-	void set(int a, int b) 
+	void set(int a, int b)
 	{
-		x = a; 
-		y = b; 
+		x = a;
+		y = b;
 	}
 
 	void print() const	// 상수 멤버 함수

@@ -12,10 +12,10 @@ using namespace std;
 // lvalue를 전달하면 T : lvalue 참조.. => const Test&
 template<typename T>
 typename remove_reference<T>::type &&
-xmove(T&& obj)  
+xmove(T&& obj)
 {
 	// const Test&&    => Test(Test&&)       : error
-	//                 => Test(const Test& ) : 
+	//                 => Test(const Test& ) :
 
 	return static_cast<const Test&&>(obj);
 	return static_cast<typename remove_reference<T>::type &&>(obj);

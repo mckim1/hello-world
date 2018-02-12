@@ -33,12 +33,12 @@ int __stdcall WinMain( HINSTANCE hInstance, HINSTANCE hPrev, LPTSTR cmdLine, int
 
 	RegisterClass(&wc);
 
-	HWND hwnd = CreateWindowEx(WS_EX_TOPMOST, szClass, szTitle, WS_OVERLAPPEDWINDOW, 
+	HWND hwnd = CreateWindowEx(WS_EX_TOPMOST, szClass, szTitle, WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, GetModuleHandle(0), 0);
 
 	ShowWindow(hwnd, SW_SHOW);
 	UpdateWindow(hwnd);
-	
+
 	MSG msg;
 	while (GetMessage(&msg, 0, 0, 0))
 	{

@@ -25,7 +25,7 @@ struct Derived : public Base
 	int y;
 	Derived() : dm(), Base()
 	{
-		cout << "Derived()" << endl; 
+		cout << "Derived()" << endl;
 	}
 };
 

@@ -30,7 +30,7 @@ template<> void Stack<char*>::push(char* a)
 	cout << "char*" << endl;
 };
 
-// 특정 멤버함수만 부분 특수화을 할수는 없다. 
+// 특정 멤버함수만 부분 특수화을 할수는 없다.
 // 부분 특수화는 클래스 전체를 변경해야 한다.
 template<> void Stack<T*>::push(char* a)
 {

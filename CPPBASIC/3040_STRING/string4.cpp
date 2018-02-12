@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -44,14 +44,14 @@ std::ostream& operator<<(std::ostream& os,
 
 int main()
 {
-	String s1 = "hello"; 
+	String s1 = "hello";
 
 	std::cout << s1 << std::endl;
 
 	String s2 = s1; // 복사 생성자
 
 	std::cout << s2 << std::endl;
-	
+
 	/*
 	String s3 = "world";
 	s2 = s3;	    // 대입 연산자.

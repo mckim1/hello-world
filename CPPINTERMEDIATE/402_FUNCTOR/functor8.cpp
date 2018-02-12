@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <string>
-#include <bitset>	
+#include <bitset>
 using namespace std;
 
 int main()

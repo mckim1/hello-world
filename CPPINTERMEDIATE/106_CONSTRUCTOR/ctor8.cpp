@@ -13,7 +13,7 @@ using namespace std;
 struct Base
 {
 	Base() { goo(); }
-	
+
 //	void foo() { goo(); }
 	virtual void goo() { cout << "Base::goo" << endl; }
 };

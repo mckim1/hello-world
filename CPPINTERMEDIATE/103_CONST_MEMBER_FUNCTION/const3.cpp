@@ -12,7 +12,7 @@ struct Rect
 {
 	int ox, oy, width, height;
 
-	Rect(int x = 0, int y = 0, int w = 0, int h = 0) 
+	Rect(int x = 0, int y = 0, int w = 0, int h = 0)
 		: ox(x), oy(y), width(w), height(h) {}
 
 	int getArea() const {	return width * height; }

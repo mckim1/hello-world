@@ -13,17 +13,17 @@ int main()
 
 
 	// nullary lambda
-	auto f2 = [] {return 10; }; 
+	auto f2 = [] {return 10; };
 
 
 	// C++17 : () 함수를 constexpr 함수로..
 	auto f3 = [](int a, int b) constexpr
 	{
-		return a + b; 
+		return a + b;
 	};
 
 	int y[f3(1, 2)];
 
-	
+
 }
 

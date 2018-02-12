@@ -12,7 +12,7 @@ using namespace std;
 class RefCountBase
 {
 protected:
-	mutable int mCount; 
+	mutable int mCount;
 	~RefCountBase() {  }
 	RefCountBase() : mCount(0) {}
 public:

@@ -1,13 +1,13 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 
 #include <iostream>
 
-template<typename T> 
+template<typename T>
 class Stack
 {
 private:
@@ -21,15 +21,15 @@ public:
 	}
 	~Stack()	     { delete[] buf; }
 	void push(T n) { buf[idx++] = n; }
-	
+
 	T  pop();// { return buf[--idx]; }
 };
 
 
 template<typename T>
-T  Stack<T>::pop() 
+T  Stack<T>::pop()
 {
-	return buf[--idx]; 
+	return buf[--idx];
 }
 
 

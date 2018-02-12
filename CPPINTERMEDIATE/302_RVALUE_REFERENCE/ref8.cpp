@@ -19,7 +19,7 @@ public:
 int main()
 {
 	int n = 10;
-	
+
 	foo(n);	// ok
 	foo(10);// ok
 

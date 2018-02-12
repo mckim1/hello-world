@@ -6,7 +6,7 @@ template<typename T> struct Point
 
 typedef Point Pixel; // ??? error
 
-template<typename T> 
+template<typename T>
 using Pixel = Point<T>;
 
 //typedef int DWORD;

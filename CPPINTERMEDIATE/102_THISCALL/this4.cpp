@@ -65,7 +65,7 @@ public:
 int main()
 {
 	MyThread t;
-	t.run();	// 이순간 스레드가 생성되어서 
+	t.run();	// 이순간 스레드가 생성되어서
 				// 가상함수 Main()을 실행해야 합니다.
 	getchar();
 }

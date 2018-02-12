@@ -28,7 +28,7 @@ public:
 		strcpy(name, c.name);
 	}
 	// 소유권 이전(자원전달)의  이동(move) 생성자
-	// 
+	//
 	Cat(Cat&& c) : age(c.age), name(c.name)
 	{
 		c.name = 0; // 자원 포기
@@ -38,7 +38,7 @@ public:
 Cat foo()	// 값리턴 : 임시객체(rvalue)
 {
 	Cat cat("NABI", 2);
-	return cat;	
+	return cat;
 }
 
 int main()

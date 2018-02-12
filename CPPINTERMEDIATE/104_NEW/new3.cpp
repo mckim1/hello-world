@@ -37,8 +37,8 @@ void operator delete(void* p) noexcept
 
 int main()
 {
-	//Point* p = new Point; // operator new( sizeof(Point))	
-	Point* p = new("AA", 2) Point; // operator new( sizeof(Point), "AA", 2)	
+	//Point* p = new Point; // operator new( sizeof(Point))
+	Point* p = new("AA", 2) Point; // operator new( sizeof(Point), "AA", 2)
 	delete p;
 }
 

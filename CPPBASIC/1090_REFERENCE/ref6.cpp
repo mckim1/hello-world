@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -19,7 +19,7 @@ void f1(Point  p) {}	// 복사본 생성
 void f2(Point& r) {}	// 복사본 아님.
 
 
-Point pt; 
+Point pt;
 
 //Point goo() { return pt; }
 //Point& goo() { return pt; }

@@ -9,8 +9,8 @@
 #include <iostream>
 using namespace std;
 
-template<typename T> 
-void foo(T a) 
+template<typename T>
+void foo(T a)
 {
 	cout << "T" << endl;
 }

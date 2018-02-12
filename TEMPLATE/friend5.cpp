@@ -11,9 +11,9 @@
 using namespace std;
 // 해결책 1.
 // 클래스와 friend 함수
-// 1 : 1, 
-// 1 : N, 
-// N : 1, 
+// 1 : 1,
+// 1 : N,
+// N : 1,
 // N : N   =>
 template<typename T> class Point
 {
@@ -21,7 +21,7 @@ template<typename T> class Point
 public:
 	Point() : x(0), y(0) {}
 	Point(T a, T b) : x(a), y(b) {}
-	
+
 	// 함수 템플릿이 아님..
 	//friend ostream& operator <<(ostream& os, const Point<T>& p);
 

@@ -34,7 +34,7 @@ int main()
 //	double* p1 = xnullptr;
 
 	double* p2 = nullptr; // C++11 의 포인터 0
-						  
+
 	nullptr_t a = nullptr;
 
 	int* p = a;

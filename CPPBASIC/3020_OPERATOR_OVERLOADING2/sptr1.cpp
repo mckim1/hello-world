@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -20,7 +20,7 @@ class SPtr
 	Car* ptr;
 public:
 	SPtr(Car* p = 0) : ptr(p) {}
-	
+
 	~SPtr() { delete ptr; }
 
 	Car* operator->() { return ptr; }
@@ -34,8 +34,8 @@ int main()
 	SPtr p = new Car; // SPtr p( new Car )
 
 	p->Go(); // p + a : p.operator+(a)
-			 // (p.operator->())Go()         
-			 // (p.operator->())->Go()  
+			 // (p.operator->())Go()
+			 // (p.operator->())->Go()
 
 	(*p).Go(); // p.operator*()
 }

@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-// stack    : template 
+// stack    : template
 // stack<T> : type
 template<typename T> class stack
 {

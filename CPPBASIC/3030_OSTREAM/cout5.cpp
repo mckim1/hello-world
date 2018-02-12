@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -11,8 +11,8 @@
 class ostream
 {
 public:
-	ostream& operator<<(int n) 
-	{ 
+	ostream& operator<<(int n)
+	{
 		printf("%d", n);
 		return *this;
 	}
@@ -46,7 +46,7 @@ using namespace std;
 
 ostream& tab(ostream& os)
 {
-	os << '\t'; 
+	os << '\t';
 	return os;
 }
 

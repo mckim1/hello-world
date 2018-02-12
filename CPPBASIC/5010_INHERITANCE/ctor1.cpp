@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -20,12 +20,12 @@ class Derived : public Base
 {
 public:
 	Derived()      { cout << "Derived()" << endl; }
-	
+
 	Derived(int a) : Base(a)
 	{
 		cout << "Derived(int)" << endl;
 	}
-	
+
 	~Derived()     { cout << "~Derived()" << endl; }
 };
 

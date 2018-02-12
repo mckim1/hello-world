@@ -98,7 +98,7 @@ void StyleToggle(HWND hwnd)
 		ModifyStyle(hwnd, 0, style);
 	}
 }
-  
+
 LRESULT __stdcall WndProc(HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
 {
 	switch (msg)
@@ -160,7 +160,7 @@ LRESULT __stdcall WndProc(HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
 			}
 		}
 		break;
-		
+
 	case WM_SETFOCUS:
 		if (console.hwnd)
 		{
@@ -184,8 +184,8 @@ LRESULT __stdcall WndProc(HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
 		}
 		PostQuitMessage(0);
 		break;
-		
-		
+
+
 	}
 	return DefWindowProc(hwnd, msg, wp, lp);
 }

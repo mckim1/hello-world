@@ -12,7 +12,7 @@ int square(int n)
 {
 	return n * n;
 }
-double square(double d)	
+double square(double d)
 {
 	return d * d;
 }

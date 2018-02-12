@@ -30,8 +30,8 @@ int main()
 	free(p1);
 
 	// new : 메모리 할당 + 생성자 호출
-	Point* p2 = new Point;	
-	delete p2;									
+	Point* p2 = new Point;
+	delete p2;
 	*/
 }
 

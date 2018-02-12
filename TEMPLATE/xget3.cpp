@@ -10,7 +10,7 @@
 #include <iostream>
 using namespace std;
 
-// xtuple 
+// xtuple
 template<typename ... Types> struct xtuple
 {
 	static constexpr int N = 0;

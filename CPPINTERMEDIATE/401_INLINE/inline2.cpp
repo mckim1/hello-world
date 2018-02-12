@@ -16,7 +16,7 @@ int main()
 {
 	int n1 = Add1(1, 2); // 호출
 	int n2 = Add2(1, 2); // 치환
-	
+
 	int(*f)(int, int);
 
 	f = &Add2;

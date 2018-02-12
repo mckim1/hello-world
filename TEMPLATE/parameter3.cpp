@@ -15,7 +15,7 @@ template<int N> class Test1 {};
 enum Color { red = 1, green = 2};
 template<Color> class Test2 {};
 
-// 3. 포인터 : 지역변수 주소안됨.. 전역변수주소는 가능.. 
+// 3. 포인터 : 지역변수 주소안됨.. 전역변수주소는 가능..
 //			   no linkage 를 가지는 변수 주소는 안됨..
 template<int*> class Test3 {};
 

@@ -10,12 +10,12 @@
 #include <typeinfo>
 using namespace std;
 
-// parameter pack 에서 요소 꺼내기 
+// parameter pack 에서 요소 꺼내기
 // 방법 2. recursive
 
 void foo() {} // 재귀의 종료를 위해서..
 
-template<typename T, typename ... Types> 
+template<typename T, typename ... Types>
 void foo(T value, Types ... args)
 {
 	static int n = 0;

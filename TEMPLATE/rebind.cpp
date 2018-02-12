@@ -13,7 +13,7 @@ public:
 	T* allocate(int sz)   { return new T[sz]; }
 	void deallocate(T* p) { delete[] p; }
 
-	// 
+	//
 	template<typename U> struct rebind
 	{
 		typedef allocator<U> other;
@@ -30,7 +30,7 @@ template<typename T, typename Ax = allocator<T> > class list
 
 public:
 	void push_front(const T& a)
-	{	
+	{
 		ax.allocate(1);
 	}
 };

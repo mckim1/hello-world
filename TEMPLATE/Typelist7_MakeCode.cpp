@@ -14,7 +14,7 @@ struct NullType {};
 #define TYPELIST_4(T1, T2, T3, T4)	Typelist<T1, Typelist<T2, Typelist<T3, Typelist<T4, NullType>>>>
 
 //-------------------------------------------------------------------------------------------
-// Typelist 활용 
+// Typelist 활용
 
 // Holder : 임의 타입의 data 하나 보관..
 template<typename T> struct Holder
@@ -24,8 +24,8 @@ template<typename T> struct Holder
 
 // GenScatterHierachy  => MakeCode
 
-template<typename T, template<typename> class Unit> 
-class MakeCode : public Unit<T> 
+template<typename T, template<typename> class Unit>
+class MakeCode : public Unit<T>
 {
 };
 

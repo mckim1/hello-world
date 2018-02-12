@@ -28,11 +28,11 @@ int main()
 {
 	//hoo(10); // ok..
 	chronometry(&hoo, 10); // error
-	
+
 	int&& arg = 10; // 10 은 rvalue,
 					// arg는 lvalue 이다.
 
-	
+
 	int n = 0;
 
 	chronometry(&goo, n);

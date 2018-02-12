@@ -6,7 +6,7 @@
 * Copyright (C) 2017 CODENURI Inc. All rights reserved.
 */
 
-template<typename T> 
+template<typename T>
 void foo(T a)
 {
 	a = a + 1;

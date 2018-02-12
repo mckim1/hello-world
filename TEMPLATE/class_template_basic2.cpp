@@ -23,7 +23,7 @@ public:
 };
 
 // 클래스 템플릿의 멤버 함수 템플릿의 외부 구현하는 모양 - 복잡해 보이지만 중요합니다.
-template<typename T> template<typename U> 
+template<typename T> template<typename U>
 T stack<T>::foo(U a)
 {
 }
@@ -32,7 +32,7 @@ T stack<T>::foo(U a)
 template<typename T> int stack<T>::count = 0;
 
 // 멤버 함수의 외부 구현
-template<typename T> 
+template<typename T>
 void stack<T>::push(const T& a)
 {
 }

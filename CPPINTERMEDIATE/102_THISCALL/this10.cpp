@@ -24,7 +24,7 @@ int main()
 	A* pA = &obj;
 	B* pB = &obj; // &obj + sizeof(A)
 
-	cout << &obj << endl; // 1000 
+	cout << &obj << endl; // 1000
 	cout << pA   << endl; // 1000
 	cout << pB   << endl; // 1004
 }

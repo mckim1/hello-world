@@ -18,7 +18,7 @@ public:
 };
 
 // placement new : 생성자를 호출하기 위해 만든 new
-// 
+//
 /*
 void* operator new(size_t sz, void* p)
 {
@@ -27,12 +27,12 @@ void* operator new(size_t sz, void* p)
 */
 int main()
 {
-	Point p;	
+	Point p;
 
 	//new Point; // 인자가 1개인 operator new()호출.
 
 	new(&p) Point; // 인자가 2개인 operator new()호출.
 					// 메모리 할당이 아닌 생성자를
 					// 호출하는 코드
-	p.~Point(); 
+	p.~Point();
 }

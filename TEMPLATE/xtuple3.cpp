@@ -20,7 +20,7 @@ template<typename T, typename ... Types> struct xtuple<T, Types...> : public xtu
 	T value;
 	xtuple() = default;
 	xtuple(const T& a, const Types& ... args) : value(a), xtuple<Types...>(args...) {}
-	
+
 	static constexpr int N = xtuple<Types...>::N + 1;
 };
 

@@ -17,7 +17,7 @@ void goo() noexcept // 위와 동일.
 	throw 1;
 }
 
-void goo() 
+void goo()
 {
 	throw 1;
 }

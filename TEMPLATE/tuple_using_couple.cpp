@@ -13,7 +13,7 @@ template<typename T, typename U> struct couple
 };
 
 // couple의 선형화 기술
-struct Null {}; // empty class(struct), sizeof(Null) : 1  
+struct Null {}; // empty class(struct), sizeof(Null) : 1
 				// 아무 멤버도 없지만 분명한 타입이다.
 				// 1. 함수 오버로딩이나
 				// 2. 템플릿 인자로 주로 활용
@@ -36,7 +36,7 @@ class xtuple<P1, P2, Null, Null, Null> : public couple<P1, P2>
 
 int main()
 {
-	//								  couple<short, long>  
+	//								  couple<short, long>
 	//						couple<char, xxtuple<s, l, Null, Null, Null>>
 	//			couple<double, xtuple<c, s, l, Null, Null>>
 	// couple<int, xtuple<d, c, s, l, Null>>

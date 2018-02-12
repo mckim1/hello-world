@@ -8,7 +8,7 @@
 #include <iostream>
 #include <vector>
 #include <type_traits>
-#include "Test.h"		
+#include "Test.h"
 using namespace std;
 
 int main()
@@ -28,7 +28,7 @@ int main()
 		//new(&p2[i]) Test(p1[i]); // 복사 생성자
 		//new(&p2[i]) Test(move(p1[i])); // move 생성자
 
-		new(&p2[i]) Test(move_if_noexcept(p1[i])); 
+		new(&p2[i]) Test(move_if_noexcept(p1[i]));
 	}
 
 	// 2. 새로운 객체는 디폴트 생성자 호출

@@ -4,7 +4,7 @@ using namespace std;
 template<typename ... Types> class mi : public Types... // public lambda1, public lambda2
 {
 public:
-	mi(Types&& ... args) : Types(args)... {} 
+	mi(Types&& ... args) : Types(args)... {}
 
 	// 기반 클래스의 특정함수를 사용할수 있게..
 	using Types::operator()...;

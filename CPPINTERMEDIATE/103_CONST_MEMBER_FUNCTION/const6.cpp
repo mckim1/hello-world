@@ -20,7 +20,7 @@ class Point
 	int x, y;
 	Cache* pCache;
 public:
-	Point(int a = 0, int b = 0) : x(a), y(b) 
+	Point(int a = 0, int b = 0) : x(a), y(b)
 	{
 		pCache = new Cache;
 	}

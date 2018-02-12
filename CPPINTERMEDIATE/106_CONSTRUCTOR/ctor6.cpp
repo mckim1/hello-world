@@ -11,16 +11,16 @@ using namespace std;
 
 struct stream_buf
 {
-	stream_buf(size_t sz) 
-	{ 
-		cout << "stream_buf" << endl; 
+	stream_buf(size_t sz)
+	{
+		cout << "stream_buf" << endl;
 	}
 };
 struct stream
 {
-	stream(stream_buf& buf) 
+	stream(stream_buf& buf)
 	{
-		cout << "stream : using stream_buf" << endl; 
+		cout << "stream : using stream_buf" << endl;
 	}
 };
 

@@ -8,7 +8,7 @@
 
 // 1. type
 // 2. 媛? non-type)
-// 3. template 
+// 3. template
 
 template<typename T, int N> struct Stack
 {

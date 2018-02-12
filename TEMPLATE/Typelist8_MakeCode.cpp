@@ -14,7 +14,7 @@ struct NullType {};
 #define TYPELIST_4(T1, T2, T3, T4)	Typelist<T1, Typelist<T2, Typelist<T3, Typelist<T4, NullType>>>>
 
 //-------------------------------------------------------------------------------------------
-// Typelist 활용 
+// Typelist 활용
 
 // Holder : 임의 타입의 data 하나 보관..
 template<typename T> struct Holder
@@ -49,10 +49,10 @@ int main()
 	MakeCode<TYPELIST_3(int, double, short), Holder> m;
 	// MakeCode의 1번째 인자가 Typelist일때..
 	//	     Typelist<int, Typelist<double, NullType>>
-	MakeCode<TYPELIST_2(int, double), Holder> m; 
+	MakeCode<TYPELIST_2(int, double), Holder> m;
 
 
-	MakeCode<int, Holder>      mc1; // Holder<int> 
+	MakeCode<int, Holder>      mc1; // Holder<int>
 	MakeCode<double, Holder>   mc2; // Holder<doulbe>
 	MakeCode<NullType, Holder> mc3; // empty
 }

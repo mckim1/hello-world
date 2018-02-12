@@ -25,7 +25,7 @@ struct Point
 int main()
 {
 	Point p1;	// 임시객체 아님. 이름있는 객체
-	
+
 	// 핵심 1. 임시객체는 등호(=)의 왼쪽에 올수 없다.
 	p1.x = 10;		// ok
 	//Point().x = 10;	// error

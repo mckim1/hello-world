@@ -11,8 +11,8 @@ using namespace std;
 class Test
 {
 public:
-	Test() {}	
-	~Test() {}	
+	Test() {}
+	~Test() {}
 	Test(const Test& t) { cout << "Copy" << endl; }
 	Test(Test&& t)      { cout << "Move" << endl; }
 };
@@ -20,7 +20,7 @@ public:
 int main()
 {
 	Test t1;
-	Test t2 = t1;		// Copy 	
+	Test t2 = t1;		// Copy
 	Test t3 = Test();	// Move
 	Test t4 = static_cast<Test&&>(t1);	// Move
 						// 복사가 아닌 move 생성자를 호출해 달라.

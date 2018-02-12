@@ -27,7 +27,7 @@ minute operator""_m(unsigned long long v)
 
 int main()
 {
-	second n1 = 10_s; 
+	second n1 = 10_s;
 	minute n2 = 10_m;
 }
 

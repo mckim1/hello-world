@@ -22,9 +22,9 @@ int main()
 	int& r1 = n;
 	foo(r1);	// 1번, 없으면 2번
 
-	int&& r2 = 10;	// 10은 rvalue, 10을 가리키는 이름있는 
+	int&& r2 = 10;	// 10은 rvalue, 10을 가리키는 이름있는
 					//				r2 참조변수는 lvalue 이다.
-	foo(r2);		// 1번. 
+	foo(r2);		// 1번.
 
 	foo(static_cast<int&&>(r2));  // 3번.
 }

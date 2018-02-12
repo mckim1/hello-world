@@ -15,7 +15,7 @@ public:
 int main()
 {
 	// 아래 2줄의 차이점은 ?
-	
+
 	Test t1(5);  // 인자가 한개인 생성자 호출
 				 // direct initialization
 

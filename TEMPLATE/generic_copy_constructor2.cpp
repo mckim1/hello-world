@@ -16,7 +16,7 @@ template<typename T> class complex
 	T im;
 public:
 	complex(T a = T(), T b = T()) : re(a), im(b) {}
-	
+
 	// 복사 생성자 모양 1.
 	//complex(const complex<T>&);		// complex<double> c3 = c1; 일때 c1은 반드시 complex<double> 이어야 한다.
 

@@ -19,9 +19,9 @@ void foo(int2type<1>) {}
 
 int main()
 {
-	foo(0);	
+	foo(0);
 	foo(1);	// 0, 1은 같은 타입.. foo(0), foo(1)은 같은 함수 호출
-	
+
 	int2type<0> t0;
 	int2type<1> t1;
 

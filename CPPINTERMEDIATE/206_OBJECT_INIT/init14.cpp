@@ -13,10 +13,10 @@ using namespace std;
 struct Point
 {
 	int x, y;
-	
+
 	void foo() {}
 
-//	virtual void foo() {} 
+//	virtual void foo() {}
 
 //	Point() = default;
 //	Point() {}				// 1

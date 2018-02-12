@@ -1,6 +1,6 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -12,12 +12,12 @@ class Car
 	int speed;
 	//static int limitSpeed;
 public:
-	static int cnt; 
+	static int cnt;
 
 	Car() { ++cnt; }
 	~Car() { --cnt; }
 };
-int Car::cnt = 0; 
+int Car::cnt = 0;
 
 int main()
 {

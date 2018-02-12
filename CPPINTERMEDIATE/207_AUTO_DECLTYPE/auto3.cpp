@@ -18,7 +18,7 @@ int main()
 	decltype(*p)  d3; // *p = 10;   int&
 	decltype((n)) d4; // (n) = 10;  int&
 
-	decltype(n + n) d5; // n+n = 10 가 될수 없다.  int 
+	decltype(n + n) d5; // n+n = 10 가 될수 없다.  int
 	decltype(++n)   d6; // ++n = 10; ok..     int&
 	decltype(n++)   d7; // n++ = 10; error.   int
 

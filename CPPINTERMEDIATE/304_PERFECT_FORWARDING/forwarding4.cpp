@@ -28,7 +28,7 @@ template<typename F> void chronometry(F f, int&& arg)
 // T&    : 모든 타입 lvalue
 // T&    : 모든 타입 lvalue와 rvalue를 받을수 있다.
 // forwarding reference
-template<typename F, typename T> 
+template<typename F, typename T>
 void chronometry(F f, T&& arg)
 {
 	f(static_cast<T&&>(arg));

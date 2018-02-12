@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-	int n1 = 0b10; 
+	int n1 = 0b10;
 	int n2 = 1'000'000; // 0b1111'0000
 
-	long long n3; // 64 비트 
+	long long n3; // 64 비트
 
 	int x[3] = { 1,2,3 };
 

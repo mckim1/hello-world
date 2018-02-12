@@ -5,8 +5,8 @@ using namespace std::experimental;
 
 struct A
 {
-	void foo()       { cout << "foo()" << endl; }		
-	void foo() const { cout << "foo() const" << endl; } 
+	void foo()       { cout << "foo()" << endl; }
+	void foo() const { cout << "foo() const" << endl; }
 };
 struct B
 {
@@ -25,7 +25,7 @@ struct B
 
 int main()
 {
-	B b1; 
+	B b1;
 	b1.goo();
 	const B b2;
 	b2.goo();

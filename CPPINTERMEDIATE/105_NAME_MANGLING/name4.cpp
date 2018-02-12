@@ -9,13 +9,13 @@
 #include <iostream>
 using namespace std;
 
-struct FLOAT 
+struct FLOAT
 {
-	FLOAT(float) {} // 변환 생성자. 
+	FLOAT(float) {} // 변환 생성자.
 					// float => FLOAT로 변환허용
 };
 
-//template<typename T> 
+//template<typename T>
 //void foo(T  )    { cout << "T"      << endl; }
 //void foo(int)    { cout << "int"    << endl; }
 //void foo(double) { cout << "double" << endl; }

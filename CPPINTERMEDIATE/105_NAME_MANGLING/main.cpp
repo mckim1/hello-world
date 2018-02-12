@@ -8,7 +8,7 @@
 
 // main.c /  main.cpp
 #include "square.h"
-#include <stdio.h> 
+#include <stdio.h>
 
 int main()
 {

@@ -24,7 +24,7 @@ template<typename T> class A
 {
 	int data;
 public:
-	void foo() { *data = 10; } 
+	void foo() { *data = 10; }
 };
 
 int main()

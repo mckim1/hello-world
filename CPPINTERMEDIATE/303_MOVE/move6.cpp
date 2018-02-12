@@ -17,17 +17,17 @@ public:
 	Test(const Test& t) { cout << "Copy" << endl; }
 	Test(Test&& t)      { cout << "Move" << endl; }
 
-	Test& operator=(const Test& t) 
+	Test& operator=(const Test& t)
 	{
-		cout << "Copy=" << endl; 
-		return *this; 
-	} 
-	
-	Test& operator=(Test&& t) 
+		cout << "Copy=" << endl;
+		return *this;
+	}
+
+	Test& operator=(Test&& t)
 	{
-		cout << "Move=" << endl; 
-		return *this; 
-	} 
+		cout << "Move=" << endl;
+		return *this;
+	}
 };
 
 

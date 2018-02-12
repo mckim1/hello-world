@@ -3,7 +3,7 @@
 * EMAIL      : smkang@codenuri.co.kr
 * COURSENAME : C++ Intermediate
 * MODULE     : hello.cpp
-* BUILD      : g++ hello.cpp -std=c++1z    
+* BUILD      : g++ hello.cpp -std=c++1z
 *              cl  hello.cpp /std:c++latest
 * Copyright (C) 2018 CODENURI Inc. All rights reserved.
 */
@@ -29,7 +29,7 @@ public:
 	}
 };
 
-template<typename F, typename ... A> 
+template<typename F, typename ... A>
 decltype(auto) chronometry(F&& f, A&& ... args)
 {
 	stop_watch sw;
@@ -42,9 +42,9 @@ class Hello
 public:
 	Hello(std::string s) : msg(s) {}
 
-	void Say() 
+	void Say()
 	{
-		std::cout << msg << std::endl; 
+		std::cout << msg << std::endl;
 		std::this_thread::sleep_for(3s);
 		std::cout << "bye..." << std::endl;
 	}
@@ -54,9 +54,9 @@ int main()
 {
 //	Hello h("hello");
 //	h.Say();
-	
+
 	// 특정 함수의 실행시간을 측정하는 함수.
-	chronometry(&Hello::Say, Hello("hello"s)); 
+	chronometry(&Hello::Say, Hello("hello"s));
 }
 
 

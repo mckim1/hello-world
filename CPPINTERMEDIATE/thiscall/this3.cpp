@@ -18,7 +18,7 @@ DWORD __stdcall foo(void* p)
 
 int main()
 {
-	CreateThread(0, 0, 
+	CreateThread(0, 0,
 				foo,		// 스레드로 수행할 함수
 				(void*)"A", // 스레드 함수로 보낼인자
 				0, 0);
@@ -30,7 +30,7 @@ int main()
 // 빌드 하는 법
 // mingw : g++ this3.cpp
 
-// VC    : cl this3.cpp /nologo /EHsc  
+// VC    : cl this3.cpp /nologo /EHsc
 
 //		   주의! "VC++ 확장 문법 사용"을 사용해야 함.
 //			/Za 옵션을 지정하면 컴파일 안됨.

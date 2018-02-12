@@ -1,14 +1,14 @@
-﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 /* HOME  : ecourse.co.kr
-/* EMAIL : smkang @ codenuri.co.kr 
+/* EMAIL : smkang @ codenuri.co.kr
 /* COPYRIGHT 2018. CODENURI CORP. ALL RIGHTS RESERVED.
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 
 // suffix2.cpp
 
-template<typename T, typename U> 
-//decltype(a + b) Add(T a, U b) 
+template<typename T, typename U>
+//decltype(a + b) Add(T a, U b)
 
 auto Add(T a, U b) -> decltype(a + b)
 {

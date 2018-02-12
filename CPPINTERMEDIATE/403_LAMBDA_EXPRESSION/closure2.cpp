@@ -8,14 +8,14 @@ public:
 	{
 		return a + b + v;
 	}
-	static int method(int a, int b) 
+	static int method(int a, int b)
 	{
 		return a + b + v; // ??
 	}
 
 	typedef int(*F)(int, int);
 
-	operator F() 
+	operator F()
 	{
 		//return &ClosureType::operator();
 		return &ClosureType::method;

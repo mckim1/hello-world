@@ -17,7 +17,7 @@ class Buffer
 	string tag;
 	Test   test;
 public:
-	Buffer(size_t s, string t) 
+	Buffer(size_t s, string t)
 		: sz(s), tag(t), buf(new int[s] ) {}
 
 	~Buffer() { delete[] buf; }
@@ -36,7 +36,7 @@ public:
 		buf = move(b.buf);
 		b.buf = 0; // 자원 포기.
 	}
-	
+
 	// 대입연산자.
 	// move 대입연산자.
 };

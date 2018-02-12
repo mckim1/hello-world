@@ -25,7 +25,7 @@ int main()
 	// IPC : 공유메모리를 사용한 프로세스간 통신, mmap()
 
 	HANDLE hMap = CreateFileMappingA(INVALID_HANDLE_VALUE, 0, PAGE_READWRITE, 0, sizeof(Point), 0);
-	
+
 	Point* p = (Point*)MapViewOfFile(hMap, FILE_MAP_ALL_ACCESS, 0, 0, 0);
 
 	new(p) Point(0, 0);

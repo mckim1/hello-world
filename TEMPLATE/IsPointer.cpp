@@ -27,7 +27,7 @@ using namespace std;
 template<typename T> struct IsPointer
 {
 	//enum { value = false }; // 예전 스타일
-	//static const bool value = false;  // 
+	//static const bool value = false;  //
 	static constexpr bool value = false;  // C++11의  constexpr 사용
 };
 

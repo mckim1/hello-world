@@ -14,7 +14,7 @@ public:
 	//Point(Point p) // Point p = p1. 결국 복사 생성자가 무한히 호출.
 
 	// Point(Point& p)	// lvalue 객체만 인자로 받을수 있다.
-						// 함수 리턴값으로 반환되는 임시객체를 
+						// 함수 리턴값으로 반환되는 임시객체를
 						// 받을수 없다.
 	Point(const Point& p) // lvalue객체와 rvalue 객체를 모두 받을수
 						  // 있다.

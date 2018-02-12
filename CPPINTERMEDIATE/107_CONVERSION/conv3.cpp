@@ -29,7 +29,7 @@ int main()
 	fputs("hello", f);
 	fprintf(f, "n = %d", 10);	// OFile => FILE* 로 암시적 변환되면 가능.
 							// f.operator FILE*()
-	
+
 	String s1 = "hello";
 	char s2[10];
 

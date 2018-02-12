@@ -7,7 +7,7 @@
 
 int main()
 {
-	// 1. 
+	// 1.
 	int n1 = 0;
 	int n2(0);
 	int ar[3] = { 1,2,3 };
@@ -20,7 +20,7 @@ int main()
 		int x[10];
 	};
 
-	// 3. 
+	// 3.
 	int* p = new int[3];
 
 	// 4.

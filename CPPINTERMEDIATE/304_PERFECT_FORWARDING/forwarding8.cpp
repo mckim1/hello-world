@@ -15,9 +15,9 @@ class Point
 public:
 	Point(int a, int b, int& c)  { cout << "Point()" << endl; }
 	~Point()             { cout << "~Point()" << endl; }
-	Point(const Point&)  
+	Point(const Point&)
 	{
-		cout << "Point(const Point&)" << endl; 
+		cout << "Point(const Point&)" << endl;
 	}
 };
 

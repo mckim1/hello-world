@@ -7,14 +7,14 @@
 
 int x = 10;
 
-int& foo(int a, int b) 
+int& foo(int a, int b)
 {
 	return x;
 }
 
 int main()
 {
-	auto ret1 = foo(1, 2); // int 
+	auto ret1 = foo(1, 2); // int
 
 	// 평가되지 표현식(unevaluated expression)
 	decltype( foo(1, 2) ) ret2 = foo(1,2);  // int&

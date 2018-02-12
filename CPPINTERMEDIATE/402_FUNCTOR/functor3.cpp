@@ -5,7 +5,7 @@
 * Copyright (C) 2018 CODENURI Inc. All rights reserved.
 */
 
-#include <algorithm>	
+#include <algorithm>
 #include <iostream>
 using namespace std;
 

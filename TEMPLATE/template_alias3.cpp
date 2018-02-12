@@ -9,7 +9,7 @@
 
 template<typename T, typename U> class Test {};
 
-//template<typename T, typename U> using MyTest = Test<T, U>; 
+//template<typename T, typename U> using MyTest = Test<T, U>;
 
 
 template<typename T> using MyTest = Test<T, double>;

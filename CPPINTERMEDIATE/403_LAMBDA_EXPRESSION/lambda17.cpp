@@ -2,7 +2,7 @@
 #include <functional>
 using namespace std;
 
-template<typename F, typename ... Types> 
+template<typename F, typename ... Types>
 decltype(auto) chronometry(F f, Types&& ... args)
 {
 	return f(std::forward<Types>(args)...);
@@ -10,7 +10,7 @@ decltype(auto) chronometry(F f, Types&& ... args)
 
 int main()
 {
-	
+
 
 }
 

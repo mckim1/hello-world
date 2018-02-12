@@ -10,7 +10,7 @@
 using namespace std;
 
 // foo 함수를 정수 계열에 대해서만 코드 생성되게 하고 싶다.
-// 방법 1. static_assert 
+// 방법 1. static_assert
 // 특징 : T가 정수가 아니면 무조건 error 발생.
 template<typename T> void foo(T a)
 {
@@ -24,8 +24,8 @@ template<typename T> typename enable_if< is_integral<T>::value,void >::type foo(
 {
 }
 
-// enable_if 위치 2. 함수 인자 타입에 적용 - 생성자.. 
-template<typename T>   
+// enable_if 위치 2. 함수 인자 타입에 적용 - 생성자..
+template<typename T>
 void foo(T a, typename enable_if< is_integral<T>::value, void >::type* p = nullptr )
 {
 }

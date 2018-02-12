@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-#include <type_traits> // C++11 
+#include <type_traits> // C++11
 
 template<typename T> void foo(T a)
 {

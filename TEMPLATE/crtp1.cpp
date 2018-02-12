@@ -7,7 +7,7 @@ template<typename T> class Window
 public:
 	void msgLoop() // void msgLoop(Window* this)
 	{
-		static_cast<T*>(this)->onKeyDown(); 
+		static_cast<T*>(this)->onKeyDown();
 	}
 	void onKeyDown() { cout << "Window onKeyDown" << endl; }
 };

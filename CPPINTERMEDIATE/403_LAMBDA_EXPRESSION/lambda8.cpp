@@ -19,8 +19,8 @@ int main()
 	{
 		r += 2;
 		return x * x;
-	}();  
-	
+	}();
+
 	cout << x << endl; // 6
 	cout << y << endl; // 25
 }

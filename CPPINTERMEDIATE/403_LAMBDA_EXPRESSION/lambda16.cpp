@@ -11,5 +11,5 @@ int main()
 
 	decltype(f1) f4 = move(f1); // ok
 
-	
+
 }

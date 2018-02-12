@@ -10,16 +10,16 @@ using namespace std;
 
 template<typename T> struct Plus
 {
-	T operator()(T a, T b) const 
+	T operator()(T a, T b) const
 	{
 		return a + b;
 	}
 };
 
-void foo(const Plus<int>& p) 
+void foo(const Plus<int>& p)
 {
 	int n = p(1, 2);
-} 
+}
 
 int main()
 {

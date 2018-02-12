@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-	// 1. 
+	// 1.
 	int n1{ 0 };
 	int n2{ 0 };
 	int ar[3]{ 1,2,3 };
@@ -24,7 +24,7 @@ int main()
 		int x[10]{ 1,2,3,4,5,6,7,8,9,10 };
 	};
 
-	// 3. 
+	// 3.
 	int* p = new int[3]{ 1,2,3 };
 
 	// 4.

@@ -4,7 +4,7 @@
 using namespace std;
 
 // container version.
-template<typename C> 
+template<typename C>
 constexpr auto begin(C& c) -> decltype(c.begin())
 {
 	return c.begin();

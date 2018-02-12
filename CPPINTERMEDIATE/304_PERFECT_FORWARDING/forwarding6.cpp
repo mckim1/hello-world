@@ -16,7 +16,7 @@ int& foo(int  a) { return x; }
 template<typename F, typename T>
 decltype( f(std::forward<T>(arg)) ) chronometry(F f, T&& arg)
 {
-	return f( std::forward<T>(arg) ); 
+	return f( std::forward<T>(arg) );
 }
 */
 // ok.
@@ -30,7 +30,7 @@ auto chronometry(F f, T&& arg) -> decltype(f(std::forward<T>(arg)))
 /*
 // 컴파일 ok.. 원본 함수가 참조를 리턴하면 버그..
 template<typename F, typename T>
-auto chronometry(F f, T&& arg) 
+auto chronometry(F f, T&& arg)
 {
 	return f(std::forward<T>(arg));
 }

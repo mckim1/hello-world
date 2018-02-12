@@ -23,7 +23,7 @@ public:
 
 int main()
 {
-	Test t1;	// data = 1	
+	Test t1;	// data = 1
 	Test t2(3);	// data = 3
 
 	cout << cnt << endl; // 1

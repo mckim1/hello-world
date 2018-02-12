@@ -29,4 +29,4 @@ int main()
 
 	Point* p3 = new Point;		// 새로운메모리에 객체를 생성해 달라
 	Point* p4 = new(p1) Point;	// 기존 메모리에 객체를 생성해 달라.
-} 
+}

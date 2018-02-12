@@ -46,7 +46,7 @@ int main()
 	/*
 	if ( 사용자입력 == 1 )
 		f = &C::fa;
-	else 
+	else
 		f = &C::fb;
 
 	(obj.*f)(); // f( &obj  )

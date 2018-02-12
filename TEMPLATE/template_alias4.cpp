@@ -21,10 +21,10 @@ int main()
 	set<double, greater<double> > s2;
 
 	s1.insert(10); // <, less 함수객체
-	s1.insert(20); 
+	s1.insert(20);
 	s1.insert(15);
 
 	for (auto n : s1)
 		cout << n << endl;
-	
+
 }

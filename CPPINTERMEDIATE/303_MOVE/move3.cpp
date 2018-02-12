@@ -14,7 +14,7 @@ class Test
 public:
 	Test()  {}	// 자원할당
 	~Test() {}	// 자원해지
-	
+
 	// 복사 생성자 : 깊은복사 또는 참조계수
 	// 인자로 lvalue 와 rvalue 를 모두 받을수 있다
 	Test(const Test& t) { cout << "Copy" << endl; }

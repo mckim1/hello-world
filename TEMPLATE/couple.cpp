@@ -7,12 +7,12 @@
 */
 
 #include <iostream>
-using namespace std; 
+using namespace std;
 
 template<typename T> void printN(const T& a) { cout << T::N << endl; }
 
 
-// 임의의 타입 2개를 보관하는 구조체 
+// 임의의 타입 2개를 보관하는 구조체
 template<typename T, typename U> struct couple
 {
 	T v1;
@@ -46,7 +46,7 @@ template<typename A, typename B, typename C, typename D> struct couple<couple<A,
 
 int main()
 {
-	couple<couple<int, int>, couple<int, int>> d4; 
+	couple<couple<int, int>, couple<int, int>> d4;
 
 	printN(d4); // 4나와야 합니다.
 }

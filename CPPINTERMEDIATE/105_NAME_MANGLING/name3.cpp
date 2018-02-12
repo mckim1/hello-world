@@ -10,7 +10,7 @@
 #include <typeinfo>
 using namespace std;
 
-void foo(int a) 
+void foo(int a)
 {
 }
 // a.exe | c++filt -t

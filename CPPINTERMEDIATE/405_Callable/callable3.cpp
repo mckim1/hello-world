@@ -17,14 +17,14 @@ decltype(auto) chronometry(F&& f, Types&& ... args)
 class Dialog
 {
 public:
-	void Close() {} 
+	void Close() {}
 };
 
 int main()
 {
 	Dialog dlg;
 	chronometry(&Dialog::Close, &dlg);
-	
+
 //	void (Dialog::*f)() = &Dialog::Close;
 
 //	(dlg.*f)();

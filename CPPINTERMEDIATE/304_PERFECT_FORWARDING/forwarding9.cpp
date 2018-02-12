@@ -22,12 +22,12 @@ public:
 };
 
 int main()
-{	
+{
 	// 메모리 할당은 몇번 될까 ?
 	//shared_ptr<Point> sp( new Point(1,2) );
 
 
 	shared_ptr<Point> sp
 		= make_shared<Point>(1, 2);
-	
+
 }
